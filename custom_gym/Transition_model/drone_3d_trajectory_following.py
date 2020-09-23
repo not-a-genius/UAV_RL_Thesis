@@ -15,8 +15,9 @@ from os.path import join, isdir
 from my_utils import *
 from simple_pid import PID
 import matplotlib.pyplot as plt
-
-show_animation = True
+from matplotlib.animation import FuncAnimation
+from Pid_plotter import PIDPlotter
+show_animation = False
 
 
 
@@ -52,9 +53,12 @@ Kp_yaw = 25
 # Kd_y = 10
 Kd_z = 1
 
-waypoints = [[10, 0, 10], [500, 0, 10], [10, 0, 10]]
+waypoints = [[10, 0, 10], [10, 500, 10], [10, 0, 10]]
 num_waypoints = len(waypoints)
 
+
+
+        
 def quad_sim(x_c, y_c, z_c):
     """
     Calculates the necessary thrust and torques for the quadrotor to
@@ -117,7 +121,8 @@ def quad_sim(x_c, y_c, z_c):
         pid_vel_y = PID(1, 0.0, 0.1, setpoint = 0 )
 
         hl, = plt.plot([],[])
-
+        hl2, = plt.plot([],[],c="r")
+        ax = plt.axes()
         # while t <= T:
         dist_goal = distance_AB_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
         while 0.5 <= dist_goal:
@@ -231,7 +236,7 @@ def quad_sim(x_c, y_c, z_c):
             vel_ms = math.sqrt(x_vel ** 2 + y_vel ** 2)
 
             # # # # # # # 
-            
+            # Log info
             print("X_pos:","{:.2f}".format(x_pos) ,"\tX_vel (m/s):", "{:.2f}".format(x_vel), "\tX_acc (m/s^2):", "{:.2f}".format(x_acc))
             print("Y_pos:","{:.2f}".format(y_pos) ,"\tY_vel (m/s):", "{:.2f}".format(y_vel), "\tY_acc (m/s^2):", "{:.2f}".format(y_acc))
             print("Z_pos:","{:.2f}".format(z_pos) ,"\tZ_vel (m/s):", "{:.2f}".format(z_vel), "\tZ_acc (m/s^2):", "{:.2f}".format(z_acc))
@@ -241,11 +246,38 @@ def quad_sim(x_c, y_c, z_c):
             print("dist_goal:", dist_goal)
             print("dist_percorsa2D", dist_percorsa2D)
             
+            # Plot PID
+            # pid_plotter = PIDPlotter(500)
+            # ani = FuncAnimation(plt.gcf(), pid_plotter.animate, interval=pid_plotter.pause)
+            # plt.tight_layout()
+            # plt.show()
+            # ax = plt.gca()
+            
+            
             hl.set_xdata(np.append(hl.get_xdata(),t))
             hl.set_ydata(np.append(hl.get_ydata(),goal_y - y_pos))
-            plt.draw()
             
-            # # # # # # # 
+            hl2.set_xdata(np.append(hl2.get_xdata(),t))
+            hl2.set_ydata(np.append(hl2.get_ydata(),goal_y ) )
+            
+            # ax.plot([t],[goal_y-y_pos],label="ERROR",c="b")
+            # ax.plot([t],[goal_y],label="REF",c="r")
+            ax.relim() 
+            ax.autoscale_view()             
+            
+            plt.draw()
+            plt.pause(0.1)
+            
+            """
+            pid_plotter = PIDPlotter(0.1)
+            pid_plotter.drawLine(pid_plotter.hl,t,goal_y-y_pos)
+            pid_plotter.drawLine(pid_plotter.hl2,t,goal_y)
+            pid_plotter.animate()
+            """
+            
+
+
+            # # # # # # # # 
             
             t += dt
 

@@ -16,7 +16,7 @@ from my_utils import *
 from simple_pid import PID
 import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.use("Qt4agg")
+matplotlib.use("Qt5agg")
 from matplotlib.animation import FuncAnimation
 from Pid_plotter import PIDPlotter
 show_animation = False
@@ -136,10 +136,23 @@ def quad_sim(x_c, y_c, z_c):
         # while t <= T:
         # while 0.5 <= dist_goal:
             
-
+        plt.ion()
         hl, = plt.plot([],[],c="b")#,linestyle='dashed')
         hl2, = plt.plot([],[],c="r")
         ax = plt.axes()
+        plt.show(block=False)
+
+        def _mypause(interval):
+            backend = plt.rcParams['backend']
+            if backend in matplotlib.rcsetup.interactive_bk:
+                figManager = matplotlib._pylab_helpers.Gcf.get_active()
+                if figManager is not None:
+                    canvas = figManager.canvas
+                    if canvas.figure.stale:
+                        canvas.draw()
+                    canvas.start_event_loop(interval)
+                    return
+
         while True:
             PosizioneAttuale = np.array([x_pos, y_pos, z_pos])
             dist_goal = distance_AB_2D(PosizioneAttuale, next_goal)
@@ -285,15 +298,13 @@ def quad_sim(x_c, y_c, z_c):
             hl2.set_ydata(np.append(hl2.get_ydata(),18 ) )
 
             
-
-            # ax.plot([t],[goal_y-y_pos],label="ERROR",c="b")
-            # ax.plot([t],[goal_y],label="REF",c="r")
-            
             ax.relim() 
             ax.autoscale_view()             
             
+            # plt.draw()
+            # plt.pause(0.001)
             plt.draw()
-            plt.pause(0.001)
+            _mypause(0.01)
             # """
 
             """

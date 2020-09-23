@@ -1,0 +1,59 @@
+
+
+
+##################################################
+User: giuppo
+OS: linux
+Date: 2020-09-23 15:21:03.745
+##################################################
+
+
+
+L: 500.0 , T: 33.77777777777778
+L: 500.0 , T: 33.77777777777778
+L: 0.0 , T: 6.0
+running: 0.00
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.10 	Y_vel (m/s): 0.98 	Y_acc (m/s^2): 9.80
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 9.80
+Velocity (m/s): 0.98
+L: 500.0
+dist_goal: 500.0
+dist_percorsa2D 0.0
+running: 0.10
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.22 	Y_vel (m/s): 1.23 	Y_acc (m/s^2): 2.55
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 2.55
+Velocity (m/s): 1.23
+L: 500.0
+dist_goal: 499.9019959928086
+dist_percorsa2D 0.09800400719139771
+running: 0.20
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.38 	Y_vel (m/s): 1.60 	Y_acc (m/s^2): 3.61
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 3.61
+Velocity (m/s): 1.60
+L: 500.0
+dist_goal: 499.77853316479894
+dist_percorsa2D 0.2214668352010685
+running: 0.30
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.44 	Y_vel (m/s): 0.62 	Y_acc (m/s^2): -9.71
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 9.71
+Velocity (m/s): 0.62
+L: 500.0
+dist_goal: 499.6189670539869
+dist_percorsa2D 0.3810329460130952
+running: 0.40
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.59 	Y_vel (m/s): 1.49 	Y_acc (m/s^2): 8.65
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 8.65
+Velocity (m/s): 1.49
+L: 500.0
+dist_goal: 499.5565162043418
+dist_percorsa2D 0.44348379565819146

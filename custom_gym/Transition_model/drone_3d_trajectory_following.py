@@ -14,7 +14,9 @@ from os import mkdir
 from os.path import join, isdir
 from my_utils import *
 from simple_pid import PID
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use("Qt4agg")
 from matplotlib.animation import FuncAnimation
 from Pid_plotter import PIDPlotter
 show_animation = False
@@ -44,6 +46,7 @@ vel_max_scalar = 18 #(m/s)
 # Kp_y = 1
 Kp_z = 1
 
+
 Kp_roll = 25
 Kp_pitch = 25
 Kp_yaw = 25
@@ -56,6 +59,16 @@ Kd_z = 1
 waypoints = [[10, 0, 10], [10, 500, 10], [10, 0, 10]]
 num_waypoints = len(waypoints)
 
+
+Kp_x_pos = 0.1
+Kp_y_pos = 1
+
+Kp_x_vel = 10
+Kp_y_vel = 15
+
+
+Kp_z_pos = 0.1
+Kp_z_vel = 0.1
 
 
         
@@ -113,19 +126,21 @@ def quad_sim(x_c, y_c, z_c):
         acc_max_x, acc_max_y = get_2D_components(waypoints[i],waypoints[(i+1)%num_waypoints],acc_max_scalar)
         vel_max_x, vel_max_y = get_2D_components(waypoints[i],waypoints[(i+1)%num_waypoints],vel_max_scalar)
 
-        pid_x = PID(0.8, 0.0, 0.1, setpoint = goal_x)
-        pid_y = PID(0.8, 0.0, 0.1, setpoint = goal_y)
+        pid_x = PID(0.5, 0.1, 0.5, setpoint = goal_x)
+        pid_y = PID(0.5, 0.01, 0.6, setpoint = goal_y)
         # pid_z = PID(1, 0.1, 0.0, setpoint = goal_z)
         
-        pid_vel_x = PID(1, 0.0, 0.1, setpoint = 0 )
-        pid_vel_y = PID(1, 0.0, 0.1, setpoint = 0 )
+        pid_vel_x = PID(Kp_x_vel, 0.0, 0.0, setpoint = 0 )
+        pid_vel_y = PID(Kp_y_vel, 0.0, 0.0, setpoint = 0 )
+        dist_goal = distance_AB_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
+        # while t <= T:
+        # while 0.5 <= dist_goal:
+            
 
-        hl, = plt.plot([],[])
+        hl, = plt.plot([],[],c="b")#,linestyle='dashed')
         hl2, = plt.plot([],[],c="r")
         ax = plt.axes()
-        # while t <= T:
-        dist_goal = distance_AB_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
-        while 0.5 <= dist_goal:
+        while True:
             PosizioneAttuale = np.array([x_pos, y_pos, z_pos])
             dist_goal = distance_AB_2D(PosizioneAttuale, next_goal)
             dist_percorsa2D = distance_AB_2D(start, PosizioneAttuale)
@@ -134,7 +149,9 @@ def quad_sim(x_c, y_c, z_c):
                 raise Exception("Bang cost bang not feasible")
 
             print("running:","{:.2f}".format(t))
-            
+        
+
+
             # 3D TEST
             
             # des_x_pos, des_y_pos, des_z_pos = bang_position(x_pos,y_pos,z_pos,
@@ -182,17 +199,24 @@ def quad_sim(x_c, y_c, z_c):
             #     (((des_x_acc * cos(des_yaw) - des_y_acc * sin(des_yaw)) / g) - pitch)
             # yaw_torque = Kp_yaw * (des_yaw - yaw)
 
-            x_vel_pid = pid_x(x_pos,dt=dt)
-            y_vel_pid = pid_y(y_pos,dt=dt)
+            # x_vel_pid = pid_x(x_pos,dt=dt)
+            # y_vel_pid = pid_y(y_pos,dt=dt)
 
-            if(y_vel_pid > 18):
-                y_vel_pid = 18
+            x_vel_pid = Kp_x_pos * (goal_x - x_pos )
+            y_vel_pid = Kp_y_pos * (goal_y - y_pos )
 
-            pid_vel_x.setpoint = x_vel_pid 
-            pid_vel_y.setpoint = y_vel_pid
+
+            # if(y_vel_pid > 18):
+            #     y_vel_pid = 18
+
+            pid_vel_x.setpoint = 0 #x_vel_pid 
+            pid_vel_y.setpoint = 18 #y_vel_pid
             
-            pitch_des = pid_vel_x(x_vel,dt=dt)
-            roll_des = pid_vel_y(y_vel,dt=dt)
+            pitch_des = Kp_x_vel * ( 0 - x_vel)
+            roll_des = Kp_y_vel * (18 - y_vel)
+
+            # pitch_des = pid_vel_x(x_vel)
+            # roll_des = pid_vel_y(y_vel)
 
             roll_torque = Kp_roll * (roll_des - roll )
             pitch_torque = Kp_pitch * (pitch_des - pitch)
@@ -253,34 +277,37 @@ def quad_sim(x_c, y_c, z_c):
             # plt.show()
             # ax = plt.gca()
             
-            
+            # """
             hl.set_xdata(np.append(hl.get_xdata(),t))
-            hl.set_ydata(np.append(hl.get_ydata(),goal_y - y_pos))
+            hl.set_ydata(np.append(hl.get_ydata(),y_vel))
             
             hl2.set_xdata(np.append(hl2.get_xdata(),t))
-            hl2.set_ydata(np.append(hl2.get_ydata(),goal_y ) )
+            hl2.set_ydata(np.append(hl2.get_ydata(),18 ) )
+
             
+
             # ax.plot([t],[goal_y-y_pos],label="ERROR",c="b")
             # ax.plot([t],[goal_y],label="REF",c="r")
+            
             ax.relim() 
             ax.autoscale_view()             
             
             plt.draw()
-            plt.pause(0.1)
-            
+            plt.pause(0.001)
+            # """
+
             """
             pid_plotter = PIDPlotter(0.1)
             pid_plotter.drawLine(pid_plotter.hl,t,goal_y-y_pos)
             pid_plotter.drawLine(pid_plotter.hl2,t,goal_y)
             pid_plotter.animate()
             """
-            
 
 
             # # # # # # # # 
             
             t += dt
-
+        
         print("-"*20,"[REACHED, Missing",distance_2D([x_pos,y_pos,z_pos],waypoints[(i+1)%num_waypoints]), "m]","-"*20)
         
         t = 0

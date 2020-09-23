@@ -33,8 +33,12 @@ class PIDPlotter():
         
 
     def animate(self):
-        self.ax.relim() 
-        self.ax.autoscale_view()             
-        
+        ax = plt.gca()
+        ax.relim() 
+        ax.autoscale_view()    
+                 
         plt.draw()
         plt.pause(self.pause)
+
+    def show(self):
+        plt.show()

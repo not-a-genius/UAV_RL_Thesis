@@ -1,0 +1,3091 @@
+
+
+
+##################################################
+User: ASUS
+OS: win32
+Date: 2020-09-24 18:26:17.402
+##################################################
+
+
+
+X_pos: 10.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.00
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.00
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.00
+Velocity (m/s): 0.00
+dist_goal: 500.0
+dist_percorsa2D 0.0
+X_pos: 10.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.00
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.00
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.00
+Velocity (m/s): 0.00
+dist_goal: 500.0
+dist_percorsa2D 0.0
+X_pos: 10.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.00
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.00
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.00
+Velocity (m/s): 0.00
+dist_goal: 499.999995670567
+dist_percorsa2D 1.2030997779311888e-05
+X_pos: 10.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.01
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.00
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.01
+Velocity (m/s): 0.00
+dist_goal: 499.999975127429
+dist_percorsa2D 6.912386180292096e-05
+X_pos: 10.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.02
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.02
+Velocity (m/s): 0.00
+dist_goal: 499.9999176164316
+dist_percorsa2D 0.00022897393529640612
+X_pos: 10.00 	X_vel (m/s): -0.01 	X_acc (m/s^2): -0.03
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.03
+Velocity (m/s): 0.01
+dist_goal: 499.99979443763476
+dist_percorsa2D 0.0005713852792854163
+X_pos: 10.00 	X_vel (m/s): -0.01 	X_acc (m/s^2): -0.03
+Y_pos: 0.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.04
+Velocity (m/s): 0.01
+dist_goal: 499.9995718775697
+dist_percorsa2D 0.0011901335712224963
+X_pos: 10.00 	X_vel (m/s): -0.01 	X_acc (m/s^2): -0.04
+Y_pos: 0.00 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.05
+Velocity (m/s): 0.01
+dist_goal: 499.9992154166268
+dist_percorsa2D 0.0021812820796985478
+X_pos: 9.99 	X_vel (m/s): -0.02 	X_acc (m/s^2): -0.05
+Y_pos: 0.00 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.05
+Velocity (m/s): 0.02
+dist_goal: 499.99869415972347
+dist_percorsa2D 0.003630871904774166
+X_pos: 9.99 	X_vel (m/s): -0.02 	X_acc (m/s^2): -0.05
+Y_pos: 0.00 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.03
+dist_goal: 499.9979843825355
+dist_percorsa2D 0.005605064032729577
+X_pos: 9.99 	X_vel (m/s): -0.03 	X_acc (m/s^2): -0.05
+Y_pos: 0.00 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.03
+dist_goal: 499.9970713066726
+dist_percorsa2D 0.008145197675562328
+X_pos: 9.99 	X_vel (m/s): -0.03 	X_acc (m/s^2): -0.05
+Y_pos: 0.01 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.04
+dist_goal: 499.9959486599769
+dist_percorsa2D 0.011269000273187653
+X_pos: 9.98 	X_vel (m/s): -0.04 	X_acc (m/s^2): -0.05
+Y_pos: 0.01 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.04
+dist_goal: 499.99461613192364
+dist_percorsa2D 0.014977646736412078
+X_pos: 9.98 	X_vel (m/s): -0.05 	X_acc (m/s^2): -0.05
+Y_pos: 0.01 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.05
+dist_goal: 499.9930753604167
+dist_percorsa2D 0.01926690331090739
+X_pos: 9.97 	X_vel (m/s): -0.05 	X_acc (m/s^2): -0.06
+Y_pos: 0.01 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.05
+dist_goal: 499.9913254534892
+dist_percorsa2D 0.02413957027190227
+X_pos: 9.97 	X_vel (m/s): -0.06 	X_acc (m/s^2): -0.06
+Y_pos: 0.01 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.06
+Velocity (m/s): 0.06
+dist_goal: 499.9893591656898
+dist_percorsa2D 0.029616112847484673
+X_pos: 9.96 	X_vel (m/s): -0.06 	X_acc (m/s^2): -0.07
+Y_pos: 0.02 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.03
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.07
+Velocity (m/s): 0.07
+dist_goal: 499.9871606852138
+dist_percorsa2D 0.03574082263949134
+X_pos: 9.95 	X_vel (m/s): -0.07 	X_acc (m/s^2): -0.07
+Y_pos: 0.02 	Y_vel (m/s): 0.03 	Y_acc (m/s^2): 0.03
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.08
+Velocity (m/s): 0.08
+dist_goal: 499.98470558507825
+dist_percorsa2D 0.042581969210260154
+X_pos: 9.95 	X_vel (m/s): -0.08 	X_acc (m/s^2): -0.08
+Y_pos: 0.02 	Y_vel (m/s): 0.03 	Y_acc (m/s^2): 0.03
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.09
+Velocity (m/s): 0.09
+dist_goal: 499.9819629505655
+dist_percorsa2D 0.050225904062905696
+X_pos: 9.94 	X_vel (m/s): -0.09 	X_acc (m/s^2): -0.09
+Y_pos: 0.02 	Y_vel (m/s): 0.03 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.10
+Velocity (m/s): 0.10
+dist_goal: 499.97889915104497
+dist_percorsa2D 0.05876659125390945
+X_pos: 9.93 	X_vel (m/s): -0.10 	X_acc (m/s^2): -0.10
+Y_pos: 0.03 	Y_vel (m/s): 0.04 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.11
+dist_goal: 499.975482313164
+dist_percorsa2D 0.0682931822327073
+X_pos: 9.92 	X_vel (m/s): -0.11 	X_acc (m/s^2): -0.10
+Y_pos: 0.03 	Y_vel (m/s): 0.04 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.12
+dist_goal: 499.97168637706915
+dist_percorsa2D 0.07887874130125785
+X_pos: 9.90 	X_vel (m/s): -0.12 	X_acc (m/s^2): -0.11
+Y_pos: 0.04 	Y_vel (m/s): 0.05 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.13
+dist_goal: 499.9674937216155
+dist_percorsa2D 0.09057294022644978
+X_pos: 9.89 	X_vel (m/s): -0.13 	X_acc (m/s^2): -0.11
+Y_pos: 0.04 	Y_vel (m/s): 0.05 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.14
+dist_goal: 499.9628957023814
+dist_percorsa2D 0.10340054819988605
+X_pos: 9.88 	X_vel (m/s): -0.14 	X_acc (m/s^2): -0.11
+Y_pos: 0.05 	Y_vel (m/s): 0.05 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.15
+dist_goal: 499.9578909682466
+dist_percorsa2D 0.11736609468917901
+X_pos: 9.86 	X_vel (m/s): -0.15 	X_acc (m/s^2): -0.11
+Y_pos: 0.05 	Y_vel (m/s): 0.06 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.16
+dist_goal: 499.9524819777935
+dist_percorsa2D 0.13246353973989186
+X_pos: 9.85 	X_vel (m/s): -0.16 	X_acc (m/s^2): -0.11
+Y_pos: 0.06 	Y_vel (m/s): 0.06 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.11
+Velocity (m/s): 0.17
+dist_goal: 499.9466705869278
+dist_percorsa2D 0.14868853446486402
+X_pos: 9.83 	X_vel (m/s): -0.17 	X_acc (m/s^2): -0.11
+Y_pos: 0.07 	Y_vel (m/s): 0.07 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.12
+Velocity (m/s): 0.19
+dist_goal: 499.94045381128444
+dist_percorsa2D 0.166050206728728
+X_pos: 9.81 	X_vel (m/s): -0.18 	X_acc (m/s^2): -0.11
+Y_pos: 0.07 	Y_vel (m/s): 0.07 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.12
+Velocity (m/s): 0.20
+dist_goal: 499.9338208231518
+dist_percorsa2D 0.1845795255354874
+X_pos: 9.79 	X_vel (m/s): -0.20 	X_acc (m/s^2): -0.12
+Y_pos: 0.08 	Y_vel (m/s): 0.08 	Y_acc (m/s^2): 0.05
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.13
+Velocity (m/s): 0.21
+dist_goal: 499.9267519337957
+dist_percorsa2D 0.20433215292346962
+X_pos: 9.77 	X_vel (m/s): -0.21 	X_acc (m/s^2): -0.13
+Y_pos: 0.09 	Y_vel (m/s): 0.08 	Y_acc (m/s^2): 0.05
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.14
+Velocity (m/s): 0.22
+dist_goal: 499.9192198155147
+dist_percorsa2D 0.2253850704563677
+X_pos: 9.75 	X_vel (m/s): -0.22 	X_acc (m/s^2): -0.14
+Y_pos: 0.10 	Y_vel (m/s): 0.09 	Y_acc (m/s^2): 0.05
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.15
+Velocity (m/s): 0.24
+dist_goal: 499.91119265768884
+dist_percorsa2D 0.2478278239634117
+X_pos: 9.72 	X_vel (m/s): -0.24 	X_acc (m/s^2): -0.15
+Y_pos: 0.11 	Y_vel (m/s): 0.09 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.16
+Velocity (m/s): 0.25
+dist_goal: 499.9026384675707
+dist_percorsa2D 0.27175057569831945
+X_pos: 9.70 	X_vel (m/s): -0.25 	X_acc (m/s^2): -0.15
+Y_pos: 0.12 	Y_vel (m/s): 0.10 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.16
+Velocity (m/s): 0.27
+dist_goal: 499.89352944046647
+dist_percorsa2D 0.2972319510676615
+X_pos: 9.67 	X_vel (m/s): -0.27 	X_acc (m/s^2): -0.15
+Y_pos: 0.13 	Y_vel (m/s): 0.10 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.16
+Velocity (m/s): 0.29
+dist_goal: 499.88384530679986
+dist_percorsa2D 0.324329718130526
+X_pos: 9.64 	X_vel (m/s): -0.28 	X_acc (m/s^2): -0.15
+Y_pos: 0.14 	Y_vel (m/s): 0.11 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.17
+Velocity (m/s): 0.30
+dist_goal: 499.87357481956263
+dist_percorsa2D 0.35307662971526793
+X_pos: 9.61 	X_vel (m/s): -0.30 	X_acc (m/s^2): -0.15
+Y_pos: 0.15 	Y_vel (m/s): 0.11 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.17
+Velocity (m/s): 0.32
+dist_goal: 499.8627150108201
+dist_percorsa2D 0.38348246751879883
+X_pos: 9.58 	X_vel (m/s): -0.31 	X_acc (m/s^2): -0.15
+Y_pos: 0.16 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.16
+Velocity (m/s): 0.34
+dist_goal: 499.85126840389466
+dist_percorsa2D 0.415541777419512
+X_pos: 9.55 	X_vel (m/s): -0.33 	X_acc (m/s^2): -0.15
+Y_pos: 0.17 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.16
+Velocity (m/s): 0.35
+dist_goal: 499.83923887905087
+dist_percorsa2D 0.4492453626167472
+X_pos: 9.51 	X_vel (m/s): -0.35 	X_acc (m/s^2): -0.16
+Y_pos: 0.19 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.17
+Velocity (m/s): 0.37
+dist_goal: 499.8266272270815
+dist_percorsa2D 0.4845926615847207
+X_pos: 9.48 	X_vel (m/s): -0.36 	X_acc (m/s^2): -0.16
+Y_pos: 0.20 	Y_vel (m/s): 0.14 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.17
+Velocity (m/s): 0.39
+dist_goal: 499.81342750296756
+dist_percorsa2D 0.5216019162937763
+X_pos: 9.44 	X_vel (m/s): -0.38 	X_acc (m/s^2): -0.17
+Y_pos: 0.22 	Y_vel (m/s): 0.14 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.18
+Velocity (m/s): 0.40
+dist_goal: 499.79962509137476
+dist_percorsa2D 0.5603155884203211
+X_pos: 9.40 	X_vel (m/s): -0.40 	X_acc (m/s^2): -0.17
+Y_pos: 0.23 	Y_vel (m/s): 0.15 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.19
+Velocity (m/s): 0.42
+dist_goal: 499.78519696737465
+dist_percorsa2D 0.6007996694142292
+X_pos: 9.36 	X_vel (m/s): -0.41 	X_acc (m/s^2): -0.18
+Y_pos: 0.25 	Y_vel (m/s): 0.16 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.19
+Velocity (m/s): 0.44
+dist_goal: 499.7701140866904
+dist_percorsa2D 0.6431370571463524
+X_pos: 9.31 	X_vel (m/s): -0.43 	X_acc (m/s^2): -0.19
+Y_pos: 0.26 	Y_vel (m/s): 0.17 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.20
+Velocity (m/s): 0.46
+dist_goal: 499.7543453073098
+dist_percorsa2D 0.6874166554266293
+X_pos: 9.27 	X_vel (m/s): -0.45 	X_acc (m/s^2): -0.20
+Y_pos: 0.28 	Y_vel (m/s): 0.17 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.21
+Velocity (m/s): 0.48
+dist_goal: 499.7378618616265
+dist_percorsa2D 0.733720921861017
+X_pos: 9.22 	X_vel (m/s): -0.47 	X_acc (m/s^2): -0.20
+Y_pos: 0.30 	Y_vel (m/s): 0.18 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.21
+Velocity (m/s): 0.51
+dist_goal: 499.7206412609883
+dist_percorsa2D 0.7821149770520829
+X_pos: 9.17 	X_vel (m/s): -0.49 	X_acc (m/s^2): -0.20
+Y_pos: 0.32 	Y_vel (m/s): 0.19 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.21
+Velocity (m/s): 0.53
+dist_goal: 499.7026696568717
+dist_percorsa2D 0.8326399974842037
+X_pos: 9.12 	X_vel (m/s): -0.51 	X_acc (m/s^2): -0.20
+Y_pos: 0.34 	Y_vel (m/s): 0.20 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.21
+Velocity (m/s): 0.55
+dist_goal: 499.6839420691936
+dist_percorsa2D 0.8853125435726711
+X_pos: 9.07 	X_vel (m/s): -0.53 	X_acc (m/s^2): -0.20
+Y_pos: 0.36 	Y_vel (m/s): 0.20 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.21
+Velocity (m/s): 0.57
+dist_goal: 499.66446042584585
+dist_percorsa2D 0.9401299909882623
+X_pos: 9.01 	X_vel (m/s): -0.55 	X_acc (m/s^2): -0.20
+Y_pos: 0.38 	Y_vel (m/s): 0.21 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.21
+Velocity (m/s): 0.59
+dist_goal: 499.6442299049211
+dist_percorsa2D 0.9970807079280808
+X_pos: 8.96 	X_vel (m/s): -0.57 	X_acc (m/s^2): -0.20
+Y_pos: 0.40 	Y_vel (m/s): 0.22 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.21
+Velocity (m/s): 0.61
+dist_goal: 499.6232544953651
+dist_percorsa2D 1.0561564344780552
+X_pos: 8.90 	X_vel (m/s): -0.59 	X_acc (m/s^2): -0.20
+Y_pos: 0.42 	Y_vel (m/s): 0.23 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.22
+Velocity (m/s): 0.63
+dist_goal: 499.60153288682443
+dist_percorsa2D 1.117363769294253
+X_pos: 8.84 	X_vel (m/s): -0.61 	X_acc (m/s^2): -0.21
+Y_pos: 0.45 	Y_vel (m/s): 0.23 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.22
+Velocity (m/s): 0.66
+dist_goal: 499.5790557165613
+dist_percorsa2D 1.1807318916532124
+X_pos: 8.77 	X_vel (m/s): -0.63 	X_acc (m/s^2): -0.21
+Y_pos: 0.47 	Y_vel (m/s): 0.24 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.23
+Velocity (m/s): 0.68
+dist_goal: 499.5558048613648
+dist_percorsa2D 1.246314588104959
+X_pos: 8.71 	X_vel (m/s): -0.66 	X_acc (m/s^2): -0.22
+Y_pos: 0.49 	Y_vel (m/s): 0.25 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.24
+Velocity (m/s): 0.70
+dist_goal: 499.53175495060424
+dist_percorsa2D 1.314186077175267
+X_pos: 8.64 	X_vel (m/s): -0.68 	X_acc (m/s^2): -0.23
+Y_pos: 0.52 	Y_vel (m/s): 0.26 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.25
+Velocity (m/s): 0.73
+dist_goal: 499.50687672106665
+dist_percorsa2D 1.3844316764260916
+X_pos: 8.57 	X_vel (m/s): -0.70 	X_acc (m/s^2): -0.24
+Y_pos: 0.55 	Y_vel (m/s): 0.27 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.25
+Velocity (m/s): 0.75
+dist_goal: 499.4811413739447
+dist_percorsa2D 1.4571356456343083
+X_pos: 8.50 	X_vel (m/s): -0.73 	X_acc (m/s^2): -0.24
+Y_pos: 0.58 	Y_vel (m/s): 0.28 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.26
+Velocity (m/s): 0.78
+dist_goal: 499.4545248443068
+dist_percorsa2D 1.5323692454449145
+X_pos: 8.42 	X_vel (m/s): -0.75 	X_acc (m/s^2): -0.24
+Y_pos: 0.60 	Y_vel (m/s): 0.29 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.26
+Velocity (m/s): 0.80
+dist_goal: 499.4270109159638
+dist_percorsa2D 1.6101819964955917
+X_pos: 8.34 	X_vel (m/s): -0.78 	X_acc (m/s^2): -0.24
+Y_pos: 0.63 	Y_vel (m/s): 0.30 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.26
+Velocity (m/s): 0.83
+dist_goal: 499.39859240402006
+dist_percorsa2D 1.6905983237484348
+X_pos: 8.26 	X_vel (m/s): -0.80 	X_acc (m/s^2): -0.24
+Y_pos: 0.66 	Y_vel (m/s): 0.30 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.26
+Velocity (m/s): 0.86
+dist_goal: 499.3692701110686
+dist_percorsa2D 1.773620424840382
+X_pos: 8.18 	X_vel (m/s): -0.82 	X_acc (m/s^2): -0.24
+Y_pos: 0.70 	Y_vel (m/s): 0.31 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.26
+Velocity (m/s): 0.88
+dist_goal: 499.339049819915
+dist_percorsa2D 1.8592366458106993
+X_pos: 8.10 	X_vel (m/s): -0.85 	X_acc (m/s^2): -0.24
+Y_pos: 0.73 	Y_vel (m/s): 0.32 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.26
+Velocity (m/s): 0.91
+dist_goal: 499.3079380765562
+dist_percorsa2D 1.9474332709069415
+X_pos: 8.01 	X_vel (m/s): -0.87 	X_acc (m/s^2): -0.24
+Y_pos: 0.76 	Y_vel (m/s): 0.33 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.26
+Velocity (m/s): 0.93
+dist_goal: 499.27593781914163
+dist_percorsa2D 2.038206779307368
+X_pos: 7.92 	X_vel (m/s): -0.90 	X_acc (m/s^2): -0.25
+Y_pos: 0.80 	Y_vel (m/s): 0.34 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.26
+Velocity (m/s): 0.96
+dist_goal: 499.2430449463362
+dist_percorsa2D 2.131573504356764
+X_pos: 7.83 	X_vel (m/s): -0.92 	X_acc (m/s^2): -0.25
+Y_pos: 0.83 	Y_vel (m/s): 0.35 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.27
+Velocity (m/s): 0.99
+dist_goal: 499.2092466826712
+dist_percorsa2D 2.227574280101829
+X_pos: 7.73 	X_vel (m/s): -0.95 	X_acc (m/s^2): -0.26
+Y_pos: 0.87 	Y_vel (m/s): 0.36 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.28
+Velocity (m/s): 1.01
+dist_goal: 499.17452214834196
+dist_percorsa2D 2.3262729133926765
+X_pos: 7.63 	X_vel (m/s): -0.98 	X_acc (m/s^2): -0.27
+Y_pos: 0.90 	Y_vel (m/s): 0.37 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.29
+Velocity (m/s): 1.04
+dist_goal: 499.1388449893223
+dist_percorsa2D 2.427748863933937
+X_pos: 7.53 	X_vel (m/s): -1.00 	X_acc (m/s^2): -0.27
+Y_pos: 0.94 	Y_vel (m/s): 0.38 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.29
+Velocity (m/s): 1.07
+dist_goal: 499.10218740865264
+dist_percorsa2D 2.532085962932061
+X_pos: 7.43 	X_vel (m/s): -1.03 	X_acc (m/s^2): -0.28
+Y_pos: 0.98 	Y_vel (m/s): 0.39 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.30
+Velocity (m/s): 1.10
+dist_goal: 499.0645245900719
+dist_percorsa2D 2.639359991071121
+X_pos: 7.33 	X_vel (m/s): -1.06 	X_acc (m/s^2): -0.28
+Y_pos: 1.02 	Y_vel (m/s): 0.40 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.30
+Velocity (m/s): 1.13
+dist_goal: 499.0258384080447
+dist_percorsa2D 2.7496282211252723
+X_pos: 7.22 	X_vel (m/s): -1.09 	X_acc (m/s^2): -0.28
+Y_pos: 1.06 	Y_vel (m/s): 0.41 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.30
+Velocity (m/s): 1.16
+dist_goal: 498.98611949771254
+dist_percorsa2D 2.8629235389666987
+X_pos: 7.11 	X_vel (m/s): -1.12 	X_acc (m/s^2): -0.28
+Y_pos: 1.10 	Y_vel (m/s): 0.42 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.30
+Velocity (m/s): 1.19
+dist_goal: 498.9453671692536
+dist_percorsa2D 2.979254612336971
+X_pos: 6.99 	X_vel (m/s): -1.14 	X_acc (m/s^2): -0.28
+Y_pos: 1.15 	Y_vel (m/s): 0.43 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.30
+Velocity (m/s): 1.22
+dist_goal: 498.9035871906213
+dist_percorsa2D 3.0986120654460545
+X_pos: 6.87 	X_vel (m/s): -1.17 	X_acc (m/s^2): -0.28
+Y_pos: 1.19 	Y_vel (m/s): 0.45 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.30
+Velocity (m/s): 1.25
+dist_goal: 498.86078799564945
+dist_percorsa2D 3.220979116461288
+X_pos: 6.75 	X_vel (m/s): -1.20 	X_acc (m/s^2): -0.28
+Y_pos: 1.24 	Y_vel (m/s): 0.46 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.30
+Velocity (m/s): 1.28
+dist_goal: 498.81697626770625
+dist_percorsa2D 3.346344019065453
+X_pos: 6.63 	X_vel (m/s): -1.23 	X_acc (m/s^2): -0.28
+Y_pos: 1.29 	Y_vel (m/s): 0.47 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.30
+Velocity (m/s): 1.31
+dist_goal: 498.7721530042079
+dist_percorsa2D 3.4747111976553606
+X_pos: 6.50 	X_vel (m/s): -1.26 	X_acc (m/s^2): -0.29
+Y_pos: 1.33 	Y_vel (m/s): 0.48 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.31
+Velocity (m/s): 1.34
+dist_goal: 498.7263110457622
+dist_percorsa2D 3.606108291911035
+X_pos: 6.38 	X_vel (m/s): -1.29 	X_acc (m/s^2): -0.30
+Y_pos: 1.38 	Y_vel (m/s): 0.49 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.32
+Velocity (m/s): 1.38
+dist_goal: 498.6794346862609
+dist_percorsa2D 3.740587349251436
+X_pos: 6.24 	X_vel (m/s): -1.32 	X_acc (m/s^2): -0.30
+Y_pos: 1.43 	Y_vel (m/s): 0.50 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.32
+Velocity (m/s): 1.41
+dist_goal: 498.63150145912067
+dist_percorsa2D 3.8782198672783674
+X_pos: 6.11 	X_vel (m/s): -1.35 	X_acc (m/s^2): -0.31
+Y_pos: 1.48 	Y_vel (m/s): 0.51 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.33
+Velocity (m/s): 1.44
+dist_goal: 498.58248565066464
+dist_percorsa2D 4.019086926290251
+X_pos: 5.97 	X_vel (m/s): -1.38 	X_acc (m/s^2): -0.32
+Y_pos: 1.54 	Y_vel (m/s): 0.52 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.34
+Velocity (m/s): 1.48
+dist_goal: 498.5323626604384
+dist_percorsa2D 4.163266879377252
+X_pos: 5.83 	X_vel (m/s): -1.41 	X_acc (m/s^2): -0.32
+Y_pos: 1.59 	Y_vel (m/s): 0.54 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.34
+Velocity (m/s): 1.51
+dist_goal: 498.481113117712
+dist_percorsa2D 4.310823677629503
+X_pos: 5.69 	X_vel (m/s): -1.44 	X_acc (m/s^2): -0.32
+Y_pos: 1.64 	Y_vel (m/s): 0.55 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.34
+Velocity (m/s): 1.54
+dist_goal: 498.42872572584423
+dist_percorsa2D 4.4617987485932495
+X_pos: 5.54 	X_vel (m/s): -1.48 	X_acc (m/s^2): -0.32
+Y_pos: 1.70 	Y_vel (m/s): 0.56 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.34
+Velocity (m/s): 1.58
+dist_goal: 498.37519812559566
+dist_percorsa2D 4.61620845773348
+X_pos: 5.39 	X_vel (m/s): -1.51 	X_acc (m/s^2): -0.32
+Y_pos: 1.76 	Y_vel (m/s): 0.57 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.34
+Velocity (m/s): 1.61
+dist_goal: 498.3205355647288
+dist_percorsa2D 4.7740477874965475
+X_pos: 5.23 	X_vel (m/s): -1.54 	X_acc (m/s^2): -0.32
+Y_pos: 1.81 	Y_vel (m/s): 0.58 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.34
+Velocity (m/s): 1.65
+dist_goal: 498.2647477100233
+dist_percorsa2D 4.935299314855949
+X_pos: 5.08 	X_vel (m/s): -1.57 	X_acc (m/s^2): -0.32
+Y_pos: 1.87 	Y_vel (m/s): 0.60 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.34
+Velocity (m/s): 1.68
+dist_goal: 498.2078444018615
+dist_percorsa2D 5.0999452437332495
+X_pos: 4.92 	X_vel (m/s): -1.60 	X_acc (m/s^2): -0.32
+Y_pos: 1.94 	Y_vel (m/s): 0.61 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.34
+Velocity (m/s): 1.71
+dist_goal: 498.14983141478825
+dist_percorsa2D 5.267979484435997
+X_pos: 4.75 	X_vel (m/s): -1.64 	X_acc (m/s^2): -0.32
+Y_pos: 2.00 	Y_vel (m/s): 0.62 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.34
+Velocity (m/s): 1.75
+dist_goal: 498.09070728431664
+dist_percorsa2D 5.439416759850741
+X_pos: 4.59 	X_vel (m/s): -1.67 	X_acc (m/s^2): -0.33
+Y_pos: 2.06 	Y_vel (m/s): 0.63 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.35
+Velocity (m/s): 1.78
+dist_goal: 498.030461991914
+dist_percorsa2D 5.61429646129537
+X_pos: 4.42 	X_vel (m/s): -1.70 	X_acc (m/s^2): -0.34
+Y_pos: 2.12 	Y_vel (m/s): 0.64 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.36
+Velocity (m/s): 1.82
+dist_goal: 497.9690778341597
+dist_percorsa2D 5.792680290000238
+X_pos: 4.24 	X_vel (m/s): -1.74 	X_acc (m/s^2): -0.34
+Y_pos: 2.19 	Y_vel (m/s): 0.66 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.37
+Velocity (m/s): 1.86
+dist_goal: 497.9065322554316
+dist_percorsa2D 5.974644274438301
+X_pos: 4.07 	X_vel (m/s): -1.77 	X_acc (m/s^2): -0.35
+Y_pos: 2.26 	Y_vel (m/s): 0.67 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.37
+Velocity (m/s): 1.89
+dist_goal: 497.84280193301237
+dist_percorsa2D 6.160267159992354
+X_pos: 3.88 	X_vel (m/s): -1.81 	X_acc (m/s^2): -0.35
+Y_pos: 2.33 	Y_vel (m/s): 0.68 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.38
+Velocity (m/s): 1.93
+dist_goal: 497.7778670917049
+dist_percorsa2D 6.349618073918194
+X_pos: 3.70 	X_vel (m/s): -1.84 	X_acc (m/s^2): -0.36
+Y_pos: 2.40 	Y_vel (m/s): 0.70 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.38
+Velocity (m/s): 1.97
+dist_goal: 497.7117149695178
+dist_percorsa2D 6.542746548974703
+X_pos: 3.51 	X_vel (m/s): -1.88 	X_acc (m/s^2): -0.36
+Y_pos: 2.47 	Y_vel (m/s): 0.71 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.38
+Velocity (m/s): 2.01
+dist_goal: 497.64434157011226
+dist_percorsa2D 6.739677399039011
+X_pos: 3.32 	X_vel (m/s): -1.91 	X_acc (m/s^2): -0.35
+Y_pos: 2.54 	Y_vel (m/s): 0.72 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.38
+Velocity (m/s): 2.05
+dist_goal: 497.57575126752835
+dist_percorsa2D 6.940411727414753
+X_pos: 3.13 	X_vel (m/s): -1.95 	X_acc (m/s^2): -0.35
+Y_pos: 2.61 	Y_vel (m/s): 0.74 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.38
+Velocity (m/s): 2.08
+dist_goal: 497.5059543664231
+dist_percorsa2D 7.144933816185172
+X_pos: 2.93 	X_vel (m/s): -1.98 	X_acc (m/s^2): -0.35
+Y_pos: 2.69 	Y_vel (m/s): 0.75 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.38
+Velocity (m/s): 2.12
+dist_goal: 497.43496323203186
+dist_percorsa2D 7.353222175168491
+X_pos: 2.73 	X_vel (m/s): -2.02 	X_acc (m/s^2): -0.35
+Y_pos: 2.76 	Y_vel (m/s): 0.76 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.38
+Velocity (m/s): 2.16
+dist_goal: 497.36278796052477
+dist_percorsa2D 7.565261988813549
+X_pos: 2.52 	X_vel (m/s): -2.05 	X_acc (m/s^2): -0.35
+Y_pos: 2.84 	Y_vel (m/s): 0.78 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.38
+Velocity (m/s): 2.20
+dist_goal: 497.2894326734285
+dist_percorsa2D 7.781055849125265
+X_pos: 2.31 	X_vel (m/s): -2.09 	X_acc (m/s^2): -0.36
+Y_pos: 2.92 	Y_vel (m/s): 0.79 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.38
+Velocity (m/s): 2.23
+dist_goal: 497.21489336150216
+dist_percorsa2D 8.000630090742058
+X_pos: 2.10 	X_vel (m/s): -2.13 	X_acc (m/s^2): -0.37
+Y_pos: 3.00 	Y_vel (m/s): 0.80 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.39
+Velocity (m/s): 2.27
+dist_goal: 497.1391578140696
+dist_percorsa2D 8.224035144015033
+X_pos: 1.88 	X_vel (m/s): -2.16 	X_acc (m/s^2): -0.37
+Y_pos: 3.08 	Y_vel (m/s): 0.82 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.40
+Velocity (m/s): 2.31
+dist_goal: 497.06220764726953
+dist_percorsa2D 8.451339818170595
+X_pos: 1.66 	X_vel (m/s): -2.20 	X_acc (m/s^2): -0.38
+Y_pos: 3.17 	Y_vel (m/s): 0.83 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.40
+Velocity (m/s): 2.35
+dist_goal: 496.98402191998827
+dist_percorsa2D 8.682620944642842
+X_pos: 1.44 	X_vel (m/s): -2.24 	X_acc (m/s^2): -0.38
+Y_pos: 3.25 	Y_vel (m/s): 0.85 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.41
+Velocity (m/s): 2.39
+dist_goal: 496.9045814305773
+dist_percorsa2D 8.917950970436685
+X_pos: 1.21 	X_vel (m/s): -2.28 	X_acc (m/s^2): -0.39
+Y_pos: 3.34 	Y_vel (m/s): 0.86 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.41
+Velocity (m/s): 2.44
+dist_goal: 496.82387261939687
+dist_percorsa2D 9.157386603099887
+X_pos: 0.98 	X_vel (m/s): -2.32 	X_acc (m/s^2): -0.39
+Y_pos: 3.42 	Y_vel (m/s): 0.87 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.41
+Velocity (m/s): 2.48
+dist_goal: 496.7418901032185
+dist_percorsa2D 9.40096134529449
+X_pos: 0.74 	X_vel (m/s): -2.36 	X_acc (m/s^2): -0.39
+Y_pos: 3.51 	Y_vel (m/s): 0.89 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.41
+Velocity (m/s): 2.52
+dist_goal: 496.65863721171746
+dist_percorsa2D 9.648683784620282
+X_pos: 0.50 	X_vel (m/s): -2.40 	X_acc (m/s^2): -0.39
+Y_pos: 3.60 	Y_vel (m/s): 0.90 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.41
+Velocity (m/s): 2.56
+dist_goal: 496.574124397143
+dist_percorsa2D 9.90054206631448
+X_pos: 0.26 	X_vel (m/s): -2.43 	X_acc (m/s^2): -0.38
+Y_pos: 3.69 	Y_vel (m/s): 0.92 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.41
+Velocity (m/s): 2.60
+dist_goal: 496.4883659202301
+dist_percorsa2D 10.15651343150147
+X_pos: 0.01 	X_vel (m/s): -2.47 	X_acc (m/s^2): -0.38
+Y_pos: 3.79 	Y_vel (m/s): 0.93 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.41
+Velocity (m/s): 2.64
+dist_goal: 496.4013756454009
+dist_percorsa2D 10.4165764372989
+X_pos: -0.24 	X_vel (m/s): -2.51 	X_acc (m/s^2): -0.38
+Y_pos: 3.88 	Y_vel (m/s): 0.95 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.41
+Velocity (m/s): 2.68
+dist_goal: 496.31316299893166
+dist_percorsa2D 10.680722803903999
+X_pos: -0.49 	X_vel (m/s): -2.55 	X_acc (m/s^2): -0.39
+Y_pos: 3.98 	Y_vel (m/s): 0.96 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.41
+Velocity (m/s): 2.72
+dist_goal: 496.2237301002952
+dist_percorsa2D 10.948965926300021
+X_pos: -0.75 	X_vel (m/s): -2.59 	X_acc (m/s^2): -0.39
+Y_pos: 4.08 	Y_vel (m/s): 0.97 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.42
+Velocity (m/s): 2.77
+dist_goal: 496.1330707808899
+dist_percorsa2D 11.221343922008202
+X_pos: -1.01 	X_vel (m/s): -2.63 	X_acc (m/s^2): -0.40
+Y_pos: 4.17 	Y_vel (m/s): 0.99 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.43
+Velocity (m/s): 2.81
+dist_goal: 496.0411717305963
+dist_percorsa2D 11.497916452957337
+X_pos: -1.28 	X_vel (m/s): -2.67 	X_acc (m/s^2): -0.41
+Y_pos: 4.27 	Y_vel (m/s): 1.00 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.43
+Velocity (m/s): 2.85
+dist_goal: 495.9480154800754
+dist_percorsa2D 11.77875611677746
+X_pos: -1.55 	X_vel (m/s): -2.71 	X_acc (m/s^2): -0.41
+Y_pos: 4.38 	Y_vel (m/s): 1.02 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.44
+Velocity (m/s): 2.90
+dist_goal: 495.85358446877746
+dist_percorsa2D 12.063936560629097
+X_pos: -1.83 	X_vel (m/s): -2.75 	X_acc (m/s^2): -0.42
+Y_pos: 4.48 	Y_vel (m/s): 1.04 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.44
+Velocity (m/s): 2.94
+dist_goal: 495.7578651794655
+dist_percorsa2D 12.353520289416041
+X_pos: -2.11 	X_vel (m/s): -2.79 	X_acc (m/s^2): -0.42
+Y_pos: 4.59 	Y_vel (m/s): 1.05 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.45
+Velocity (m/s): 2.98
+dist_goal: 495.66085130638686
+dist_percorsa2D 12.647549215745313
+X_pos: -2.39 	X_vel (m/s): -2.84 	X_acc (m/s^2): -0.42
+Y_pos: 4.69 	Y_vel (m/s): 1.07 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.45
+Velocity (m/s): 3.03
+dist_goal: 495.56254516869404
+dist_percorsa2D 12.94604031323571
+X_pos: -2.68 	X_vel (m/s): -2.88 	X_acc (m/s^2): -0.42
+Y_pos: 4.80 	Y_vel (m/s): 1.08 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.44
+Velocity (m/s): 3.07
+dist_goal: 495.4629570215443
+dist_percorsa2D 13.248987459516151
+X_pos: -2.97 	X_vel (m/s): -2.92 	X_acc (m/s^2): -0.41
+Y_pos: 4.91 	Y_vel (m/s): 1.10 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.44
+Velocity (m/s): 3.12
+dist_goal: 495.3621024437803
+dist_percorsa2D 13.556369008785056
+X_pos: -3.27 	X_vel (m/s): -2.96 	X_acc (m/s^2): -0.41
+Y_pos: 5.02 	Y_vel (m/s): 1.11 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.44
+Velocity (m/s): 3.16
+dist_goal: 495.2599984613541
+dist_percorsa2D 13.868159201831224
+X_pos: -3.57 	X_vel (m/s): -3.00 	X_acc (m/s^2): -0.41
+Y_pos: 5.13 	Y_vel (m/s): 1.13 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.44
+Velocity (m/s): 3.21
+dist_goal: 495.1566593796875
+dist_percorsa2D 14.184340561553837
+X_pos: -3.87 	X_vel (m/s): -3.04 	X_acc (m/s^2): -0.41
+Y_pos: 5.25 	Y_vel (m/s): 1.14 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.44
+Velocity (m/s): 3.25
+dist_goal: 495.0520933678425
+dist_percorsa2D 14.504914174742344
+X_pos: -4.18 	X_vel (m/s): -3.08 	X_acc (m/s^2): -0.42
+Y_pos: 5.36 	Y_vel (m/s): 1.16 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.45
+Velocity (m/s): 3.29
+dist_goal: 494.94630064602813
+dist_percorsa2D 14.82990528887717
+X_pos: -4.49 	X_vel (m/s): -3.13 	X_acc (m/s^2): -0.43
+Y_pos: 5.48 	Y_vel (m/s): 1.17 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.45
+Velocity (m/s): 3.34
+dist_goal: 494.8392737243403
+dist_percorsa2D 15.159362824383074
+X_pos: -4.81 	X_vel (m/s): -3.17 	X_acc (m/s^2): -0.43
+Y_pos: 5.60 	Y_vel (m/s): 1.19 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.46
+Velocity (m/s): 3.39
+dist_goal: 494.7309996264352
+dist_percorsa2D 15.493352924782823
+X_pos: -5.13 	X_vel (m/s): -3.21 	X_acc (m/s^2): -0.44
+Y_pos: 5.72 	Y_vel (m/s): 1.21 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.47
+Velocity (m/s): 3.43
+dist_goal: 494.62146353605607
+dist_percorsa2D 15.831948158245407
+X_pos: -5.46 	X_vel (m/s): -3.26 	X_acc (m/s^2): -0.44
+Y_pos: 5.84 	Y_vel (m/s): 1.22 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.47
+Velocity (m/s): 3.48
+dist_goal: 494.5106529507954
+dist_percorsa2D 16.17521507083546
+X_pos: -5.79 	X_vel (m/s): -3.30 	X_acc (m/s^2): -0.45
+Y_pos: 5.97 	Y_vel (m/s): 1.24 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.47
+Velocity (m/s): 3.53
+dist_goal: 494.39856130399517
+dist_percorsa2D 16.52320320290715
+X_pos: -6.12 	X_vel (m/s): -3.35 	X_acc (m/s^2): -0.45
+Y_pos: 6.09 	Y_vel (m/s): 1.26 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.47
+Velocity (m/s): 3.57
+dist_goal: 494.28519015226914
+dist_percorsa2D 16.875938313605097
+X_pos: -6.46 	X_vel (m/s): -3.39 	X_acc (m/s^2): -0.44
+Y_pos: 6.22 	Y_vel (m/s): 1.27 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.47
+Velocity (m/s): 3.62
+dist_goal: 494.17054938775186
+dist_percorsa2D 17.23342150662912
+X_pos: -6.80 	X_vel (m/s): -3.44 	X_acc (m/s^2): -0.44
+Y_pos: 6.35 	Y_vel (m/s): 1.29 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.47
+Velocity (m/s): 3.67
+dist_goal: 494.05465542972877
+dist_percorsa2D 17.595634476062425
+X_pos: -7.15 	X_vel (m/s): -3.48 	X_acc (m/s^2): -0.44
+Y_pos: 6.48 	Y_vel (m/s): 1.30 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.47
+Velocity (m/s): 3.72
+dist_goal: 493.93752785546644
+dist_percorsa2D 17.96254956183637
+X_pos: -7.50 	X_vel (m/s): -3.52 	X_acc (m/s^2): -0.44
+Y_pos: 6.61 	Y_vel (m/s): 1.32 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.47
+Velocity (m/s): 3.76
+dist_goal: 493.81918531846213
+dist_percorsa2D 18.334142101867855
+X_pos: -7.86 	X_vel (m/s): -3.57 	X_acc (m/s^2): -0.44
+Y_pos: 6.74 	Y_vel (m/s): 1.34 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.47
+Velocity (m/s): 3.81
+dist_goal: 493.6996417771994
+dist_percorsa2D 18.710401992847206
+X_pos: -8.22 	X_vel (m/s): -3.61 	X_acc (m/s^2): -0.44
+Y_pos: 6.88 	Y_vel (m/s): 1.35 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.47
+Velocity (m/s): 3.86
+dist_goal: 493.5789039758393
+dist_percorsa2D 19.091341568714633
+X_pos: -8.59 	X_vel (m/s): -3.66 	X_acc (m/s^2): -0.45
+Y_pos: 7.02 	Y_vel (m/s): 1.37 	Y_acc (m/s^2): 0.16
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.48
+Velocity (m/s): 3.90
+dist_goal: 493.4569708015589
+dist_percorsa2D 19.476997826506196
+X_pos: -8.96 	X_vel (m/s): -3.70 	X_acc (m/s^2): -0.45
+Y_pos: 7.15 	Y_vel (m/s): 1.39 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.48
+Velocity (m/s): 3.95
+dist_goal: 493.3338346716848
+dist_percorsa2D 19.86742844323452
+X_pos: -9.33 	X_vel (m/s): -3.75 	X_acc (m/s^2): -0.46
+Y_pos: 7.30 	Y_vel (m/s): 1.40 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.49
+Velocity (m/s): 4.00
+dist_goal: 493.20948459595286
+dist_percorsa2D 20.262702580532757
+X_pos: -9.71 	X_vel (m/s): -3.79 	X_acc (m/s^2): -0.47
+Y_pos: 7.44 	Y_vel (m/s): 1.42 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.50
+Velocity (m/s): 4.05
+dist_goal: 493.0839101422504
+dist_percorsa2D 20.662888776900658
+X_pos: -10.10 	X_vel (m/s): -3.84 	X_acc (m/s^2): -0.47
+Y_pos: 7.58 	Y_vel (m/s): 1.44 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.50
+Velocity (m/s): 4.10
+dist_goal: 492.95710531181777
+dist_percorsa2D 21.068042954683566
+X_pos: -10.48 	X_vel (m/s): -3.89 	X_acc (m/s^2): -0.47
+Y_pos: 7.73 	Y_vel (m/s): 1.45 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.50
+Velocity (m/s): 4.15
+dist_goal: 492.8290713567913
+dist_percorsa2D 21.478199539268825
+X_pos: -10.88 	X_vel (m/s): -3.94 	X_acc (m/s^2): -0.47
+Y_pos: 7.87 	Y_vel (m/s): 1.47 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.50
+Velocity (m/s): 4.20
+dist_goal: 492.699817841377
+dist_percorsa2D 21.893367909712175
+X_pos: -11.28 	X_vel (m/s): -3.98 	X_acc (m/s^2): -0.47
+Y_pos: 8.02 	Y_vel (m/s): 1.49 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 4.25
+dist_goal: 492.56936168979536
+dist_percorsa2D 22.31353506791542
+X_pos: -11.68 	X_vel (m/s): -4.03 	X_acc (m/s^2): -0.46
+Y_pos: 8.17 	Y_vel (m/s): 1.51 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.49
+Velocity (m/s): 4.30
+dist_goal: 492.4377244683197
+dist_percorsa2D 22.73867385987774
+X_pos: -12.09 	X_vel (m/s): -4.08 	X_acc (m/s^2): -0.46
+Y_pos: 8.32 	Y_vel (m/s): 1.52 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.49
+Velocity (m/s): 4.35
+dist_goal: 492.3049285889223
+dist_percorsa2D 23.16875469484601
+X_pos: -12.50 	X_vel (m/s): -4.12 	X_acc (m/s^2): -0.46
+Y_pos: 8.48 	Y_vel (m/s): 1.54 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.49
+Velocity (m/s): 4.40
+dist_goal: 492.1709933883877
+dist_percorsa2D 23.60375783303336
+X_pos: -12.92 	X_vel (m/s): -4.17 	X_acc (m/s^2): -0.46
+Y_pos: 8.63 	Y_vel (m/s): 1.56 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.49
+Velocity (m/s): 4.45
+dist_goal: 492.035932063368
+dist_percorsa2D 24.043683169433432
+X_pos: -13.34 	X_vel (m/s): -4.21 	X_acc (m/s^2): -0.47
+Y_pos: 8.79 	Y_vel (m/s): 1.57 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 4.50
+dist_goal: 491.89975022318913
+dist_percorsa2D 24.488555066872646
+X_pos: -13.76 	X_vel (m/s): -4.26 	X_acc (m/s^2): -0.48
+Y_pos: 8.95 	Y_vel (m/s): 1.59 	Y_acc (m/s^2): 0.17
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 4.55
+dist_goal: 491.7624464142142
+dist_percorsa2D 24.938421029729312
+X_pos: -14.19 	X_vel (m/s): -4.31 	X_acc (m/s^2): -0.48
+Y_pos: 9.11 	Y_vel (m/s): 1.61 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.51
+Velocity (m/s): 4.60
+dist_goal: 491.62401447522603
+dist_percorsa2D 25.393344550571776
+X_pos: -14.63 	X_vel (m/s): -4.36 	X_acc (m/s^2): -0.49
+Y_pos: 9.27 	Y_vel (m/s): 1.63 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 4.65
+dist_goal: 491.4844471266347
+dist_percorsa2D 25.853393919207253
+X_pos: -15.07 	X_vel (m/s): -4.41 	X_acc (m/s^2): -0.49
+Y_pos: 9.44 	Y_vel (m/s): 1.64 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 4.70
+dist_goal: 491.34373989123446
+dist_percorsa2D 26.3186297925221
+X_pos: -15.52 	X_vel (m/s): -4.46 	X_acc (m/s^2): -0.49
+Y_pos: 9.60 	Y_vel (m/s): 1.66 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 4.76
+dist_goal: 491.201894366097
+dist_percorsa2D 26.78909463223099
+X_pos: -15.97 	X_vel (m/s): -4.51 	X_acc (m/s^2): -0.49
+Y_pos: 9.77 	Y_vel (m/s): 1.68 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 4.81
+dist_goal: 491.0589200323521
+dist_percorsa2D 27.264806650025108
+X_pos: -16.42 	X_vel (m/s): -4.56 	X_acc (m/s^2): -0.49
+Y_pos: 9.94 	Y_vel (m/s): 1.70 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 4.86
+dist_goal: 490.9148341590674
+dist_percorsa2D 27.74575977315912
+X_pos: -16.88 	X_vel (m/s): -4.60 	X_acc (m/s^2): -0.49
+Y_pos: 10.11 	Y_vel (m/s): 1.72 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 4.91
+dist_goal: 490.76965983591526
+dist_percorsa2D 28.231929639506628
+X_pos: -17.35 	X_vel (m/s): -4.65 	X_acc (m/s^2): -0.48
+Y_pos: 10.29 	Y_vel (m/s): 1.73 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 4.97
+dist_goal: 490.62342263664857
+dist_percorsa2D 28.723284124501514
+X_pos: -17.82 	X_vel (m/s): -4.70 	X_acc (m/s^2): -0.48
+Y_pos: 10.46 	Y_vel (m/s): 1.75 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 5.02
+dist_goal: 490.4761467547823
+dist_percorsa2D 29.219795769110448
+X_pos: -18.29 	X_vel (m/s): -4.75 	X_acc (m/s^2): -0.48
+Y_pos: 10.64 	Y_vel (m/s): 1.77 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 5.07
+dist_goal: 490.3278515800271
+dist_percorsa2D 29.721453001687788
+X_pos: -18.77 	X_vel (m/s): -4.80 	X_acc (m/s^2): -0.49
+Y_pos: 10.82 	Y_vel (m/s): 1.79 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 5.12
+dist_goal: 490.1785495683064
+dist_percorsa2D 30.228267347329414
+X_pos: -19.26 	X_vel (m/s): -4.85 	X_acc (m/s^2): -0.49
+Y_pos: 11.00 	Y_vel (m/s): 1.80 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 5.17
+dist_goal: 490.02824592996876
+dist_percorsa2D 30.740274821683034
+X_pos: -19.75 	X_vel (m/s): -4.90 	X_acc (m/s^2): -0.50
+Y_pos: 11.18 	Y_vel (m/s): 1.82 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.53
+Velocity (m/s): 5.23
+dist_goal: 489.8769402034799
+dist_percorsa2D 31.257531161034347
+X_pos: -20.24 	X_vel (m/s): -4.95 	X_acc (m/s^2): -0.51
+Y_pos: 11.36 	Y_vel (m/s): 1.84 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 5.28
+dist_goal: 489.724629310561
+dist_percorsa2D 31.78010208225109
+X_pos: -20.74 	X_vel (m/s): -5.00 	X_acc (m/s^2): -0.51
+Y_pos: 11.55 	Y_vel (m/s): 1.86 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 5.33
+dist_goal: 489.5713113212697
+dist_percorsa2D 32.308051008614065
+X_pos: -21.25 	X_vel (m/s): -5.05 	X_acc (m/s^2): -0.51
+Y_pos: 11.74 	Y_vel (m/s): 1.88 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 5.39
+dist_goal: 489.41698898500954
+dist_percorsa2D 32.84142733012427
+X_pos: -21.76 	X_vel (m/s): -5.10 	X_acc (m/s^2): -0.51
+Y_pos: 11.93 	Y_vel (m/s): 1.90 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 5.44
+dist_goal: 489.26167214775904
+dist_percorsa2D 33.38025813226997
+X_pos: -22.27 	X_vel (m/s): -5.15 	X_acc (m/s^2): -0.51
+Y_pos: 12.12 	Y_vel (m/s): 1.91 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 5.50
+dist_goal: 489.105378459438
+dist_percorsa2D 33.92454546004921
+X_pos: -22.79 	X_vel (m/s): -5.20 	X_acc (m/s^2): -0.51
+Y_pos: 12.31 	Y_vel (m/s): 1.93 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 5.55
+dist_goal: 488.94813220614054
+dist_percorsa2D 34.47426980117063
+X_pos: -23.32 	X_vel (m/s): -5.25 	X_acc (m/s^2): -0.51
+Y_pos: 12.51 	Y_vel (m/s): 1.95 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 5.61
+dist_goal: 488.7899615714242
+dist_percorsa2D 35.02939891863513
+X_pos: -23.85 	X_vel (m/s): -5.31 	X_acc (m/s^2): -0.50
+Y_pos: 12.70 	Y_vel (m/s): 1.97 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 5.66
+dist_goal: 488.630895021328
+dist_percorsa2D 35.589899825738364
+X_pos: -24.39 	X_vel (m/s): -5.36 	X_acc (m/s^2): -0.50
+Y_pos: 12.90 	Y_vel (m/s): 1.99 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 5.71
+dist_goal: 488.4709577220889
+dist_percorsa2D 36.15575091007071
+X_pos: -24.93 	X_vel (m/s): -5.41 	X_acc (m/s^2): -0.51
+Y_pos: 13.10 	Y_vel (m/s): 2.01 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 5.77
+dist_goal: 488.3101688851495
+dist_percorsa2D 36.72695117479103
+X_pos: -25.47 	X_vel (m/s): -5.46 	X_acc (m/s^2): -0.51
+Y_pos: 13.30 	Y_vel (m/s): 2.02 	Y_acc (m/s^2): 0.18
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 5.82
+dist_goal: 488.1485406961612
+dist_percorsa2D 37.30352428588366
+X_pos: -26.02 	X_vel (m/s): -5.51 	X_acc (m/s^2): -0.52
+Y_pos: 13.51 	Y_vel (m/s): 2.04 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 5.87
+dist_goal: 487.9860790843923
+dist_percorsa2D 37.88551641337712
+X_pos: -26.58 	X_vel (m/s): -5.56 	X_acc (m/s^2): -0.52
+Y_pos: 13.72 	Y_vel (m/s): 2.06 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 5.93
+dist_goal: 487.82278612752214
+dist_percorsa2D 38.47298840707193
+X_pos: -27.14 	X_vel (m/s): -5.61 	X_acc (m/s^2): -0.53
+Y_pos: 13.92 	Y_vel (m/s): 2.08 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 5.99
+dist_goal: 487.6586634799688
+dist_percorsa2D 39.06600426407389
+X_pos: -27.71 	X_vel (m/s): -5.67 	X_acc (m/s^2): -0.53
+Y_pos: 14.13 	Y_vel (m/s): 2.10 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 6.04
+dist_goal: 487.4937159618552
+dist_percorsa2D 39.664618771797755
+X_pos: -28.28 	X_vel (m/s): -5.72 	X_acc (m/s^2): -0.53
+Y_pos: 14.34 	Y_vel (m/s): 2.12 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 6.10
+dist_goal: 487.32795441196765
+dist_percorsa2D 40.26886741508829
+X_pos: -28.86 	X_vel (m/s): -5.77 	X_acc (m/s^2): -0.53
+Y_pos: 14.56 	Y_vel (m/s): 2.14 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 6.16
+dist_goal: 487.16139709846817
+dist_percorsa2D 40.87876106951637
+X_pos: -29.44 	X_vel (m/s): -5.83 	X_acc (m/s^2): -0.53
+Y_pos: 14.77 	Y_vel (m/s): 2.16 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 6.21
+dist_goal: 486.9940693465323
+dist_percorsa2D 41.49428680694922
+X_pos: -30.03 	X_vel (m/s): -5.88 	X_acc (m/s^2): -0.52
+Y_pos: 14.99 	Y_vel (m/s): 2.17 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 6.27
+dist_goal: 486.82600148998375
+dist_percorsa2D 42.11541461262415
+X_pos: -30.62 	X_vel (m/s): -5.93 	X_acc (m/s^2): -0.52
+Y_pos: 15.21 	Y_vel (m/s): 2.19 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 6.32
+dist_goal: 486.65722567180114
+dist_percorsa2D 42.742108335751254
+X_pos: -31.22 	X_vel (m/s): -5.98 	X_acc (m/s^2): -0.52
+Y_pos: 15.43 	Y_vel (m/s): 2.21 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 6.38
+dist_goal: 486.48777230178626
+dist_percorsa2D 43.37433813680194
+X_pos: -31.82 	X_vel (m/s): -6.03 	X_acc (m/s^2): -0.52
+Y_pos: 15.66 	Y_vel (m/s): 2.23 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 6.43
+dist_goal: 486.3176670587979
+dist_percorsa2D 44.01209131932172
+X_pos: -32.43 	X_vel (m/s): -6.09 	X_acc (m/s^2): -0.52
+Y_pos: 15.88 	Y_vel (m/s): 2.25 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 6.49
+dist_goal: 486.1469291816136
+dist_percorsa2D 44.65537883726992
+X_pos: -33.04 	X_vel (m/s): -6.14 	X_acc (m/s^2): -0.53
+Y_pos: 16.11 	Y_vel (m/s): 2.27 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 6.54
+dist_goal: 485.9755714644178
+dist_percorsa2D 45.304235850389915
+X_pos: -33.66 	X_vel (m/s): -6.19 	X_acc (m/s^2): -0.54
+Y_pos: 16.34 	Y_vel (m/s): 2.29 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 6.60
+dist_goal: 485.8036019437457
+dist_percorsa2D 45.958716189202036
+X_pos: -34.29 	X_vel (m/s): -6.25 	X_acc (m/s^2): -0.54
+Y_pos: 16.57 	Y_vel (m/s): 2.31 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 6.66
+dist_goal: 485.63102684157576
+dist_percorsa2D 46.618882114601654
+X_pos: -34.92 	X_vel (m/s): -6.30 	X_acc (m/s^2): -0.54
+Y_pos: 16.80 	Y_vel (m/s): 2.33 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 6.72
+dist_goal: 485.4578540194938
+dist_percorsa2D 47.28479193314543
+X_pos: -35.55 	X_vel (m/s): -6.36 	X_acc (m/s^2): -0.55
+Y_pos: 17.03 	Y_vel (m/s): 2.35 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 6.78
+dist_goal: 485.2840960778001
+dist_percorsa2D 47.95648856408521
+X_pos: -36.19 	X_vel (m/s): -6.41 	X_acc (m/s^2): -0.55
+Y_pos: 17.27 	Y_vel (m/s): 2.37 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 6.83
+dist_goal: 485.10977232966417
+dist_percorsa2D 48.63399191531124
+X_pos: -36.84 	X_vel (m/s): -6.46 	X_acc (m/s^2): -0.54
+Y_pos: 17.51 	Y_vel (m/s): 2.38 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 6.89
+dist_goal: 484.93490916810725
+dist_percorsa2D 49.31729697323482
+X_pos: -37.49 	X_vel (m/s): -6.52 	X_acc (m/s^2): -0.54
+Y_pos: 17.75 	Y_vel (m/s): 2.40 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 6.95
+dist_goal: 484.75953874921504
+dist_percorsa2D 50.00637808424768
+X_pos: -38.15 	X_vel (m/s): -6.57 	X_acc (m/s^2): -0.54
+Y_pos: 17.99 	Y_vel (m/s): 2.42 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 7.01
+dist_goal: 484.58369633618736
+dist_percorsa2D 50.70119835855904
+X_pos: -38.81 	X_vel (m/s): -6.63 	X_acc (m/s^2): -0.54
+Y_pos: 18.24 	Y_vel (m/s): 2.44 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 7.06
+dist_goal: 484.4074169800875
+dist_percorsa2D 51.40172184663259
+X_pos: -39.48 	X_vel (m/s): -6.68 	X_acc (m/s^2): -0.54
+Y_pos: 18.48 	Y_vel (m/s): 2.46 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 7.12
+dist_goal: 484.23073237237463
+dist_percorsa2D 52.107925444279346
+X_pos: -40.15 	X_vel (m/s): -6.73 	X_acc (m/s^2): -0.54
+Y_pos: 18.73 	Y_vel (m/s): 2.48 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 7.18
+dist_goal: 484.05366865325055
+dist_percorsa2D 52.81980754924304
+X_pos: -40.83 	X_vel (m/s): -6.79 	X_acc (m/s^2): -0.54
+Y_pos: 18.98 	Y_vel (m/s): 2.50 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 7.23
+dist_goal: 483.8762457133826
+dist_percorsa2D 53.53739130413694
+X_pos: -41.52 	X_vel (m/s): -6.84 	X_acc (m/s^2): -0.55
+Y_pos: 19.23 	Y_vel (m/s): 2.52 	Y_acc (m/s^2): 0.19
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 7.29
+dist_goal: 483.69847814830456
+dist_percorsa2D 54.26072161492388
+X_pos: -42.21 	X_vel (m/s): -6.90 	X_acc (m/s^2): -0.55
+Y_pos: 19.49 	Y_vel (m/s): 2.54 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 7.35
+dist_goal: 483.5203776106544
+dist_percorsa2D 54.98985669133083
+X_pos: -42.90 	X_vel (m/s): -6.95 	X_acc (m/s^2): -0.56
+Y_pos: 19.74 	Y_vel (m/s): 2.56 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 7.41
+dist_goal: 483.3419559591766
+dist_percorsa2D 55.724856225355495
+X_pos: -43.60 	X_vel (m/s): -7.01 	X_acc (m/s^2): -0.56
+Y_pos: 20.00 	Y_vel (m/s): 2.58 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 7.47
+dist_goal: 483.16322841080853
+dist_percorsa2D 56.46576916365702
+X_pos: -44.31 	X_vel (m/s): -7.07 	X_acc (m/s^2): -0.56
+Y_pos: 20.26 	Y_vel (m/s): 2.60 	Y_acc (m/s^2): 0.20
+Z_pos: 9.99 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 7.53
+dist_goal: 482.9842159096794
+dist_percorsa2D 57.2126241299608
+X_pos: -45.02 	X_vel (m/s): -7.12 	X_acc (m/s^2): -0.56
+Y_pos: 20.52 	Y_vel (m/s): 2.62 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 7.59
+dist_goal: 482.8049461305825
+dist_percorsa2D 57.96542489067193
+X_pos: -45.74 	X_vel (m/s): -7.18 	X_acc (m/s^2): -0.56
+Y_pos: 20.78 	Y_vel (m/s): 2.64 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 7.65
+dist_goal: 482.62545288158486
+dist_percorsa2D 58.72415199685518
+X_pos: -46.46 	X_vel (m/s): -7.23 	X_acc (m/s^2): -0.55
+Y_pos: 21.05 	Y_vel (m/s): 2.66 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 7.70
+dist_goal: 482.4457740727263
+dist_percorsa2D 59.488770192900944
+X_pos: -47.19 	X_vel (m/s): -7.29 	X_acc (m/s^2): -0.55
+Y_pos: 21.32 	Y_vel (m/s): 2.68 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 7.76
+dist_goal: 482.265948774013
+dist_percorsa2D 60.2592397410718
+X_pos: -47.93 	X_vel (m/s): -7.34 	X_acc (m/s^2): -0.55
+Y_pos: 21.59 	Y_vel (m/s): 2.70 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 7.82
+dist_goal: 482.08601410744194
+dist_percorsa2D 61.03552883148379
+X_pos: -48.67 	X_vel (m/s): -7.40 	X_acc (m/s^2): -0.55
+Y_pos: 21.86 	Y_vel (m/s): 2.72 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 7.88
+dist_goal: 481.9060027506203
+dist_percorsa2D 61.8176239745005
+X_pos: -49.41 	X_vel (m/s): -7.45 	X_acc (m/s^2): -0.55
+Y_pos: 22.13 	Y_vel (m/s): 2.73 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 7.94
+dist_goal: 481.72594166765793
+dist_percorsa2D 62.60553577631019
+X_pos: -50.16 	X_vel (m/s): -7.51 	X_acc (m/s^2): -0.56
+Y_pos: 22.41 	Y_vel (m/s): 2.75 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 8.00
+dist_goal: 481.54585236924527
+dist_percorsa2D 63.39929865321485
+X_pos: -50.92 	X_vel (m/s): -7.56 	X_acc (m/s^2): -0.56
+Y_pos: 22.69 	Y_vel (m/s): 2.77 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 8.06
+dist_goal: 481.3657526185048
+dist_percorsa2D 64.19896455666327
+X_pos: -51.68 	X_vel (m/s): -7.62 	X_acc (m/s^2): -0.57
+Y_pos: 22.97 	Y_vel (m/s): 2.79 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 8.12
+dist_goal: 481.1856591394435
+dist_percorsa2D 65.00459227909313
+X_pos: -52.45 	X_vel (m/s): -7.68 	X_acc (m/s^2): -0.57
+Y_pos: 23.25 	Y_vel (m/s): 2.81 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 8.18
+dist_goal: 481.0055906401344
+dist_percorsa2D 65.81623501502885
+X_pos: -53.22 	X_vel (m/s): -7.73 	X_acc (m/s^2): -0.57
+Y_pos: 23.53 	Y_vel (m/s): 2.83 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 8.24
+dist_goal: 480.82557039276713
+dist_percorsa2D 66.63392928686622
+X_pos: -54.00 	X_vel (m/s): -7.79 	X_acc (m/s^2): -0.57
+Y_pos: 23.82 	Y_vel (m/s): 2.85 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 8.30
+dist_goal: 480.6456277327913
+dist_percorsa2D 67.45768800271293
+X_pos: -54.78 	X_vel (m/s): -7.85 	X_acc (m/s^2): -0.57
+Y_pos: 24.10 	Y_vel (m/s): 2.87 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 8.36
+dist_goal: 480.46579811728316
+dist_percorsa2D 68.28749938091784
+X_pos: -55.58 	X_vel (m/s): -7.90 	X_acc (m/s^2): -0.56
+Y_pos: 24.39 	Y_vel (m/s): 2.89 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 8.42
+dist_goal: 480.28612174704386
+dist_percorsa2D 69.1233320104594
+X_pos: -56.37 	X_vel (m/s): -7.96 	X_acc (m/s^2): -0.56
+Y_pos: 24.68 	Y_vel (m/s): 2.91 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 8.48
+dist_goal: 480.1066411155577
+dist_percorsa2D 69.96514478339296
+X_pos: -57.17 	X_vel (m/s): -8.02 	X_acc (m/s^2): -0.56
+Y_pos: 24.98 	Y_vel (m/s): 2.93 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 8.54
+dist_goal: 479.9273981110735
+dist_percorsa2D 70.81289921737353
+X_pos: -57.98 	X_vel (m/s): -8.07 	X_acc (m/s^2): -0.56
+Y_pos: 25.27 	Y_vel (m/s): 2.95 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 8.60
+dist_goal: 479.74843140104133
+dist_percorsa2D 71.66657108760532
+X_pos: -58.79 	X_vel (m/s): -8.13 	X_acc (m/s^2): -0.56
+Y_pos: 25.57 	Y_vel (m/s): 2.97 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 8.66
+dist_goal: 479.5697747473625
+dist_percorsa2D 72.52615845919898
+X_pos: -59.61 	X_vel (m/s): -8.19 	X_acc (m/s^2): -0.56
+Y_pos: 25.87 	Y_vel (m/s): 2.99 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 8.72
+dist_goal: 479.3914566592369
+dist_percorsa2D 73.39168411087495
+X_pos: -60.44 	X_vel (m/s): -8.24 	X_acc (m/s^2): -0.57
+Y_pos: 26.17 	Y_vel (m/s): 3.01 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 8.78
+dist_goal: 479.2135014506303
+dist_percorsa2D 74.26319174416936
+X_pos: -61.27 	X_vel (m/s): -8.30 	X_acc (m/s^2): -0.58
+Y_pos: 26.47 	Y_vel (m/s): 3.03 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 8.84
+dist_goal: 479.0359314178914
+dist_percorsa2D 75.14073692699128
+X_pos: -62.10 	X_vel (m/s): -8.36 	X_acc (m/s^2): -0.58
+Y_pos: 26.78 	Y_vel (m/s): 3.05 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 8.90
+dist_goal: 478.8587695777611
+dist_percorsa2D 76.02437503689212
+X_pos: -62.94 	X_vel (m/s): -8.42 	X_acc (m/s^2): -0.58
+Y_pos: 27.09 	Y_vel (m/s): 3.07 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 8.96
+dist_goal: 478.6820422745244
+dist_percorsa2D 76.91414921849353
+X_pos: -63.79 	X_vel (m/s): -8.47 	X_acc (m/s^2): -0.58
+Y_pos: 27.40 	Y_vel (m/s): 3.09 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 9.02
+dist_goal: 478.5057810080924
+dist_percorsa2D 77.8100813647932
+X_pos: -64.64 	X_vel (m/s): -8.53 	X_acc (m/s^2): -0.58
+Y_pos: 27.71 	Y_vel (m/s): 3.11 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 9.08
+dist_goal: 478.3300230391305
+dist_percorsa2D 78.71216837582382
+X_pos: -65.50 	X_vel (m/s): -8.59 	X_acc (m/s^2): -0.58
+Y_pos: 28.02 	Y_vel (m/s): 3.13 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 9.14
+dist_goal: 478.15481063957844
+dist_percorsa2D 79.62038462973082
+X_pos: -66.37 	X_vel (m/s): -8.65 	X_acc (m/s^2): -0.57
+Y_pos: 28.34 	Y_vel (m/s): 3.15 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 9.20
+dist_goal: 477.98018919732107
+dist_percorsa2D 80.53469004949078
+X_pos: -67.24 	X_vel (m/s): -8.70 	X_acc (m/s^2): -0.57
+Y_pos: 28.65 	Y_vel (m/s): 3.17 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 9.26
+dist_goal: 477.80620466664175
+dist_percorsa2D 81.45504174997191
+X_pos: -68.11 	X_vel (m/s): -8.76 	X_acc (m/s^2): -0.57
+Y_pos: 28.97 	Y_vel (m/s): 3.19 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 9.32
+dist_goal: 477.6329010113808
+dist_percorsa2D 82.3814063541105
+X_pos: -69.00 	X_vel (m/s): -8.82 	X_acc (m/s^2): -0.57
+Y_pos: 29.29 	Y_vel (m/s): 3.21 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 9.38
+dist_goal: 477.4603182785894
+dist_percorsa2D 83.3137698984532
+X_pos: -69.88 	X_vel (m/s): -8.87 	X_acc (m/s^2): -0.57
+Y_pos: 29.62 	Y_vel (m/s): 3.23 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 9.44
+dist_goal: 477.2884917720077
+dist_percorsa2D 84.2521428505037
+X_pos: -70.78 	X_vel (m/s): -8.93 	X_acc (m/s^2): -0.58
+Y_pos: 29.94 	Y_vel (m/s): 3.25 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 9.51
+dist_goal: 477.11745251189325
+dist_percorsa2D 85.1965589830801
+X_pos: -71.67 	X_vel (m/s): -8.99 	X_acc (m/s^2): -0.58
+Y_pos: 30.27 	Y_vel (m/s): 3.27 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 9.57
+dist_goal: 476.94722884334846
+dist_percorsa2D 86.14706838786404
+X_pos: -72.58 	X_vel (m/s): -9.05 	X_acc (m/s^2): -0.59
+Y_pos: 30.60 	Y_vel (m/s): 3.29 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 9.63
+dist_goal: 476.7778487711435
+dist_percorsa2D 87.10372637613162
+X_pos: -73.49 	X_vel (m/s): -9.11 	X_acc (m/s^2): -0.59
+Y_pos: 30.93 	Y_vel (m/s): 3.31 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 9.69
+dist_goal: 476.6093424253247
+dist_percorsa2D 88.06658104227864
+X_pos: -74.41 	X_vel (m/s): -9.17 	X_acc (m/s^2): -0.59
+Y_pos: 31.26 	Y_vel (m/s): 3.33 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 9.75
+dist_goal: 476.4417440400931
+dist_percorsa2D 89.03566259879027
+X_pos: -75.33 	X_vel (m/s): -9.22 	X_acc (m/s^2): -0.59
+Y_pos: 31.60 	Y_vel (m/s): 3.35 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 9.82
+dist_goal: 476.27509296133076
+dist_percorsa2D 90.01097714766341
+X_pos: -76.26 	X_vel (m/s): -9.28 	X_acc (m/s^2): -0.58
+Y_pos: 31.94 	Y_vel (m/s): 3.37 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 9.88
+dist_goal: 476.1094334498508
+dist_percorsa2D 90.99250644463747
+X_pos: -77.19 	X_vel (m/s): -9.34 	X_acc (m/s^2): -0.58
+Y_pos: 32.28 	Y_vel (m/s): 3.39 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 9.94
+dist_goal: 475.94481335282666
+dist_percorsa2D 91.98021371567661
+X_pos: -78.13 	X_vel (m/s): -9.40 	X_acc (m/s^2): -0.58
+Y_pos: 32.62 	Y_vel (m/s): 3.41 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.00
+dist_goal: 475.78128199733834
+dist_percorsa2D 92.9740540729713
+X_pos: -79.08 	X_vel (m/s): -9.46 	X_acc (m/s^2): -0.57
+Y_pos: 32.96 	Y_vel (m/s): 3.43 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.06
+dist_goal: 475.6188878473161
+dist_percorsa2D 93.97398692748953
+X_pos: -80.03 	X_vel (m/s): -9.51 	X_acc (m/s^2): -0.57
+Y_pos: 33.31 	Y_vel (m/s): 3.45 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.12
+dist_goal: 475.45767651314816
+dist_percorsa2D 94.97998729473008
+X_pos: -80.99 	X_vel (m/s): -9.57 	X_acc (m/s^2): -0.58
+Y_pos: 33.65 	Y_vel (m/s): 3.47 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.18
+dist_goal: 475.29768960268325
+dist_percorsa2D 95.99205316609834
+X_pos: -81.95 	X_vel (m/s): -9.63 	X_acc (m/s^2): -0.58
+Y_pos: 34.00 	Y_vel (m/s): 3.49 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.24
+dist_goal: 475.13896468167593
+dist_percorsa2D 97.01020710215452
+X_pos: -82.92 	X_vel (m/s): -9.69 	X_acc (m/s^2): -0.58
+Y_pos: 34.35 	Y_vel (m/s): 3.51 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 10.30
+dist_goal: 474.9815363287984
+dist_percorsa2D 98.03449164967239
+X_pos: -83.89 	X_vel (m/s): -9.75 	X_acc (m/s^2): -0.59
+Y_pos: 34.71 	Y_vel (m/s): 3.53 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 10.37
+dist_goal: 474.82543799732474
+dist_percorsa2D 99.0649597295066
+X_pos: -84.87 	X_vel (m/s): -9.81 	X_acc (m/s^2): -0.59
+Y_pos: 35.06 	Y_vel (m/s): 3.55 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 10.43
+dist_goal: 474.6707042005146
+dist_percorsa2D 100.10166239949834
+X_pos: -85.86 	X_vel (m/s): -9.87 	X_acc (m/s^2): -0.59
+Y_pos: 35.42 	Y_vel (m/s): 3.57 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 10.49
+dist_goal: 474.51737246766135
+dist_percorsa2D 101.14463705178656
+X_pos: -86.85 	X_vel (m/s): -9.92 	X_acc (m/s^2): -0.59
+Y_pos: 35.78 	Y_vel (m/s): 3.60 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 10.56
+dist_goal: 474.3654845875868
+dist_percorsa2D 102.19389899414924
+X_pos: -87.85 	X_vel (m/s): -9.98 	X_acc (m/s^2): -0.59
+Y_pos: 36.14 	Y_vel (m/s): 3.62 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 10.62
+dist_goal: 474.21508684562815
+dist_percorsa2D 103.2494385188929
+X_pos: -88.85 	X_vel (m/s): -10.04 	X_acc (m/s^2): -0.59
+Y_pos: 36.51 	Y_vel (m/s): 3.64 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 10.68
+dist_goal: 474.0662292188586
+dist_percorsa2D 104.31122419198623
+X_pos: -89.86 	X_vel (m/s): -10.10 	X_acc (m/s^2): -0.58
+Y_pos: 36.87 	Y_vel (m/s): 3.66 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 10.74
+dist_goal: 473.9189637558686
+dist_percorsa2D 105.37921154129835
+X_pos: -90.88 	X_vel (m/s): -10.16 	X_acc (m/s^2): -0.58
+Y_pos: 37.24 	Y_vel (m/s): 3.68 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.80
+dist_goal: 473.77334256597084
+dist_percorsa2D 106.45335497323494
+X_pos: -91.90 	X_vel (m/s): -10.22 	X_acc (m/s^2): -0.58
+Y_pos: 37.61 	Y_vel (m/s): 3.69 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.86
+dist_goal: 473.6294159296566
+dist_percorsa2D 107.53361993897522
+X_pos: -92.93 	X_vel (m/s): -10.27 	X_acc (m/s^2): -0.58
+Y_pos: 37.98 	Y_vel (m/s): 3.71 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 10.93
+dist_goal: 473.4872309984165
+dist_percorsa2D 108.61999230788477
+X_pos: -93.96 	X_vel (m/s): -10.33 	X_acc (m/s^2): -0.58
+Y_pos: 38.35 	Y_vel (m/s): 3.73 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 10.99
+dist_goal: 473.34683139206356
+dist_percorsa2D 109.71248260357333
+X_pos: -95.00 	X_vel (m/s): -10.39 	X_acc (m/s^2): -0.59
+Y_pos: 38.73 	Y_vel (m/s): 3.75 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 11.05
+dist_goal: 473.2082577688021
+dist_percorsa2D 110.81112404327384
+X_pos: -96.05 	X_vel (m/s): -10.45 	X_acc (m/s^2): -0.59
+Y_pos: 39.11 	Y_vel (m/s): 3.77 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.11
+dist_goal: 473.07154919787695
+dist_percorsa2D 111.91596487162069
+X_pos: -97.10 	X_vel (m/s): -10.51 	X_acc (m/s^2): -0.60
+Y_pos: 39.49 	Y_vel (m/s): 3.79 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.17
+dist_goal: 472.9367449685833
+dist_percorsa2D 113.02705690677409
+X_pos: -98.15 	X_vel (m/s): -10.57 	X_acc (m/s^2): -0.60
+Y_pos: 39.87 	Y_vel (m/s): 3.82 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.24
+dist_goal: 472.803886370483
+dist_percorsa2D 114.14444316301349
+X_pos: -99.22 	X_vel (m/s): -10.63 	X_acc (m/s^2): -0.60
+Y_pos: 40.25 	Y_vel (m/s): 3.84 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.30
+dist_goal: 472.6730180000888
+dist_percorsa2D 115.26814764352069
+X_pos: -100.29 	X_vel (m/s): -10.69 	X_acc (m/s^2): -0.60
+Y_pos: 40.64 	Y_vel (m/s): 3.86 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.36
+dist_goal: 472.54418828077354
+dist_percorsa2D 116.39816985388488
+X_pos: -101.36 	X_vel (m/s): -10.75 	X_acc (m/s^2): -0.59
+Y_pos: 41.02 	Y_vel (m/s): 3.88 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.63
+Velocity (m/s): 11.43
+dist_goal: 472.4174490892301
+dist_percorsa2D 117.53448540731699
+X_pos: -102.44 	X_vel (m/s): -10.81 	X_acc (m/s^2): -0.59
+Y_pos: 41.41 	Y_vel (m/s): 3.90 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 11.49
+dist_goal: 472.2928546093107
+dist_percorsa2D 118.67705257095862
+X_pos: -103.53 	X_vel (m/s): -10.87 	X_acc (m/s^2): -0.58
+Y_pos: 41.80 	Y_vel (m/s): 3.92 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 11.55
+dist_goal: 472.17045972436347
+dist_percorsa2D 119.82582311814568
+X_pos: -104.62 	X_vel (m/s): -10.92 	X_acc (m/s^2): -0.58
+Y_pos: 42.20 	Y_vel (m/s): 3.94 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 11.61
+dist_goal: 472.05031836512813
+dist_percorsa2D 120.98075477445585
+X_pos: -105.72 	X_vel (m/s): -10.98 	X_acc (m/s^2): -0.58
+Y_pos: 42.59 	Y_vel (m/s): 3.95 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 11.67
+dist_goal: 471.9324822276004
+dist_percorsa2D 122.14182214562896
+X_pos: -106.82 	X_vel (m/s): -11.04 	X_acc (m/s^2): -0.58
+Y_pos: 42.99 	Y_vel (m/s): 3.97 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 11.73
+dist_goal: 471.8170001682411
+dist_percorsa2D 123.30902339416882
+X_pos: -107.93 	X_vel (m/s): -11.10 	X_acc (m/s^2): -0.59
+Y_pos: 43.39 	Y_vel (m/s): 3.99 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 11.80
+dist_goal: 471.7039184030867
+dist_percorsa2D 124.48238099467149
+X_pos: -109.05 	X_vel (m/s): -11.16 	X_acc (m/s^2): -0.59
+Y_pos: 43.79 	Y_vel (m/s): 4.01 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 11.86
+dist_goal: 471.5932814309123
+dist_percorsa2D 125.66193637947161
+X_pos: -110.17 	X_vel (m/s): -11.22 	X_acc (m/s^2): -0.60
+Y_pos: 44.20 	Y_vel (m/s): 4.03 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.92
+dist_goal: 471.4851334215218
+dist_percorsa2D 126.84773981453503
+X_pos: -111.30 	X_vel (m/s): -11.28 	X_acc (m/s^2): -0.60
+Y_pos: 44.60 	Y_vel (m/s): 4.05 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 11.98
+dist_goal: 471.37951970267306
+dist_percorsa2D 128.0398380377313
+X_pos: -112.43 	X_vel (m/s): -11.34 	X_acc (m/s^2): -0.60
+Y_pos: 45.01 	Y_vel (m/s): 4.07 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.05
+dist_goal: 471.2764879677691
+dist_percorsa2D 129.238262749836
+X_pos: -113.57 	X_vel (m/s): -11.40 	X_acc (m/s^2): -0.60
+Y_pos: 45.42 	Y_vel (m/s): 4.09 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.11
+dist_goal: 471.1760889108978
+dist_percorsa2D 130.44302283437395
+X_pos: -114.72 	X_vel (m/s): -11.46 	X_acc (m/s^2): -0.60
+Y_pos: 45.83 	Y_vel (m/s): 4.11 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.17
+dist_goal: 471.07837615150464
+dist_percorsa2D 131.65410225028813
+X_pos: -115.87 	X_vel (m/s): -11.52 	X_acc (m/s^2): -0.59
+Y_pos: 46.24 	Y_vel (m/s): 4.13 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 12.24
+dist_goal: 470.98340549593263
+dist_percorsa2D 132.87146412438307
+X_pos: -117.03 	X_vel (m/s): -11.58 	X_acc (m/s^2): -0.59
+Y_pos: 46.66 	Y_vel (m/s): 4.15 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 12.30
+dist_goal: 470.8912337490063
+dist_percorsa2D 134.0950600216931
+X_pos: -118.19 	X_vel (m/s): -11.63 	X_acc (m/s^2): -0.58
+Y_pos: 47.08 	Y_vel (m/s): 4.17 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 12.36
+dist_goal: 470.80191739392325
+dist_percorsa2D 135.3248420774643
+X_pos: -119.36 	X_vel (m/s): -11.69 	X_acc (m/s^2): -0.58
+Y_pos: 47.50 	Y_vel (m/s): 4.19 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 12.42
+dist_goal: 470.71551147832946
+dist_percorsa2D 136.560774957926
+X_pos: -120.53 	X_vel (m/s): -11.75 	X_acc (m/s^2): -0.58
+Y_pos: 47.92 	Y_vel (m/s): 4.21 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 12.48
+dist_goal: 470.63206897704896
+dist_percorsa2D 137.8028446586599
+X_pos: -121.72 	X_vel (m/s): -11.81 	X_acc (m/s^2): -0.59
+Y_pos: 48.34 	Y_vel (m/s): 4.23 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 12.54
+dist_goal: 470.55164076855107
+dist_percorsa2D 139.05106193983926
+X_pos: -122.90 	X_vel (m/s): -11.87 	X_acc (m/s^2): -0.59
+Y_pos: 48.76 	Y_vel (m/s): 4.25 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 12.61
+dist_goal: 470.47427619995113
+dist_percorsa2D 140.30545953938363
+X_pos: -124.09 	X_vel (m/s): -11.93 	X_acc (m/s^2): -0.60
+Y_pos: 49.19 	Y_vel (m/s): 4.27 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.67
+dist_goal: 470.40002406693907
+dist_percorsa2D 141.56608386179542
+X_pos: -125.29 	X_vel (m/s): -11.99 	X_acc (m/s^2): -0.60
+Y_pos: 49.62 	Y_vel (m/s): 4.29 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.73
+dist_goal: 470.3289337378178
+dist_percorsa2D 142.83298322183364
+X_pos: -126.50 	X_vel (m/s): -12.05 	X_acc (m/s^2): -0.60
+Y_pos: 50.05 	Y_vel (m/s): 4.31 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.80
+dist_goal: 470.2610561273782
+dist_percorsa2D 144.10619558259998
+X_pos: -127.71 	X_vel (m/s): -12.11 	X_acc (m/s^2): -0.60
+Y_pos: 50.49 	Y_vel (m/s): 4.33 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.86
+dist_goal: 470.1964442794366
+dist_percorsa2D 145.3857388527413
+X_pos: -128.93 	X_vel (m/s): -12.17 	X_acc (m/s^2): -0.60
+Y_pos: 50.92 	Y_vel (m/s): 4.35 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 12.92
+dist_goal: 470.13515342955566
+dist_percorsa2D 146.67160616721645
+X_pos: -130.15 	X_vel (m/s): -12.23 	X_acc (m/s^2): -0.59
+Y_pos: 51.36 	Y_vel (m/s): 4.37 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 12.98
+dist_goal: 470.0772405600228
+dist_percorsa2D 147.96376733097446
+X_pos: -131.38 	X_vel (m/s): -12.29 	X_acc (m/s^2): -0.59
+Y_pos: 51.80 	Y_vel (m/s): 4.39 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 13.05
+dist_goal: 470.02276358969283
+dist_percorsa2D 149.2621760654828
+X_pos: -132.61 	X_vel (m/s): -12.34 	X_acc (m/s^2): -0.58
+Y_pos: 52.24 	Y_vel (m/s): 4.41 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 13.11
+dist_goal: 469.9717804279649
+dist_percorsa2D 150.56678124791463
+X_pos: -133.85 	X_vel (m/s): -12.40 	X_acc (m/s^2): -0.58
+Y_pos: 52.68 	Y_vel (m/s): 4.43 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 13.17
+dist_goal: 469.92434814415424
+dist_percorsa2D 151.87753933392895
+X_pos: -135.10 	X_vel (m/s): -12.46 	X_acc (m/s^2): -0.58
+Y_pos: 53.13 	Y_vel (m/s): 4.45 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 13.23
+dist_goal: 469.880522458276
+dist_percorsa2D 153.19442485777353
+X_pos: -136.35 	X_vel (m/s): -12.52 	X_acc (m/s^2): -0.58
+Y_pos: 53.57 	Y_vel (m/s): 4.47 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 13.29
+dist_goal: 469.8403576623978
+dist_percorsa2D 154.51743638344385
+X_pos: -137.61 	X_vel (m/s): -12.58 	X_acc (m/s^2): -0.59
+Y_pos: 54.02 	Y_vel (m/s): 4.49 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 13.35
+dist_goal: 469.8039069618031
+dist_percorsa2D 155.8465964184389
+X_pos: -138.87 	X_vel (m/s): -12.64 	X_acc (m/s^2): -0.59
+Y_pos: 54.47 	Y_vel (m/s): 4.51 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 13.42
+dist_goal: 469.7712231153732
+dist_percorsa2D 157.1819453122625
+X_pos: -140.14 	X_vel (m/s): -12.70 	X_acc (m/s^2): -0.60
+Y_pos: 54.92 	Y_vel (m/s): 4.53 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 13.48
+dist_goal: 469.74235918339645
+dist_percorsa2D 158.5235306664267
+X_pos: -141.42 	X_vel (m/s): -12.76 	X_acc (m/s^2): -0.60
+Y_pos: 55.38 	Y_vel (m/s): 4.55 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 13.54
+dist_goal: 469.71736917519985
+dist_percorsa2D 159.87139490444193
+X_pos: -142.70 	X_vel (m/s): -12.82 	X_acc (m/s^2): -0.60
+Y_pos: 55.84 	Y_vel (m/s): 4.57 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 13.61
+dist_goal: 469.696308429755
+dist_percorsa2D 161.22556410904244
+X_pos: -143.99 	X_vel (m/s): -12.88 	X_acc (m/s^2): -0.60
+Y_pos: 56.29 	Y_vel (m/s): 4.59 	Y_acc (m/s^2): 0.20
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 13.67
+dist_goal: 469.67923364581344
+dist_percorsa2D 162.58604091614936
+X_pos: -145.28 	X_vel (m/s): -12.94 	X_acc (m/s^2): -0.59
+Y_pos: 56.75 	Y_vel (m/s): 4.60 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 13.73
+dist_goal: 469.6662025793877
+dist_percorsa2D 163.95280324115336
+X_pos: -146.58 	X_vel (m/s): -12.99 	X_acc (m/s^2): -0.59
+Y_pos: 57.22 	Y_vel (m/s): 4.62 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): -0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 13.79
+dist_goal: 469.6572735168117
+dist_percorsa2D 165.32580915625616
+X_pos: -147.88 	X_vel (m/s): -13.05 	X_acc (m/s^2): -0.58
+Y_pos: 57.68 	Y_vel (m/s): 4.64 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 13.85
+dist_goal: 469.65250468650606
+dist_percorsa2D 166.705006700876
+X_pos: -149.19 	X_vel (m/s): -13.11 	X_acc (m/s^2): -0.58
+Y_pos: 58.15 	Y_vel (m/s): 4.66 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 13.91
+dist_goal: 469.6519537781554
+dist_percorsa2D 168.09034617368496
+X_pos: -150.51 	X_vel (m/s): -13.17 	X_acc (m/s^2): -0.58
+Y_pos: 58.62 	Y_vel (m/s): 4.68 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 13.98
+dist_goal: 469.6556776951552
+dist_percorsa2D 169.48179183324575
+X_pos: -151.83 	X_vel (m/s): -13.23 	X_acc (m/s^2): -0.58
+Y_pos: 59.09 	Y_vel (m/s): 4.70 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.04
+dist_goal: 469.66373258975875
+dist_percorsa2D 170.8793300809923
+X_pos: -153.16 	X_vel (m/s): -13.29 	X_acc (m/s^2): -0.58
+Y_pos: 59.56 	Y_vel (m/s): 4.72 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.10
+dist_goal: 469.6761741442537
+dist_percorsa2D 172.2829720797538
+X_pos: -154.50 	X_vel (m/s): -13.34 	X_acc (m/s^2): -0.59
+Y_pos: 60.03 	Y_vel (m/s): 4.74 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 14.16
+dist_goal: 469.6930579912732
+dist_percorsa2D 173.69275015322134
+X_pos: -155.84 	X_vel (m/s): -13.40 	X_acc (m/s^2): -0.59
+Y_pos: 60.51 	Y_vel (m/s): 4.76 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 14.22
+dist_goal: 469.7144401316503
+dist_percorsa2D 175.10870886764872
+X_pos: -157.18 	X_vel (m/s): -13.46 	X_acc (m/s^2): -0.60
+Y_pos: 60.98 	Y_vel (m/s): 4.78 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 14.28
+dist_goal: 469.74037721752535
+dist_percorsa2D 176.53089302666262
+X_pos: -158.54 	X_vel (m/s): -13.52 	X_acc (m/s^2): -0.60
+Y_pos: 61.46 	Y_vel (m/s): 4.80 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 14.35
+dist_goal: 469.77092661711606
+dist_percorsa2D 177.9593355808014
+X_pos: -159.89 	X_vel (m/s): -13.58 	X_acc (m/s^2): -0.60
+Y_pos: 61.95 	Y_vel (m/s): 4.82 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.63
+Velocity (m/s): 14.41
+dist_goal: 469.80614624986583
+dist_percorsa2D 179.3940484735074
+X_pos: -161.26 	X_vel (m/s): -13.64 	X_acc (m/s^2): -0.59
+Y_pos: 62.43 	Y_vel (m/s): 4.83 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 14.47
+dist_goal: 469.8460942543593
+dist_percorsa2D 180.83501871088345
+X_pos: -162.63 	X_vel (m/s): -13.70 	X_acc (m/s^2): -0.59
+Y_pos: 62.91 	Y_vel (m/s): 4.85 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.62
+Velocity (m/s): 14.53
+dist_goal: 469.89082860409763
+dist_percorsa2D 182.28221063750112
+X_pos: -164.00 	X_vel (m/s): -13.76 	X_acc (m/s^2): -0.58
+Y_pos: 63.40 	Y_vel (m/s): 4.87 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.60
+dist_goal: 469.9404068018928
+dist_percorsa2D 183.73557385030966
+X_pos: -165.39 	X_vel (m/s): -13.82 	X_acc (m/s^2): -0.58
+Y_pos: 63.89 	Y_vel (m/s): 4.89 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.66
+dist_goal: 469.9948857573084
+dist_percorsa2D 185.19505477356802
+X_pos: -166.77 	X_vel (m/s): -13.87 	X_acc (m/s^2): -0.58
+Y_pos: 64.38 	Y_vel (m/s): 4.91 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.72
+dist_goal: 470.05432189122456
+dist_percorsa2D 186.66060900161435
+X_pos: -168.17 	X_vel (m/s): -13.93 	X_acc (m/s^2): -0.58
+Y_pos: 64.87 	Y_vel (m/s): 4.93 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.78
+dist_goal: 470.11877143600157
+dist_percorsa2D 188.13221132305233
+X_pos: -169.56 	X_vel (m/s): -13.99 	X_acc (m/s^2): -0.58
+Y_pos: 65.37 	Y_vel (m/s): 4.95 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.84
+dist_goal: 470.1882908327698
+dist_percorsa2D 189.60986091908006
+X_pos: -170.97 	X_vel (m/s): -14.05 	X_acc (m/s^2): -0.58
+Y_pos: 65.87 	Y_vel (m/s): 4.97 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 14.90
+dist_goal: 470.26293709056284
+dist_percorsa2D 191.09358043586565
+X_pos: -172.38 	X_vel (m/s): -14.11 	X_acc (m/s^2): -0.59
+Y_pos: 66.36 	Y_vel (m/s): 4.98 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 14.96
+dist_goal: 470.34276797768786
+dist_percorsa2D 192.58340916361445
+X_pos: -173.80 	X_vel (m/s): -14.16 	X_acc (m/s^2): -0.59
+Y_pos: 66.86 	Y_vel (m/s): 5.00 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 15.02
+dist_goal: 470.42784196323015
+dist_percorsa2D 194.07939202894573
+X_pos: -175.22 	X_vel (m/s): -14.22 	X_acc (m/s^2): -0.59
+Y_pos: 67.37 	Y_vel (m/s): 5.02 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 15.08
+dist_goal: 470.5182179024695
+dist_percorsa2D 195.58156715332444
+X_pos: -176.65 	X_vel (m/s): -14.28 	X_acc (m/s^2): -0.59
+Y_pos: 67.87 	Y_vel (m/s): 5.04 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 15.15
+dist_goal: 470.613954541962
+dist_percorsa2D 197.08995508752855
+X_pos: -178.08 	X_vel (m/s): -14.34 	X_acc (m/s^2): -0.59
+Y_pos: 68.38 	Y_vel (m/s): 5.06 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.62
+Velocity (m/s): 15.21
+dist_goal: 470.7151099833856
+dist_percorsa2D 198.60455241232916
+X_pos: -179.52 	X_vel (m/s): -14.40 	X_acc (m/s^2): -0.58
+Y_pos: 68.88 	Y_vel (m/s): 5.08 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.27
+dist_goal: 470.82174126982636
+dist_percorsa2D 200.12533130443933
+X_pos: -180.97 	X_vel (m/s): -14.46 	X_acc (m/s^2): -0.58
+Y_pos: 69.39 	Y_vel (m/s): 5.10 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.61
+Velocity (m/s): 15.33
+dist_goal: 470.93390423424484
+dist_percorsa2D 201.65224517673693
+X_pos: -182.42 	X_vel (m/s): -14.52 	X_acc (m/s^2): -0.58
+Y_pos: 69.91 	Y_vel (m/s): 5.12 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 15.39
+dist_goal: 471.0516536813873
+dist_percorsa2D 203.18523898408134
+X_pos: -183.88 	X_vel (m/s): -14.57 	X_acc (m/s^2): -0.57
+Y_pos: 70.42 	Y_vel (m/s): 5.13 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 15.45
+dist_goal: 471.17504387885464
+dist_percorsa2D 204.72426161929718
+X_pos: -185.34 	X_vel (m/s): -14.63 	X_acc (m/s^2): -0.57
+Y_pos: 70.93 	Y_vel (m/s): 5.15 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 15.51
+dist_goal: 471.3041292372783
+dist_percorsa2D 206.26927730011752
+X_pos: -186.81 	X_vel (m/s): -14.69 	X_acc (m/s^2): -0.57
+Y_pos: 71.45 	Y_vel (m/s): 5.17 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 15.57
+dist_goal: 471.43896499237746
+dist_percorsa2D 207.82027309919664
+X_pos: -188.28 	X_vel (m/s): -14.74 	X_acc (m/s^2): -0.57
+Y_pos: 71.97 	Y_vel (m/s): 5.19 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 15.63
+dist_goal: 471.57960768517864
+dist_percorsa2D 209.37726073374827
+X_pos: -189.76 	X_vel (m/s): -14.80 	X_acc (m/s^2): -0.58
+Y_pos: 72.49 	Y_vel (m/s): 5.21 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.69
+dist_goal: 471.72611527911243
+dist_percorsa2D 210.94027216760372
+X_pos: -191.25 	X_vel (m/s): -14.86 	X_acc (m/s^2): -0.58
+Y_pos: 73.01 	Y_vel (m/s): 5.22 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.75
+dist_goal: 471.87854684529066
+dist_percorsa2D 212.50935012640414
+X_pos: -192.74 	X_vel (m/s): -14.92 	X_acc (m/s^2): -0.59
+Y_pos: 73.54 	Y_vel (m/s): 5.24 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.81
+dist_goal: 472.03696186615434
+dist_percorsa2D 214.084535898332
+X_pos: -194.24 	X_vel (m/s): -14.98 	X_acc (m/s^2): -0.59
+Y_pos: 74.06 	Y_vel (m/s): 5.26 	Y_acc (m/s^2): 0.19
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.88
+dist_goal: 472.2014193203444
+dist_percorsa2D 215.66585747034756
+X_pos: -195.74 	X_vel (m/s): -15.04 	X_acc (m/s^2): -0.58
+Y_pos: 74.59 	Y_vel (m/s): 5.28 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 15.94
+dist_goal: 472.37197678579304
+dist_percorsa2D 217.25332096489606
+X_pos: -197.25 	X_vel (m/s): -15.09 	X_acc (m/s^2): -0.58
+Y_pos: 75.12 	Y_vel (m/s): 5.30 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 16.00
+dist_goal: 472.5486898106103
+dist_percorsa2D 218.84690751681336
+X_pos: -198.77 	X_vel (m/s): -15.15 	X_acc (m/s^2): -0.58
+Y_pos: 75.65 	Y_vel (m/s): 5.32 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 16.06
+dist_goal: 472.73161174503105
+dist_percorsa2D 220.44657637112257
+X_pos: -200.29 	X_vel (m/s): -15.21 	X_acc (m/s^2): -0.57
+Y_pos: 76.19 	Y_vel (m/s): 5.33 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 16.12
+dist_goal: 472.92079411367575
+dist_percorsa2D 222.05227342837992
+X_pos: -201.81 	X_vel (m/s): -15.27 	X_acc (m/s^2): -0.57
+Y_pos: 76.72 	Y_vel (m/s): 5.35 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.18
+dist_goal: 473.11628746341614
+dist_percorsa2D 223.66394310255268
+X_pos: -203.35 	X_vel (m/s): -15.32 	X_acc (m/s^2): -0.56
+Y_pos: 77.26 	Y_vel (m/s): 5.37 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.24
+dist_goal: 473.3181424862164
+dist_percorsa2D 225.28154052731455
+X_pos: -204.89 	X_vel (m/s): -15.38 	X_acc (m/s^2): -0.56
+Y_pos: 77.80 	Y_vel (m/s): 5.39 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.29
+dist_goal: 473.52641112682704
+dist_percorsa2D 226.90504105833313
+X_pos: -206.43 	X_vel (m/s): -15.44 	X_acc (m/s^2): -0.57
+Y_pos: 78.34 	Y_vel (m/s): 5.40 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.35
+dist_goal: 473.74114737008153
+dist_percorsa2D 228.5344446948035
+X_pos: -207.98 	X_vel (m/s): -15.49 	X_acc (m/s^2): -0.57
+Y_pos: 78.88 	Y_vel (m/s): 5.42 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 16.41
+dist_goal: 473.9624074705193
+dist_percorsa2D 230.16977431450223
+X_pos: -209.53 	X_vel (m/s): -15.55 	X_acc (m/s^2): -0.57
+Y_pos: 79.42 	Y_vel (m/s): 5.44 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 16.47
+dist_goal: 474.1902495240935
+dist_percorsa2D 231.81106816446353
+X_pos: -211.09 	X_vel (m/s): -15.61 	X_acc (m/s^2): -0.58
+Y_pos: 79.97 	Y_vel (m/s): 5.46 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 16.53
+dist_goal: 474.4247324538603
+dist_percorsa2D 233.45836848596045
+X_pos: -212.66 	X_vel (m/s): -15.67 	X_acc (m/s^2): -0.58
+Y_pos: 80.52 	Y_vel (m/s): 5.48 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 16.59
+dist_goal: 474.6659146436463
+dist_percorsa2D 235.11170911822302
+X_pos: -214.23 	X_vel (m/s): -15.72 	X_acc (m/s^2): -0.58
+Y_pos: 81.07 	Y_vel (m/s): 5.49 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.61
+Velocity (m/s): 16.66
+dist_goal: 474.91385256141547
+dist_percorsa2D 236.77110517941546
+X_pos: -215.81 	X_vel (m/s): -15.78 	X_acc (m/s^2): -0.57
+Y_pos: 81.62 	Y_vel (m/s): 5.51 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 16.72
+dist_goal: 475.1685997358948
+dist_percorsa2D 238.4365474034459
+X_pos: -217.39 	X_vel (m/s): -15.84 	X_acc (m/s^2): -0.57
+Y_pos: 82.17 	Y_vel (m/s): 5.53 	Y_acc (m/s^2): 0.18
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.60
+Velocity (m/s): 16.78
+dist_goal: 475.43020637595623
+dist_percorsa2D 240.108002547804
+X_pos: -218.98 	X_vel (m/s): -15.89 	X_acc (m/s^2): -0.56
+Y_pos: 82.73 	Y_vel (m/s): 5.55 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.83
+dist_goal: 475.69871976715575
+dist_percorsa2D 241.78541977111854
+X_pos: -220.58 	X_vel (m/s): -15.95 	X_acc (m/s^2): -0.56
+Y_pos: 83.28 	Y_vel (m/s): 5.56 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 16.89
+dist_goal: 475.9741853806674
+dist_percorsa2D 243.46874138741592
+X_pos: -222.18 	X_vel (m/s): -16.01 	X_acc (m/s^2): -0.56
+Y_pos: 83.84 	Y_vel (m/s): 5.58 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 16.95
+dist_goal: 476.25664843726145
+dist_percorsa2D 245.1579153093743
+X_pos: -223.79 	X_vel (m/s): -16.06 	X_acc (m/s^2): -0.56
+Y_pos: 84.40 	Y_vel (m/s): 5.60 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 17.01
+dist_goal: 476.5461555347659
+dist_percorsa2D 246.85290606937812
+X_pos: -225.40 	X_vel (m/s): -16.12 	X_acc (m/s^2): -0.56
+Y_pos: 84.96 	Y_vel (m/s): 5.62 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 17.07
+dist_goal: 476.842755910634
+dist_percorsa2D 248.55370166193853
+X_pos: -227.01 	X_vel (m/s): -16.17 	X_acc (m/s^2): -0.56
+Y_pos: 85.52 	Y_vel (m/s): 5.63 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.59
+Velocity (m/s): 17.13
+dist_goal: 477.14650198661354
+dist_percorsa2D 250.2603144960748
+X_pos: -228.64 	X_vel (m/s): -16.23 	X_acc (m/s^2): -0.56
+Y_pos: 86.09 	Y_vel (m/s): 5.65 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 17.18
+dist_goal: 477.4574490152235
+dist_percorsa2D 251.9727762199301
+X_pos: -230.27 	X_vel (m/s): -16.29 	X_acc (m/s^2): -0.57
+Y_pos: 86.66 	Y_vel (m/s): 5.67 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 17.24
+dist_goal: 477.7756538760505
+dist_percorsa2D 253.6911277127308
+X_pos: -231.90 	X_vel (m/s): -16.34 	X_acc (m/s^2): -0.57
+Y_pos: 87.22 	Y_vel (m/s): 5.68 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 17.30
+dist_goal: 478.10117329544363
+dist_percorsa2D 255.41540674717962
+X_pos: -233.54 	X_vel (m/s): -16.40 	X_acc (m/s^2): -0.57
+Y_pos: 87.79 	Y_vel (m/s): 5.70 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.60
+Velocity (m/s): 17.36
+dist_goal: 478.4340619263375
+dist_percorsa2D 257.1456364066637
+X_pos: -235.19 	X_vel (m/s): -16.46 	X_acc (m/s^2): -0.57
+Y_pos: 88.37 	Y_vel (m/s): 5.72 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 17.42
+dist_goal: 478.7743707803988
+dist_percorsa2D 258.8818171519545
+X_pos: -236.84 	X_vel (m/s): -16.51 	X_acc (m/s^2): -0.56
+Y_pos: 88.94 	Y_vel (m/s): 5.74 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.59
+Velocity (m/s): 17.48
+dist_goal: 479.1221464338685
+dist_percorsa2D 260.6239245197517
+X_pos: -238.49 	X_vel (m/s): -16.57 	X_acc (m/s^2): -0.56
+Y_pos: 89.52 	Y_vel (m/s): 5.75 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 17.54
+dist_goal: 479.47743124482855
+dist_percorsa2D 262.37191302853995
+X_pos: -240.16 	X_vel (m/s): -16.62 	X_acc (m/s^2): -0.55
+Y_pos: 90.09 	Y_vel (m/s): 5.77 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.58
+Velocity (m/s): 17.60
+dist_goal: 479.8402645663184
+dist_percorsa2D 264.12572531647083
+X_pos: -241.82 	X_vel (m/s): -16.68 	X_acc (m/s^2): -0.55
+Y_pos: 90.67 	Y_vel (m/s): 5.79 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 17.65
+dist_goal: 480.21068467975266
+dist_percorsa2D 265.88530422800164
+X_pos: -243.50 	X_vel (m/s): -16.73 	X_acc (m/s^2): -0.55
+Y_pos: 91.25 	Y_vel (m/s): 5.80 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 17.71
+dist_goal: 480.5887309740493
+dist_percorsa2D 267.6506048277962
+X_pos: -245.18 	X_vel (m/s): -16.79 	X_acc (m/s^2): -0.55
+Y_pos: 91.83 	Y_vel (m/s): 5.82 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 17.77
+dist_goal: 480.9744458125603
+dist_percorsa2D 269.42160333747336
+X_pos: -246.86 	X_vel (m/s): -16.84 	X_acc (m/s^2): -0.55
+Y_pos: 92.42 	Y_vel (m/s): 5.84 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 17.83
+dist_goal: 481.36787558903114
+dist_percorsa2D 271.1983007599319
+X_pos: -248.55 	X_vel (m/s): -16.90 	X_acc (m/s^2): -0.55
+Y_pos: 93.00 	Y_vel (m/s): 5.85 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 17.88
+dist_goal: 481.7690706655328
+dist_percorsa2D 272.980720285005
+X_pos: -250.25 	X_vel (m/s): -16.95 	X_acc (m/s^2): -0.56
+Y_pos: 93.59 	Y_vel (m/s): 5.87 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 17.94
+dist_goal: 482.17808416425265
+dist_percorsa2D 274.76889912599364
+X_pos: -251.95 	X_vel (m/s): -17.01 	X_acc (m/s^2): -0.56
+Y_pos: 94.18 	Y_vel (m/s): 5.89 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 18.00
+dist_goal: 482.5949698812312
+dist_percorsa2D 276.5628768292301
+X_pos: -253.65 	X_vel (m/s): -17.07 	X_acc (m/s^2): -0.56
+Y_pos: 94.77 	Y_vel (m/s): 5.90 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 18.06
+dist_goal: 483.0197798269335
+dist_percorsa2D 278.3626829797881
+X_pos: -255.37 	X_vel (m/s): -17.12 	X_acc (m/s^2): -0.56
+Y_pos: 95.36 	Y_vel (m/s): 5.92 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 18.12
+dist_goal: 483.45256201258604
+dist_percorsa2D 280.1683273762535
+X_pos: -257.08 	X_vel (m/s): -17.18 	X_acc (m/s^2): -0.55
+Y_pos: 95.95 	Y_vel (m/s): 5.94 	Y_acc (m/s^2): 0.17
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.58
+Velocity (m/s): 18.17
+dist_goal: 483.8933590592008
+dist_percorsa2D 281.97979512974103
+X_pos: -258.81 	X_vel (m/s): -17.23 	X_acc (m/s^2): -0.55
+Y_pos: 96.55 	Y_vel (m/s): 5.95 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 18.23
+dist_goal: 484.3422080140607
+dist_percorsa2D 283.79704791197895
+X_pos: -260.54 	X_vel (m/s): -17.29 	X_acc (m/s^2): -0.54
+Y_pos: 97.15 	Y_vel (m/s): 5.97 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.57
+Velocity (m/s): 18.29
+dist_goal: 484.7991414616546
+dist_percorsa2D 285.6200310412247
+X_pos: -262.27 	X_vel (m/s): -17.34 	X_acc (m/s^2): -0.54
+Y_pos: 97.74 	Y_vel (m/s): 5.98 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.34
+dist_goal: 485.2641896855931
+dist_percorsa2D 287.4486846358547
+X_pos: -264.01 	X_vel (m/s): -17.39 	X_acc (m/s^2): -0.54
+Y_pos: 98.34 	Y_vel (m/s): 6.00 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.40
+dist_goal: 485.7373833589419
+dist_percorsa2D 289.2829560479083
+X_pos: -265.75 	X_vel (m/s): -17.45 	X_acc (m/s^2): -0.54
+Y_pos: 98.95 	Y_vel (m/s): 6.02 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.46
+dist_goal: 486.21875608666954
+dist_percorsa2D 291.1228104676744
+X_pos: -267.50 	X_vel (m/s): -17.50 	X_acc (m/s^2): -0.54
+Y_pos: 99.55 	Y_vel (m/s): 6.03 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.51
+dist_goal: 486.70834613983567
+dist_percorsa2D 292.96823704702587
+X_pos: -269.26 	X_vel (m/s): -17.56 	X_acc (m/s^2): -0.54
+Y_pos: 100.15 	Y_vel (m/s): 6.05 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.57
+dist_goal: 487.2061969083427
+dist_percorsa2D 294.8192490100299
+X_pos: -271.02 	X_vel (m/s): -17.61 	X_acc (m/s^2): -0.54
+Y_pos: 100.76 	Y_vel (m/s): 6.06 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 18.62
+dist_goal: 487.7123559144071
+dist_percorsa2D 296.6758777236972
+X_pos: -272.79 	X_vel (m/s): -17.66 	X_acc (m/s^2): -0.55
+Y_pos: 101.37 	Y_vel (m/s): 6.08 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 18.68
+dist_goal: 488.2268725944289
+dist_percorsa2D 298.53816221244364
+X_pos: -274.56 	X_vel (m/s): -17.72 	X_acc (m/s^2): -0.55
+Y_pos: 101.98 	Y_vel (m/s): 6.10 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 18.74
+dist_goal: 488.74979537951333
+dist_percorsa2D 300.40613673858564
+X_pos: -276.34 	X_vel (m/s): -17.77 	X_acc (m/s^2): -0.55
+Y_pos: 102.59 	Y_vel (m/s): 6.11 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 18.80
+dist_goal: 489.28116880021093
+dist_percorsa2D 302.2798195535719
+X_pos: -278.12 	X_vel (m/s): -17.83 	X_acc (m/s^2): -0.55
+Y_pos: 103.20 	Y_vel (m/s): 6.13 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.57
+Velocity (m/s): 18.85
+dist_goal: 489.82103135564404
+dist_percorsa2D 304.15920563110996
+X_pos: -279.91 	X_vel (m/s): -17.88 	X_acc (m/s^2): -0.54
+Y_pos: 103.82 	Y_vel (m/s): 6.14 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 18.91
+dist_goal: 490.36941471264475
+dist_percorsa2D 306.0442651980802
+X_pos: -281.70 	X_vel (m/s): -17.94 	X_acc (m/s^2): -0.54
+Y_pos: 104.43 	Y_vel (m/s): 6.16 	Y_acc (m/s^2): 0.16
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.56
+Velocity (m/s): 18.96
+dist_goal: 490.9263444764008
+dist_percorsa2D 307.9349484307831
+X_pos: -283.50 	X_vel (m/s): -17.99 	X_acc (m/s^2): -0.53
+Y_pos: 105.05 	Y_vel (m/s): 6.17 	Y_acc (m/s^2): 0.15
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 19.02
+dist_goal: 491.4918423789362
+dist_percorsa2D 309.83119514366194
+X_pos: -285.30 	X_vel (m/s): -18.04 	X_acc (m/s^2): -0.53
+Y_pos: 105.67 	Y_vel (m/s): 6.19 	Y_acc (m/s^2): 0.15
+Z_pos: 9.98 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 19.07
+dist_goal: 492.0659293644979
+dist_percorsa2D 311.73294704937877
+X_pos: -287.11 	X_vel (m/s): -18.09 	X_acc (m/s^2): -0.52
+Y_pos: 106.29 	Y_vel (m/s): 6.20 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 19.13
+dist_goal: 492.64862880654795
+dist_percorsa2D 313.6401595252097
+X_pos: -288.93 	X_vel (m/s): -18.15 	X_acc (m/s^2): -0.52
+Y_pos: 106.91 	Y_vel (m/s): 6.22 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 19.18
+dist_goal: 493.2399690361096
+dist_percorsa2D 315.55280994317377
+X_pos: -290.75 	X_vel (m/s): -18.20 	X_acc (m/s^2): -0.53
+Y_pos: 107.53 	Y_vel (m/s): 6.23 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 19.24
+dist_goal: 493.8399845153828
+dist_percorsa2D 317.4709004803998
+X_pos: -292.57 	X_vel (m/s): -18.25 	X_acc (m/s^2): -0.53
+Y_pos: 108.16 	Y_vel (m/s): 6.25 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 19.29
+dist_goal: 494.44871531990475
+dist_percorsa2D 319.3944547071464
+X_pos: -294.40 	X_vel (m/s): -18.31 	X_acc (m/s^2): -0.53
+Y_pos: 108.78 	Y_vel (m/s): 6.26 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 19.35
+dist_goal: 495.06620501676525
+dist_percorsa2D 321.3235088064989
+X_pos: -296.24 	X_vel (m/s): -18.36 	X_acc (m/s^2): -0.54
+Y_pos: 109.41 	Y_vel (m/s): 6.28 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 19.40
+dist_goal: 495.6924974386768
+dist_percorsa2D 323.258099622005
+X_pos: -298.08 	X_vel (m/s): -18.41 	X_acc (m/s^2): -0.54
+Y_pos: 110.04 	Y_vel (m/s): 6.30 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 19.46
+dist_goal: 496.3276331479686
+dist_percorsa2D 325.19825252167976
+X_pos: -299.93 	X_vel (m/s): -18.47 	X_acc (m/s^2): -0.53
+Y_pos: 110.67 	Y_vel (m/s): 6.31 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.56
+Velocity (m/s): 19.51
+dist_goal: 496.971646482938
+dist_percorsa2D 327.14397211164174
+X_pos: -301.78 	X_vel (m/s): -18.52 	X_acc (m/s^2): -0.53
+Y_pos: 111.31 	Y_vel (m/s): 6.33 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.55
+Velocity (m/s): 19.57
+dist_goal: 497.6245639521029
+dist_percorsa2D 329.09523811993785
+X_pos: -303.64 	X_vel (m/s): -18.57 	X_acc (m/s^2): -0.52
+Y_pos: 111.94 	Y_vel (m/s): 6.34 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.55
+Velocity (m/s): 19.62
+dist_goal: 498.28640441704977
+dist_percorsa2D 331.05200747935965
+X_pos: -305.50 	X_vel (m/s): -18.62 	X_acc (m/s^2): -0.52
+Y_pos: 112.58 	Y_vel (m/s): 6.36 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.54
+Velocity (m/s): 19.68
+dist_goal: 498.9571810597164
+dist_percorsa2D 333.0142220894246
+X_pos: -307.37 	X_vel (m/s): -18.67 	X_acc (m/s^2): -0.51
+Y_pos: 113.21 	Y_vel (m/s): 6.37 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 19.73
+dist_goal: 499.63690467526
+dist_percorsa2D 334.9818203182665
+X_pos: -309.24 	X_vel (m/s): -18.73 	X_acc (m/s^2): -0.51
+Y_pos: 113.85 	Y_vel (m/s): 6.38 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 19.78
+dist_goal: 500.32558748273436
+dist_percorsa2D 336.9547493694529
+X_pos: -311.12 	X_vel (m/s): -18.78 	X_acc (m/s^2): -0.51
+Y_pos: 114.49 	Y_vel (m/s): 6.40 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 19.84
+dist_goal: 501.0232464945161
+dist_percorsa2D 338.93297542138725
+X_pos: -313.00 	X_vel (m/s): -18.83 	X_acc (m/s^2): -0.51
+Y_pos: 115.13 	Y_vel (m/s): 6.41 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 19.89
+dist_goal: 501.72990557557887
+dist_percorsa2D 340.91648900335895
+X_pos: -314.89 	X_vel (m/s): -18.88 	X_acc (m/s^2): -0.51
+Y_pos: 115.78 	Y_vel (m/s): 6.43 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 19.94
+dist_goal: 502.44559563808576
+dist_percorsa2D 342.9053042637621
+X_pos: -316.78 	X_vel (m/s): -18.93 	X_acc (m/s^2): -0.52
+Y_pos: 116.42 	Y_vel (m/s): 6.44 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 20.00
+dist_goal: 503.1703528799029
+dist_percorsa2D 344.89945231406574
+X_pos: -318.68 	X_vel (m/s): -18.98 	X_acc (m/s^2): -0.52
+Y_pos: 117.07 	Y_vel (m/s): 6.46 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 20.05
+dist_goal: 503.9042154720348
+dist_percorsa2D 346.89897031376904
+X_pos: -320.58 	X_vel (m/s): -19.04 	X_acc (m/s^2): -0.52
+Y_pos: 117.71 	Y_vel (m/s): 6.47 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 20.11
+dist_goal: 504.64721950338276
+dist_percorsa2D 348.90388902587955
+X_pos: -322.49 	X_vel (m/s): -19.09 	X_acc (m/s^2): -0.52
+Y_pos: 118.36 	Y_vel (m/s): 6.49 	Y_acc (m/s^2): 0.15
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 20.16
+dist_goal: 505.3993951969222
+dist_percorsa2D 350.9142219537434
+X_pos: -324.40 	X_vel (m/s): -19.14 	X_acc (m/s^2): -0.52
+Y_pos: 119.01 	Y_vel (m/s): 6.50 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.54
+Velocity (m/s): 20.21
+dist_goal: 506.1607643633891
+dist_percorsa2D 352.9299587740074
+X_pos: -326.32 	X_vel (m/s): -19.19 	X_acc (m/s^2): -0.51
+Y_pos: 119.66 	Y_vel (m/s): 6.51 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.53
+Velocity (m/s): 20.27
+dist_goal: 506.93133976429056
+dist_percorsa2D 354.9510647068086
+X_pos: -328.25 	X_vel (m/s): -19.24 	X_acc (m/s^2): -0.51
+Y_pos: 120.32 	Y_vel (m/s): 6.53 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.53
+Velocity (m/s): 20.32
+dist_goal: 507.7111265852926
+dist_percorsa2D 356.9774859810626
+X_pos: -330.18 	X_vel (m/s): -19.29 	X_acc (m/s^2): -0.50
+Y_pos: 120.97 	Y_vel (m/s): 6.54 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 20.37
+dist_goal: 508.5001256894057
+dist_percorsa2D 359.0091600297221
+X_pos: -332.11 	X_vel (m/s): -19.34 	X_acc (m/s^2): -0.50
+Y_pos: 121.63 	Y_vel (m/s): 6.56 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 20.42
+dist_goal: 509.2983378604369
+dist_percorsa2D 361.0460278670842
+X_pos: -334.05 	X_vel (m/s): -19.39 	X_acc (m/s^2): -0.50
+Y_pos: 122.28 	Y_vel (m/s): 6.57 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 20.47
+dist_goal: 510.10576797921294
+dist_percorsa2D 363.08804555364577
+X_pos: -335.99 	X_vel (m/s): -19.44 	X_acc (m/s^2): -0.50
+Y_pos: 122.94 	Y_vel (m/s): 6.58 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 20.53
+dist_goal: 510.92242807069584
+dist_percorsa2D 365.1351918812987
+X_pos: -337.94 	X_vel (m/s): -19.49 	X_acc (m/s^2): -0.50
+Y_pos: 123.60 	Y_vel (m/s): 6.60 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.52
+Velocity (m/s): 20.58
+dist_goal: 511.748338426123
+dist_percorsa2D 367.1874703567474
+X_pos: -339.90 	X_vel (m/s): -19.54 	X_acc (m/s^2): -0.50
+Y_pos: 124.26 	Y_vel (m/s): 6.61 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 20.63
+dist_goal: 512.5835264782987
+dist_percorsa2D 369.24490498746184
+X_pos: -341.86 	X_vel (m/s): -19.59 	X_acc (m/s^2): -0.51
+Y_pos: 124.92 	Y_vel (m/s): 6.62 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 20.68
+dist_goal: 513.428023673036
+dist_percorsa2D 371.3075309247359
+X_pos: -343.82 	X_vel (m/s): -19.64 	X_acc (m/s^2): -0.51
+Y_pos: 125.59 	Y_vel (m/s): 6.64 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.53
+Velocity (m/s): 20.73
+dist_goal: 514.2818610930478
+dist_percorsa2D 373.37538230415237
+X_pos: -345.79 	X_vel (m/s): -19.69 	X_acc (m/s^2): -0.51
+Y_pos: 126.25 	Y_vel (m/s): 6.65 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.53
+Velocity (m/s): 20.79
+dist_goal: 515.1450649207584
+dist_percorsa2D 375.44848032351746
+X_pos: -347.76 	X_vel (m/s): -19.74 	X_acc (m/s^2): -0.51
+Y_pos: 126.92 	Y_vel (m/s): 6.67 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 20.84
+dist_goal: 516.0176528867568
+dist_percorsa2D 377.5268245379983
+X_pos: -349.74 	X_vel (m/s): -19.79 	X_acc (m/s^2): -0.50
+Y_pos: 127.59 	Y_vel (m/s): 6.68 	Y_acc (m/s^2): 0.14
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): -0.00
+Acceleration: 0.52
+Velocity (m/s): 20.89
+dist_goal: 516.8996326213568
+dist_percorsa2D 379.6103895477637
+X_pos: -351.73 	X_vel (m/s): -19.84 	X_acc (m/s^2): -0.50
+Y_pos: 128.26 	Y_vel (m/s): 6.69 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 20.94
+dist_goal: 517.7910023611904
+dist_percorsa2D 381.6991279061449
+X_pos: -353.72 	X_vel (m/s): -19.89 	X_acc (m/s^2): -0.49
+Y_pos: 128.93 	Y_vel (m/s): 6.71 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.51
+Velocity (m/s): 20.99
+dist_goal: 518.691753874479
+dist_percorsa2D 383.7929785222137
+X_pos: -355.71 	X_vel (m/s): -19.94 	X_acc (m/s^2): -0.48
+Y_pos: 129.60 	Y_vel (m/s): 6.72 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 21.04
+dist_goal: 519.6018769040888
+dist_percorsa2D 385.89187845825677
+X_pos: -357.71 	X_vel (m/s): -19.99 	X_acc (m/s^2): -0.48
+Y_pos: 130.27 	Y_vel (m/s): 6.73 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 21.09
+dist_goal: 520.5213640301589
+dist_percorsa2D 387.9957751730867
+X_pos: -359.71 	X_vel (m/s): -20.04 	X_acc (m/s^2): -0.48
+Y_pos: 130.95 	Y_vel (m/s): 6.74 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 21.14
+dist_goal: 521.4502147281625
+dist_percorsa2D 390.1046361496487
+X_pos: -361.72 	X_vel (m/s): -20.08 	X_acc (m/s^2): -0.48
+Y_pos: 131.62 	Y_vel (m/s): 6.76 	Y_acc (m/s^2): 0.13
+Z_pos: 9.99 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Acceleration: 0.50
+Velocity (m/s): 21.19
+dist_goal: 522.3884375809937
+dist_percorsa2D 392.2184534990294

@@ -25,7 +25,7 @@ m = 0.2
 Ixx = 1
 Iyy = 1
 Izz = 1
-T = 120
+T = 60
 
 # Proportional coefficients
 Kp_x = 1
@@ -87,6 +87,7 @@ def quad_sim(x_c, y_c, z_c):
     irun = 0
 
     while True:
+        print("waypoints:", waypoints)
 
         start = waypoints[i]
         next_goal = waypoints[(i+1) % num_waypoints]
@@ -95,8 +96,7 @@ def quad_sim(x_c, y_c, z_c):
         goal_y = next_goal[1]
         goal_z = next_goal[2]
 
-        acc_max_x, acc_max_y = get_2D_components(waypoints[i], waypoints[(i + 1) % num_waypoints], acc_max_scalar)
-        vel_max_x, vel_max_y = get_2D_components(waypoints[i], waypoints[(i + 1) % num_waypoints], vel_max_scalar)
+
         dist_goal = distance_AB_2D(waypoints[i], waypoints[(i + 1) % num_waypoints])
 
         while t <= T:
@@ -240,34 +240,6 @@ def rotation_matrix(roll, pitch, yaw):
          ])
 
 
-def get_3D_components(start3D, end3D, scalar):
-    d_x = end3D[0] - start3D[0]
-    d_y = end3D[1] - start3D[1]
-    d_z = end3D[2] - start3D[2]
-    d = distance_3D(start3D, end3D)
-
-    alpha = math.acos(d_x / d)
-    beta = math.acos(d_y / d)
-    gamma = math.acos(d_z / d)
-
-    x_component = math.cos(alpha) * scalar
-    y_component = math.cos(beta) * scalar
-    z_component = math.cos(gamma) * scalar
-
-    return x_component, y_component, z_component
-
-
-def get_2D_components(start2D, end2D, scalar):
-    d_x = end2D[0] - start2D[0]
-    d_y = end2D[1] - start2D[1]
-    d = distance_2D(start2D, end2D)
-
-    angle = math.acos(d_x / d)
-
-    x_component = math.cos(angle) * scalar
-    y_component = math.sin(angle) * scalar
-
-    return x_component, y_component
 
 
 def distance_2D(start, end):

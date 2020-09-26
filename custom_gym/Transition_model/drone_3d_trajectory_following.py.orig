@@ -40,10 +40,16 @@ Kd_x = 10
 Kd_y = 10
 Kd_z = 1
 
-# waypoints = [[-5, -5, 5], [5, -5, 5], [15, -5, 5], [25, -5, 5]]
+<<<<<<< Updated upstream
+acc_max_scalar = 3 #(m/s^2)
+vel_max_scalar = 18 #(m/s)
 
-waypoints = [[0, 10, 10], [150, 10, 10],[350, 10, 10],[500, 10, 10]]
+waypoints = [[10, 0, 10], [10, 500, 10], [10, 0, 10]]
 num_waypoints = len(waypoints)
+=======
+waypoints = [[-5, -5, 5], [5, -5, 5], [15, -5, 5], [25, -5, 5]]
+>>>>>>> Stashed changes
+
 
 def quad_sim(x_c, y_c, z_c,i):
     """
@@ -51,22 +57,35 @@ def quad_sim(x_c, y_c, z_c,i):
     follow the trajectory described by the sets of coefficients
     x_c, y_c, and z_c.
     """
+<<<<<<< Updated upstream
+
+
     x_pos = waypoints[0][0]
     y_pos = waypoints[0][1]
     z_pos = waypoints[0][2]
-    if(i==0 ):
+
+
+    x_vel = 0
+    y_vel = 0
+    z_vel = 0
+=======
+    x_pos = waypoints[0][0]
+    y_pos = waypoints[0][1]
+    z_pos = waypoints[0][2]
+    if(i==0):
         x_vel = 0
         y_vel = 0
         z_vel = 0
     elif(i==3):
-        x_vel = 13
+        x_vel = 18
         y_vel = 0
         z_vel = 0
     else:
-        x_vel = 13
+        x_vel = 18
         y_vel = 0
         z_vel = 0
 
+>>>>>>> Stashed changes
     x_acc = 0
     y_acc = 0
     z_acc = 0
@@ -114,8 +133,10 @@ def quad_sim(x_c, y_c, z_c,i):
             des_z_pos = calculate_position(z_c[i], t)
             # des_x_vel = calculate_velocity(x_c[i], t)
             # des_y_vel = calculate_velocity(y_c[i], t)
+            
             des_z_vel = calculate_velocity(z_c[i], t)
             des_x_acc = calculate_acceleration(x_c[i], t)
+
             des_y_acc = calculate_acceleration(y_c[i], t)
             des_z_acc = calculate_acceleration(z_c[i], t)
 
@@ -276,28 +297,34 @@ def main():
     y_coeffs = [[], [], [], []]
     z_coeffs = [[], [], [], []]
 
+<<<<<<< Updated upstream
     for i in range(num_waypoints):
         L = distance_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
+
+
+        traj = TrajectoryGenerator(waypoints[i], waypoints[(i + 1) % num_waypoints], T)
+=======
+    for i in range(4):
         if(i==0):
             vi = [0,0,0]
-            vf = [13,0,0]
+            vf = [18,0,0]
             ai = [0,0,0]
             af = [0,0,0]
         elif(i == 3):
-            vi = [13,0,0]
+            vi = [18,0,0]
             vf = [0,0,0]
             ai = [0,0,0]
             af = [0,0,0]
         else:
-            vi = [13,0,0]
-            vf = [13,0,0]
+            vi = [18,0,0]
+            vf = [18,0,0]
             ai = [0,0,0]
-            af = [0,0,0]
+            ai = [0,0,0]
         
         traj = TrajectoryGenerator(waypoints[i], waypoints[(i + 1) % 4], T, \
         start_vel = vi ,des_vel = vf,
         start_acc = ai,des_acc= af)
-
+>>>>>>> Stashed changes
         traj.solve()
         x_coeffs[i] = traj.x_c
         y_coeffs[i] = traj.y_c

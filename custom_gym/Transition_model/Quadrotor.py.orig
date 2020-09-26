@@ -81,11 +81,15 @@ class Quadrotor():
 
         self.ax.plot(self.x_data, self.y_data, self.z_data, 'b:')
 
+<<<<<<< Updated upstream
         plt.xlim(PLOTRANGE_X_NEG, PLOTRANGE_X_POS)
         plt.ylim(PLOTRANGE_Y_NEG, PLOTRANGE_Y_POS)
-        # plt.xlim(-5, 30)
-        # plt.ylim(-5,5)
 
         self.ax.set_zlim(PLOTRANGE_Z_NEG, PLOTRANGE_Z_POS)
+=======
+        plt.xlim(-5, 30)
+        plt.ylim(-5, 5)
+        self.ax.set_zlim(0, 10)
+>>>>>>> Stashed changes
 
         plt.pause(0.001)

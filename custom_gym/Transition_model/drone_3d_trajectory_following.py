@@ -15,62 +15,82 @@ from os.path import join, isdir
 from my_utils import *
 import matplotlib
 import matplotlib.pyplot as plt
+from QuinticPolynomial import QuinticPolynomial
 
-MAX_T = 100.0  # maximum time to the goal [s]
-MIN_T = 1.0  # minimum time to the goal[s]
+MAX_T = 500.0   # maximum time to the goal[s]
+MIN_T = 1.0     # minimum time to the goal[s]
 show_animation = True
 
-class QuinticPolynomial:
+#----------------------------------------------------------------------------------------------------------------------------------#
+info = []
 
-    def __init__(self, xs, vxs, axs, xe, vxe, axe, time):
+info1 = "\n\n___________________________________________ENVIRONMENT AND DRONE INFO: ___________________________________________\n"
+info.append(info1)
+info24 = "\nWP3 SCENARIO: " + str(scenario)
+info.append(info24)
+info2 = "\nDRONE ID: " + str(id)
+info.append(info2)
+info3 = "\nVOL: " + str(vol)
+info.append(info3)
+info4 = "\nAIR RISK: " + str(AirRisk)
+info.append(info4)
+info5 = "\nGROUND RISK: " + str(GroundRisk)
+info.append(info5)
+info6 = "\nOP TYPE: " + str(Op_Type)
+info.append(info6)
+info7 = "\nTYPE OF DRONE: " + str(model)
+info.append(info7)
+info8 = "\nDIMENSION: " + str(Dimension) + " m"
+info.append(info8)
+info9 = "\nMASS: " + str(m) + " Kg"
+info.append(info9)
+info22 = "\nCRUISE SPEED: " + str(cruise_speed_ms) + " m/s"
+info.append(info22)
+info10 = "\nVDR: " + str(VRD) + " m/s"
+info.append(info10)
+info11 = "\nVRC: " + str(VRC) + " m/s"
+info.append(info11)
+info12 = "\nStationary Max: " + str(stationary) + " min"
+info.append(info12)
+info13 = "\nMAX WIND: " + str(Maxwind) + " m/s"
+info.append(info13)
+info14 = "\nPAYLOAD RISK: " + str(PayloadRisk)
+info.append(info14)
+info15 = "\nT. TYPE: " + str(T_Type)
+info.append(info15)
+info16 = "\nFLIGHT MODE: " + str(FlightMode)
+info.append(info16)
+info17 = "\nMONITORING: " + str(Monitoring)
+info.append(info17)
+info18 = "\nTRACKING SERVICE: " + str(TrackingService)
+info.append(info18)
+info19 = "\nTACTICAL SEPARATION: " + str(TacticalSeparation)
+info.append(info19)
+info20 = "\nDISTANCE TO REACH THE GOAL: " + str(distance_space_m) + " m"
+info.append(info20)
+info21 = "\nMINIMUM AND MAXIMUM TIME TO REACH THE GOAL: " + str(MIN_T) + " s - " + str(MAX_T) + " s"
+info.append(info21)
+info25 = "\nSTART COORDINATES: " + "X:" + str(start_pos[0]) + " Y:" + str(start_pos[1]) + " Z:" + str(start_pos[2])
+info.append(info25)
+info26 = "\nDESTINATION COORDINATES(1): " + "X:" + str(waypoint_dest[0]) + " Y:" + str(waypoint_dest[1]) + " Z:" + str(waypoint_dest[2])
+info.append(info26)
+if(add_waypoint):
+    info27 = "\nDESTINATION COORDINATES(2): " + "X:" + str(add_waypoint[0]) + " Y:" + str(add_waypoint[1]) + " Z:" + str(add_waypoint[2])
+    info.append(info27)
+info28 = "\nAltitude: " + str(altitude) + " m"
+info.append(info28)
 
-        # calc coefficient of quinic polynomial
-        self.xs = xs
-        self.vxs = vxs
-        self.axs = axs
-        self.xe = xe
-        self.vxe = vxe
-        self.axe = axe
+info23 = "\n__________________________________________________________________________________________________________________\n\n"
+info.append(info23)
 
-        self.a0 = xs
-        self.a1 = vxs
-        self.a2 = axs / 2.0
+if not isdir(LOG_DIRECTORY_NAME): mkdir(LOG_DIRECTORY_NAME)
+file = open(LOG_PATH, "w")
 
-        A = np.array([[time**3, time**4, time**5],
-                      [3 * time ** 2, 4 * time ** 3, 5 * time ** 4],
-                      [6 * time, 12 * time ** 2, 20 * time ** 3]])
-        b = np.array([xe - self.a0 - self.a1 * time - self.a2 * time**2,
-                      vxe - self.a1 - 2 * self.a2 * time,
-                      axe - 2 * self.a2])
-        x = np.linalg.solve(A, b)
-
-        self.a3 = x[0]
-        self.a4 = x[1]
-        self.a5 = x[2]
-
-    def calc_point(self, t):
-        xt = self.a0 + self.a1 * t + self.a2 * t**2 + \
-            self.a3 * t**3 + self.a4 * t**4 + self.a5 * t**5
-
-        return xt
-
-    def calc_first_derivative(self, t):
-        xt = self.a1 + 2 * self.a2 * t + \
-            3 * self.a3 * t**2 + 4 * self.a4 * t**3 + 5 * self.a5 * t**4
-
-        return xt
-
-    def calc_second_derivative(self, t):
-        xt = 2 * self.a2 + 6 * self.a3 * t + 12 * self.a4 * t**2 + 20 * self.a5 * t**3
-
-        return xt
-
-    def calc_third_derivative(self, t):
-        xt = 6 * self.a3 + 24 * self.a4 * t + 60 * self.a5 * t**2
-
-        return xt
-
-
+for i in info:
+    print(i)
+    file.write(i)
+file.close()
+#----------------------------------------------------------------------------------------------------------------------------------#
 
 # Simulation parameters
 g = 9.81
@@ -93,9 +113,8 @@ Kd_x = 10
 Kd_y = 10
 Kd_z = 1
 
-# waypoints = [[-5, -5, 5], [5, -5, 5], [15, -5, 5], [25, -5, 5]]
 
-waypoints = [[0, 10, 10], [500, 355, 10],[350, 10, 10],[500, 10, 10]]
+waypoints = [[0, 10, 10], [500, 355, 10],[-500, 355, 10],[0, 10, 10]]
 num_waypoints = len(waypoints)
 
 
@@ -112,13 +131,13 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
     ayg = ga * math.sin(gyaw)
 
     time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj = [], [], [], [], [], [], [], [], []
-    #acc_x_, acc_y_ = [], []
+
     for T in np.arange(MIN_T, MAX_T, MIN_T):
         xqp = QuinticPolynomial(sx, vxs, axs, gx, vxg, axg, T)
         yqp = QuinticPolynomial(sy, vys, ays, gy, vyg, ayg, T)
 
         time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj = [], [], [], [], [], [], [], [], []
-        #acc_x_, acc_y_ = [], []
+
 
         for t in np.arange(0.0, T + dt, dt):
             time.append(t)
@@ -160,7 +179,7 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
 
 
 
-def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
+def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot):
     """
     Calculates the necessary thrust and torques for the quadrotor to
     follow the trajectory described by the sets of coefficients
@@ -188,6 +207,7 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
 
     des_yaw = 0
 
+
     dt = 0.1
     t = 0
 
@@ -199,12 +219,13 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
     irun = 0
     o = 0
 
-
+    #print("ra_x_tot", ra_x_tot)
     while True:
         print("waypoints:", waypoints)
-
+        #print("RA_x_waypoints", ra_x_tot[i])
         start = waypoints[i]
         next_goal = waypoints[(i+1) % num_waypoints]
+
 
         goal_x = next_goal[0]
         goal_y = next_goal[1]
@@ -212,8 +233,9 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
 
 
         dist_goal = distance_AB_2D(waypoints[i], waypoints[(i + 1) % num_waypoints])
+        n_ra_x_tot = len(ra_x_tot[i])
 
-        while dist_goal >= 1:
+        while n_ra_x_tot != o:
             print("Time:", t)
             PosizioneAttuale = np.array([x_pos, y_pos, z_pos])
             dist_goal = distance_AB_2D(PosizioneAttuale, next_goal)
@@ -226,11 +248,12 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
             # des_y_vel = calculate_velocity(y_c[i], t)
             des_z_vel = calculate_velocity(z_c[i], t)
 
-            des_x_acc = ra_x[o]
-            print("o", o)
-            print("RA_X-num", len(ra_x))
+            des_x_acc = ra_x_tot[i][o]
+            print("Iterazione_o:", o)
+            print("RA_X-num", len(ra_x_tot[i]))
             print("des_x_acc", des_x_acc)
-            des_y_acc = ra_y[o]
+            des_y_acc = ra_y_tot[i][o]
+            print("RA_y-num", len(ra_y_tot[i]))
             print("des_y_acc", des_y_acc)
             des_z_acc = calculate_acceleration(z_c[i], t)
 
@@ -266,24 +289,23 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj):
 
             q.update_pose(x_pos, y_pos, z_pos, roll, pitch, yaw)
 
-            acc_ms = math.sqrt(x_acc ** 2 + y_acc ** 2)
-            vel_ms = math.sqrt(x_vel ** 2 + y_vel ** 2)
+            acc_ms = np.hypot(x_acc, y_acc)
+            vel_ms = np.hypot(x_vel, y_vel)
 
             # # # # # # #
             # Log info
             print("X_pos:","{:.2f}".format(x_pos) ,"\tX_vel (m/s):", "{:.2f}".format(x_vel), "\tX_acc (m/s^2):", "{:.2f}".format(x_acc))
             print("Y_pos:","{:.2f}".format(y_pos) ,"\tY_vel (m/s):", "{:.2f}".format(y_vel), "\tY_acc (m/s^2):", "{:.2f}".format(y_acc))
             print("Z_pos:","{:.2f}".format(z_pos) ,"\tZ_vel (m/s):", "{:.2f}".format(z_vel), "\tZ_acc (m/s^2):", "{:.2f}".format(z_acc))
+            print("Roll:", "{:.4f}".format(roll), "\tPitch:", "{:.4f}".format(pitch), "\tYaw", "{:.4f}".format(yaw))
             print("Acceleration:", "{:.2f}".format(acc_ms))
             print("Velocity (m/s):", "{:.2f}".format(vel_ms))
             print("dist_goal:", dist_goal)
             print("dist_percorsa2D", dist_percorsa2D)
 
             t += dt
-            if (o == len(ra_x)-1):
-                o = 0
-            else:
-                o = o + 1
+            o = o + 1
+
         print("-" * 20, "[REACHED, Missing", distance_2D([x_pos, y_pos, z_pos], waypoints[(i + 1) % num_waypoints]),
               "m]", "-" * 20)
 
@@ -397,8 +419,8 @@ def main():
     y_coeffs = [[], [], [], []]
     z_coeffs = [[], [], [], []]
 
-    sx = 0.0  # start x position [m]
-    sy_l = 10.0  # start y position [m]
+    #sx = 0.0  # start x position [m]
+    #sy_l = 10.0  # start y position [m]
     sy_r = 0.0625
     syaw = np.deg2rad(0.0)  # start yaw angle [rad]
     sv_l = 0.0  # start speed [m/s]
@@ -406,8 +428,8 @@ def main():
     sv_r = 0.0  # start speed [m/s]
     sa_r = 0.0  # start accel [m/ss]
 
-    gx = 500.0  # goal x position [m]
-    gy = 355.0  # goal y position [m]
+    #gx = 500.0  # goal x position [m]
+    #gy = 355.0  # goal y position [m]
     gyaw = np.deg2rad(0.0)  # goal yaw angle [rad]
     gv = 0.0  # goal speed [m/s]
     ga = 0.0  # goal accel [m/ss]
@@ -417,41 +439,32 @@ def main():
     max_jerk = 0.7  # max jerk [m/sss]
     dt = 0.1  # time tick [s]
 
-
+    ra_x_tot = [] #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints
+    ra_y_tot = [] #Array di tutte le ra_y (accelerazione sull'asse y) per ogni waypoints
 
     for i in range(num_waypoints):
-        L = distance_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
-        '''if(i==0):
-            vi = [0,0,0]
-            vf = [13,0,0]
-            ai = [0,0,0]
-            af = [0,0,0]
-        elif(i == 3):
-            vi = [13,0,0]
-            vf = [0,0,0]
-            ai = [0,0,0]
-            af = [0,0,0]
-        else:
-            vi = [13,0,0]
-            vf = [13,0,0]
-            ai = [0,0,0]
-            af = [0,0,0]'''
-        ok = (waypoints[(i + 1) % 4][0])
-        ok1 = (waypoints[(i + 1) % 4][1])
-        print("ok, ok1", ok, ok1)
+        #L = distance_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
+        next_waypoints_x = (waypoints[(i + 1) % 4][0])
+        next_waypoints_y = (waypoints[(i + 1) % 4][1])
         traj = TrajectoryGenerator(waypoints[i], waypoints[(i + 1) % 4], T)
-        '''time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l = quintic_polynomials_planner(
-            waypoints[i][0], waypoints[i][1], syaw, sv_l, sa_l, ok , ok1, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)'''
-        print("WAYPOINT", waypoints[i][0], waypoints[i][1], (waypoints[(i + 1) % 4][0]), (waypoints[(i + 1) % 4][1]))
+
         time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l = quintic_polynomials_planner(
-            sx, sy_l, syaw, sv_l, sa_l, gx, gy, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)
+            waypoints[i][0], waypoints[i][1], syaw, sv_l, sa_l, next_waypoints_x , next_waypoints_y, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)
+
+        print("WAYPOINT", waypoints[i][0], waypoints[i][1], "|" , (waypoints[(i + 1) % 4][0]), (waypoints[(i + 1) % 4][1]))
+        '''time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l = quintic_polynomials_planner(
+            sx, sy_l, syaw, sv_l, sa_l, gx, gy, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)'''
+
+        ra_x_tot.append(ra_x) #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints
+        ra_y_tot.append(ra_y) #Array di tutte le ra_y (accelerazione sull'asse y) per ogni waypoints
 
         traj.solve()
         x_coeffs[i] = traj.x_c
         y_coeffs[i] = traj.y_c
         z_coeffs[i] = traj.z_c
 
-    quad_sim(x_coeffs, y_coeffs, z_coeffs, i , time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l)
+
+    quad_sim(x_coeffs, y_coeffs, z_coeffs, i , time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot)
 
 if __name__ == "__main__":
     main()

@@ -16,6 +16,7 @@ from my_utils import *
 import matplotlib
 import matplotlib.pyplot as plt
 from QuinticPolynomial import QuinticPolynomial
+import pandas as pd
 
 MAX_T = 500.0   # maximum time to the goal[s]
 MIN_T = 1.0     # minimum time to the goal[s]
@@ -221,8 +222,8 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
 
     #print("ra_x_tot", ra_x_tot)
     while True:
-        print("waypoints:", waypoints)
-        #print("RA_x_waypoints", ra_x_tot[i])
+        #print("waypoints:", waypoints)
+        print("RA_x_waypoints", ra_x_tot[i])
         start = waypoints[i]
         next_goal = waypoints[(i+1) % num_waypoints]
 
@@ -234,6 +235,22 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
 
         dist_goal = distance_AB_2D(waypoints[i], waypoints[(i + 1) % num_waypoints])
         n_ra_x_tot = len(ra_x_tot[i])
+        #Gaussian-noise--------------------------------------------------------------#
+        ra_x_tot_arr = np.array(ra_x_tot[i])
+        ra_y_tot_arr = np.array(ra_y_tot[i])
+        noise_x = np.random.normal(0, .1, ra_x_tot_arr.shape)
+        noise_y = np.random.normal(0, .1, ra_x_tot_arr.shape)
+        ra_x_noise = ra_x_tot_arr + noise_x
+        ra_y_noise = ra_y_tot_arr + noise_y
+        # Gaussian-noise--------------------------------------------------------------#
+        print("noise:", noise_x)
+        print("new_signal:", ra_x_noise)
+        #print("ra_x_tot[i]", ra_x_tot)
+        #n_ra_x_tot = new_signal.shape[0]
+
+        print("n_ra_x_tot", n_ra_x_tot)
+
+
 
         while n_ra_x_tot != o:
             print("Time:", t)
@@ -247,12 +264,13 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
             # des_x_vel = calculate_velocity(x_c[i], t)
             # des_y_vel = calculate_velocity(y_c[i], t)
             des_z_vel = calculate_velocity(z_c[i], t)
-
-            des_x_acc = ra_x_tot[i][o]
+            #des_x_acc = ra_y_tot[i][o]
+            des_x_acc = ra_x_noise[o]
             print("Iterazione_o:", o)
             print("RA_X-num", len(ra_x_tot[i]))
             print("des_x_acc", des_x_acc)
-            des_y_acc = ra_y_tot[i][o]
+            #des_y_acc = ra_y_tot[i][o]
+            des_y_acc = ra_y_noise[o]
             print("RA_y-num", len(ra_y_tot[i]))
             print("des_y_acc", des_y_acc)
             des_z_acc = calculate_acceleration(z_c[i], t)
@@ -436,7 +454,7 @@ def main():
 
     max_vel = 18  # max speed [m/s]
     max_accel = 3.0  # max accel [m/ss]
-    max_jerk = 0.7  # max jerk [m/sss]
+    max_jerk = 3  # max jerk [m/sss]
     dt = 0.1  # time tick [s]
 
     ra_x_tot = [] #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints

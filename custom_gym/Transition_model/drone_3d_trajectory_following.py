@@ -17,6 +17,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 from QuinticPolynomial import QuinticPolynomial
 import pandas as pd
+import csv
 
 MAX_T = 500.0   # maximum time to the goal[s]
 MIN_T = 1.0     # minimum time to the goal[s]
@@ -91,7 +92,13 @@ for i in info:
     print(i)
     file.write(i)
 file.close()
+
+if not isdir(CSV_DIRECTORY_NAME): mkdir(CSV_DIRECTORY_NAME)
+
 #----------------------------------------------------------------------------------------------------------------------------------#
+
+num_trajectories = 10
+
 
 # Simulation parameters
 g = 9.81
@@ -117,6 +124,20 @@ Kd_z = 1
 
 waypoints = [[0, 10, 10], [500, 355, 10],[-500, 355, 10],[0, 10, 10]]
 num_waypoints = len(waypoints)
+
+
+def generate_trajectories():
+    csv_dir = str(CSV_DIRECTORY_NAME+"/Fligth_"+str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))\
+         .replace("-", "_")\
+        .replace(":", "_")\
+        .replace(".", "")\
+        .replace(" ", "--").strip()
+        )
+    mkdir(csv_dir)
+    for i in range(0,num_trajectories):
+        csv_filename=csv_dir+"/"+"flight_"+str(i+1)
+        generate_single_trajectory(csv_filename)
+    return None
 
 
 def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
@@ -197,12 +218,17 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
 
 
 
-def quad_sim(x_c, y_c, z_c, i, time, rx, ry, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot):
+def quad_sim( z_c, i, time, rx, ry, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot,csv_filename):
     """
     Calculates the necessary thrust and torques for the quadrotor to
     follow the trajectory described by the sets of coefficients
     x_c, y_c, and z_c.
     """
+    csv_file = open(csv_filename,'w')
+    fieldnames = ['x_pos', 'y_pos', 'z_pos',"x_vel","y_vel","z_vel","x_acc","y_acc","z_acc","yaw","pitch","roll","t"]
+    writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+    writer.writeheader()
+    
     x_pos = waypoints[0][0]
     y_pos = waypoints[0][1]
     z_pos = waypoints[0][2]
@@ -361,8 +387,17 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, yaw_l_tot, rv, ra_x, ra_y, ra, rj, 
             print("dist_goal:", dist_goal)
             print("dist_percorsa2D", dist_percorsa2D)
 
+            writer.writerow({'x_pos': x_pos, 'y_pos': y_pos, 'z_pos': z_pos,
+            'x_vel': x_vel, 'y_vel': y_vel, 'z_vel': z_vel,
+            'x_acc': x_acc, 'y_acc': y_acc, 'z_acc': z_acc,
+            'yaw':yaw, 'pitch': pitch, 'roll': roll,
+            't':t            })
+    
+
+
             '''for a,b,c,d,e,f in zip(*parameters):
                 print(a,b,c,d,e,f)'''
+
 
             t += dt
             o = o + 1
@@ -392,9 +427,10 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, yaw_l_tot, rv, ra_x, ra_y, ra, rj, 
         print("-" * 20, "[PASSING TO NEXT WAYPOINT]", "-" * 20)
         print("x_pos_tot", x_pos_tot)
         #print("y_pos_tot", y_pos_tot)
+        
+  
 
-
-
+    csv_file.close()
     print("Done")
 
 
@@ -472,7 +508,7 @@ def distance_2D(start, end):
 def distance_3D(start, end):
     return math.sqrt((end[2] - start[2]) ** 2 + (end[1] - start[1]) ** 2 + (end[0] - start[0]) ** 2)
 
-def main():
+def generate_single_trajectory(csv_filename):
     """
     Print info header in the log
     """
@@ -538,12 +574,12 @@ def main():
 
 
         traj.solve()
-        x_coeffs[i] = traj.x_c
-        y_coeffs[i] = traj.y_c
+        # x_coeffs[i] = traj.x_c
+        # y_coeffs[i] = traj.y_c
         z_coeffs[i] = traj.z_c
 
 
-    quad_sim(x_coeffs, y_coeffs, z_coeffs, i , time_l, x_l, y_l, yaw_l_tot, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot)
+    quad_sim( z_coeffs, i , time_l, x_l, y_l, yaw_l_tot, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot,csv_filename)
 
 if __name__ == "__main__":
-    main()
+    generate_trajectories()

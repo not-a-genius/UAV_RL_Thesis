@@ -214,6 +214,7 @@ timeformatted = str(datetime.now().strftime('%Y-%m-%d %H:%M:%S'))\
 LOG_FILENAME = "log_"+timeformatted+".txt"
 LOG_PATH = join(LOG_DIRECTORY_NAME, LOG_FILENAME)
 
+CSV_DIRECTORY_NAME = "Flights_trajectories"
 
 
 # Class to redirect stdout to file logfile.log

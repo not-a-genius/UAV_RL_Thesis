@@ -44,23 +44,23 @@ class TrajectoryGenerator():
              [20*self.T**3, 12*self.T**2, 6*self.T, 2, 0, 0]
             ])
 
-        b_x = np.array(
-            [[self.start_x],
-             [self.des_x],
-             [self.start_x_vel],
-             [self.des_x_vel],
-             [self.start_x_acc],
-             [self.des_x_acc]
-            ])
+        # b_x = np.array(
+        #     [[self.start_x],
+        #      [self.des_x],
+        #      [self.start_x_vel],
+        #      [self.des_x_vel],
+        #      [self.start_x_acc],
+        #      [self.des_x_acc]
+        #     ])
 
-        b_y = np.array(
-            [[self.start_y],
-             [self.des_y],
-             [self.start_y_vel],
-             [self.des_y_vel],
-             [self.start_y_acc],
-             [self.des_y_acc]
-            ])
+        # b_y = np.array(
+        #     [[self.start_y],
+        #      [self.des_y],
+        #      [self.start_y_vel],
+        #      [self.des_y_vel],
+        #      [self.start_y_acc],
+        #      [self.des_y_acc]
+        #     ])
 
         b_z = np.array(
             [[self.start_z],
@@ -71,6 +71,6 @@ class TrajectoryGenerator():
              [self.des_z_acc]
             ])
 
-        self.x_c = np.linalg.solve(A, b_x)
-        self.y_c = np.linalg.solve(A, b_y)
+        # self.x_c = np.linalg.solve(A, b_x)
+        # self.y_c = np.linalg.solve(A, b_y)
         self.z_c = np.linalg.solve(A, b_z)

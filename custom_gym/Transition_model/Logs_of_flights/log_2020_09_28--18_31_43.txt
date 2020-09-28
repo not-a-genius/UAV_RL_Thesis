@@ -1,0 +1,65 @@
+
+
+___________________________________________ENVIRONMENT AND DRONE INFO: ___________________________________________
+
+WP3 SCENARIO: 6
+DRONE ID: 1.0
+VOL: Zu
+AIR RISK: UC
+GROUND RISK: Intermediate
+OP TYPE: BVLOS
+TYPE OF DRONE: Multirotor
+DIMENSION: 1.7 m
+MASS: 9.0 Kg
+CRUISE SPEED: 18.0 m/s
+VDR: 3.0 m/s
+VRC: 4.0 m/s
+Stationary Max: 15.0 min
+MAX WIND: 8.0 m/s
+PAYLOAD RISK: HighRisk
+T. TYPE: LinealFreeFlight
+FLIGHT MODE: Auto
+MONITORING: YES
+TRACKING SERVICE: YES
+TACTICAL SEPARATION: YES
+DISTANCE TO REACH THE GOAL: 0.0 m
+MINIMUM AND MAXIMUM TIME TO REACH THE GOAL: 1.0 s - 500.0 s
+START COORDINATES: X:10 Y:0 Z:10
+DESTINATION COORDINATES(1): X:10 Y:0 Z:10
+Altitude: 20 m
+__________________________________________________________________________________________________________________
+
+
+
+
+##################################################
+User: ASUS
+OS: win32
+Date: 2020-09-28 18:31:44.112
+##################################################
+
+
+
+find path!!
+WAYPOINT 0 10 | 500 355
+find path!!
+WAYPOINT 500 355 | -500 355
+find path!!
+WAYPOINT -500 355 | 0 10
+find path!!
+WAYPOINT 0 10 | 0 10
+n_ra_x_tot 641
+Time: 0
+Iterazione_o: 0
+RA_X-num 641
+des_x_acc 0.0596680227650771
+RA_y-num 641
+des_y_acc 0.023464939095260522
+X_pos: 0.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.01
+Y_pos: 10.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0006 	Pitch: 0.0015 	Yaw 0.0000
+Acceleration: 0.02
+Velocity (m/s): 0.00
+dist_goal: 607.4742792909013
+dist_percorsa2D 0.0

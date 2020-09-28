@@ -145,6 +145,21 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
             rx.append(xqp.calc_point(t))
             ry.append(yqp.calc_point(t))
 
+            '''rx_arr = np.array(rx)
+            ry_arr = np.array(ry)
+            #print("rx no noise:", rx_arr)
+            #print("ry no noise:", ry_arr)
+            noise_x = np.random.normal(0, 0.1, rx_arr.shape)
+            noise_y = np.random.normal(0, 0.1, ry_arr.shape)
+            rx_noise_ = rx_arr + noise_x
+            ry_noise_ = ry_arr + noise_y
+            rx_noise = rx_noise_.tolist()
+            ry_noise = ry_noise_.tolist()
+            rx = rx_noise
+            ry = ry_noise
+            #print("rx yes noise:", rx)
+            #print("ry yes noise:", ry)'''
+
             vx = xqp.calc_first_derivative(t)
             vy = yqp.calc_first_derivative(t)
             v = np.hypot(vx, vy)
@@ -161,8 +176,6 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
             ra_x.append(ax)
             ra_y.append(ay)
 
-            '''acc_x_.append(ax)
-            acc_y_.append(ay)'''
 
             jx = xqp.calc_third_derivative(t)
             jy = yqp.calc_third_derivative(t)
@@ -174,13 +187,17 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
         if max([abs(i) for i in rv]) <= max_vel and max([abs(i) for i in ra]) <= max_accel and max(
                 [abs(i) for i in rj]) <= max_jerk:
             print("find path!!")
+            '''print("rx", rx)
+            print("ry:", ry)
+            print("rx_noise:", rx_noise)
+            print("ry_noise:", ry_noise)'''
             break
 
     return time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj
 
 
 
-def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot):
+def quad_sim(x_c, y_c, z_c, i, time, rx, ry, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot):
     """
     Calculates the necessary thrust and torques for the quadrotor to
     follow the trajectory described by the sets of coefficients
@@ -208,6 +225,14 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
 
     des_yaw = 0
 
+    x_pos_tot = []
+    y_pos_tot = []
+    x_vel_tot = []
+    y_vel_tot = []
+    x_acc_tot = []
+    y_acc_tot = []
+    time_tot  = []
+    parameters = []
 
     dt = 0.1
     t = 0
@@ -223,7 +248,7 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
     #print("ra_x_tot", ra_x_tot)
     while True:
         #print("waypoints:", waypoints)
-        print("RA_x_waypoints", ra_x_tot[i])
+        #print("No-noise ra_x_tot[i]-waypoints", ra_x_tot[i])
         start = waypoints[i]
         next_goal = waypoints[(i+1) % num_waypoints]
 
@@ -238,15 +263,16 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
         #Gaussian-noise--------------------------------------------------------------#
         ra_x_tot_arr = np.array(ra_x_tot[i])
         ra_y_tot_arr = np.array(ra_y_tot[i])
-        noise_x = np.random.normal(0, .1, ra_x_tot_arr.shape)
-        noise_y = np.random.normal(0, .1, ra_x_tot_arr.shape)
+        noise_x = np.random.normal(0, .05, ra_x_tot_arr.shape)
+        noise_y = np.random.normal(0, .05, ra_x_tot_arr.shape)
         ra_x_noise = ra_x_tot_arr + noise_x
         ra_y_noise = ra_y_tot_arr + noise_y
         # Gaussian-noise--------------------------------------------------------------#
-        print("noise:", noise_x)
-        print("new_signal:", ra_x_noise)
+        #print("noise:", noise_x)
+        #print("new_signal:", ra_x_noise)
         #print("ra_x_tot[i]", ra_x_tot)
-        #n_ra_x_tot = new_signal.shape[0]
+        #print("ra_x_noise", ra_x_noise)
+
 
         print("n_ra_x_tot", n_ra_x_tot)
 
@@ -273,8 +299,10 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
             des_y_acc = ra_y_noise[o]
             print("RA_y-num", len(ra_y_tot[i]))
             print("des_y_acc", des_y_acc)
+
             des_z_acc = calculate_acceleration(z_c[i], t)
 
+            #des_yaw = yaw_l_tot[i][o]
             thrust = m * (g + des_z_acc + Kp_z * (des_z_pos -
                                                   z_pos) + Kd_z * (des_z_vel - z_vel))
 
@@ -297,13 +325,25 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
                 [0, 0, thrust.item()]).T) - np.array([0, 0, m * g]).T) / m
             x_acc = acc[0]
             y_acc = acc[1]
-            z_acc = acc[2]
+            z_acc = 0
             x_vel += x_acc * dt
             y_vel += y_acc * dt
             z_vel += z_acc * dt
             x_pos += x_vel * dt
             y_pos += y_vel * dt
             z_pos += z_vel * dt
+
+            x_pos_tot.append(x_pos)
+            y_pos_tot.append(y_pos)
+            x_vel_tot.append(x_vel)
+            y_vel_tot.append(y_vel)
+            x_acc_tot.append(x_acc)
+            y_acc_tot.append(y_acc)
+            time_tot.append(t)
+
+
+
+
 
             q.update_pose(x_pos, y_pos, z_pos, roll, pitch, yaw)
 
@@ -321,11 +361,26 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
             print("dist_goal:", dist_goal)
             print("dist_percorsa2D", dist_percorsa2D)
 
+            '''for a,b,c,d,e,f in zip(*parameters):
+                print(a,b,c,d,e,f)'''
+
             t += dt
             o = o + 1
 
         print("-" * 20, "[REACHED, Missing", distance_2D([x_pos, y_pos, z_pos], waypoints[(i + 1) % num_waypoints]),
               "m]", "-" * 20)
+        parameters.append(x_acc_tot)
+        parameters.append(y_acc_tot)
+        parameters.append(x_vel_tot)
+        parameters.append(y_vel_tot)
+        parameters.append(x_pos_tot)
+        parameters.append(y_pos_tot)
+        parameters.append(time_tot)
+        print("Time|x_acc|y_acc|x_vel|y_vel|x_pos|y_pos")
+        for a,b,c,d,e,f,l in zip(*parameters):
+            print("{:.2f}".format(l),"{:.3f}".format(a),"{:.3f}".format(b),"{:.3f}".format(c),
+                  "{:.3f}".format(d),"{:.3f}".format(e),"{:.3f}".format(f))
+
 
         t = 0
         o = 0
@@ -335,6 +390,8 @@ def quad_sim(x_c, y_c, z_c, i, time, rx, ry, ryaw, rv, ra_x, ra_y, ra, rj, ra_x_
         if irun >= n_run:
             break
         print("-" * 20, "[PASSING TO NEXT WAYPOINT]", "-" * 20)
+        print("x_pos_tot", x_pos_tot)
+        #print("y_pos_tot", y_pos_tot)
 
 
 
@@ -440,7 +497,7 @@ def main():
     #sx = 0.0  # start x position [m]
     #sy_l = 10.0  # start y position [m]
     sy_r = 0.0625
-    syaw = np.deg2rad(0.0)  # start yaw angle [rad]
+    syaw = np.deg2rad(5.0)  # start yaw angle [rad]
     sv_l = 0.0  # start speed [m/s]
     sa_l = 0.0  # start accel [m/ss]
     sv_r = 0.0  # start speed [m/s]
@@ -448,7 +505,7 @@ def main():
 
     #gx = 500.0  # goal x position [m]
     #gy = 355.0  # goal y position [m]
-    gyaw = np.deg2rad(0.0)  # goal yaw angle [rad]
+    gyaw = np.deg2rad(10.0)  # goal yaw angle [rad]
     gv = 0.0  # goal speed [m/s]
     ga = 0.0  # goal accel [m/ss]
 
@@ -459,6 +516,7 @@ def main():
 
     ra_x_tot = [] #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints
     ra_y_tot = [] #Array di tutte le ra_y (accelerazione sull'asse y) per ogni waypoints
+    yaw_l_tot = []
 
     for i in range(num_waypoints):
         #L = distance_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
@@ -476,13 +534,16 @@ def main():
         ra_x_tot.append(ra_x) #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints
         ra_y_tot.append(ra_y) #Array di tutte le ra_y (accelerazione sull'asse y) per ogni waypoints
 
+        yaw_l_tot.append(yaw_l)  # Array di tutte le yaw_l (yaw sull'asse x) per ogni waypoints
+
+
         traj.solve()
         x_coeffs[i] = traj.x_c
         y_coeffs[i] = traj.y_c
         z_coeffs[i] = traj.z_c
 
 
-    quad_sim(x_coeffs, y_coeffs, z_coeffs, i , time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot)
+    quad_sim(x_coeffs, y_coeffs, z_coeffs, i , time_l, x_l, y_l, yaw_l_tot, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot)
 
 if __name__ == "__main__":
     main()

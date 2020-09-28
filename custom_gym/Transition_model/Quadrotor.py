@@ -88,4 +88,4 @@ class Quadrotor():
 
         self.ax.set_zlim(PLOTRANGE_Z_NEG, PLOTRANGE_Z_POS)
 
-        plt.pause(0.001)
+        plt.pause(0.00001)

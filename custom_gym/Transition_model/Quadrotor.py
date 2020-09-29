@@ -79,7 +79,7 @@ class Quadrotor():
         self.ax.plot([p3_t[0], p4_t[0]], [p3_t[1], p4_t[1]],
                      [p3_t[2], p4_t[2]], 'r-')
 
-        self.ax.plot(self.x_data, self.y_data, self.z_data, 'b')
+        self.ax.plot(self.x_data, self.y_data, self.z_data, 'b') #dopo b mettere 2 punti se si vuole il trattegiato
 
         plt.xlim(PLOTRANGE_X_NEG, PLOTRANGE_X_POS)
         plt.ylim(PLOTRANGE_Y_NEG, PLOTRANGE_Y_POS)

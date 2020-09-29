@@ -123,7 +123,7 @@ Kd_y = 10
 Kd_z = 1
 
 
-waypoints = [[0, 10, 10], [500, 400, 10],[-500, 355, 10],[0, 10, 10]]
+waypoints = [[0, 10, 10], [500, 400, 10]]
 num_waypoints = len(waypoints)
 
 
@@ -219,7 +219,8 @@ def quintic_polynomials_planner(sx, sy, syaw, sv, sa, gx, gy, gyaw, gv, ga,
 
 
 
-def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_tot, ra_y_tot, rx_tot, ry_tot, csv_filename):
+
+def quad_sim( z_c, i, time, x_l, y_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot, rx_tot, ry_tot, vl_tot, al_tot, yaw_l_tot, csv_filename):
     """
     Calculates the necessary thrust and torques for the quadrotor to
     follow the trajectory described by the sets of coefficients
@@ -278,6 +279,7 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
 
     #print("ra_x_tot", ra_x_tot)
     while True:
+
         #print("waypoints:", waypoints)
         #print("No-noise ra_x_tot[i]-waypoints", ra_x_tot[i])
         start = waypoints[i]
@@ -295,7 +297,7 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
         ra_x_tot_arr = np.array(ra_x_tot[i])
         ra_y_tot_arr = np.array(ra_y_tot[i])
         noise_x = np.random.normal(0, .05, ra_x_tot_arr.shape)
-        noise_y = np.random.normal(0, .05, ra_x_tot_arr.shape)
+        noise_y = np.random.normal(0, .05, ra_y_tot_arr.shape)
         ra_x_noise = ra_x_tot_arr + noise_x
         ra_y_noise = ra_y_tot_arr + noise_y
         # Gaussian-noise--------------------------------------------------------------#
@@ -377,11 +379,16 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
 
             q.update_pose(x_pos, y_pos, z_pos, roll, pitch, yaw)
 
-            acc_ms = np.hypot(x_acc, y_acc)
-            vel_ms = np.hypot(x_vel, y_vel)
 
-            acceleration_list.append(acc_ms)
+
+            vel_ms = np.hypot(x_vel, y_vel)
             velocity_list.append(vel_ms)
+
+
+            acc_ms = np.hypot(x_acc, y_acc)
+            if len(velocity_list) >= 2 and velocity_list[-1] - velocity_list[-2] < 0.0:
+                acc_ms *= -1
+            acceleration_list.append(acc_ms)
 
             # # # # # # #
             # Log info
@@ -421,15 +428,17 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
 
             plt.figure(1)
             plt.subplot(2, 1, 1)
-            plt.title('Velocity')
-            plt.plot(time_tot, velocity_list, '-b', label="Velocity and Acceleration UAV")
+            plt.title('Velocity and Acceleration - Perfect Trajectory and Trajectory Noise')
+            plt.plot(time_tot, velocity_list, '-r', label="Velocity - Trajectory Noise")
+            plt.plot(time_tot, vl_tot[i], ':b', label="Velocity - Perfect Trajectory")
             plt.xlabel("Time[s]")
             plt.ylabel("Speed[m/s]")
             plt.legend()
             plt.grid(True)
 
             plt.subplot(2, 1, 2)
-            plt.plot(time_tot, acceleration_list, "-r", label="Acceleration")
+            plt.plot(time_tot, acceleration_list, "-r", label="Acceleration - Trajectory Noise")
+            plt.plot(time_tot, al_tot[i], ':b', label="Acceleration - Perfect Trajectory")
             plt.xlabel("Time[s]")
             plt.ylabel("accel[m/ss]")
             plt.legend()
@@ -467,7 +476,7 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
             plt.plot(time_tot, ra_x_noise, "--r", label="Acceleration Noise")
             plt.plot(time_tot, ra_x_tot[i], '--b', label="Perfect Acceleration")
             plt.xlabel("Time")
-            plt.ylabel("x_acc")
+            plt.ylabel("x_acc[m/ss]")
             plt.legend()
             plt.grid(True)
 
@@ -475,8 +484,9 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
             plt.plot(time_tot, ra_y_noise, "--r", label="Acceleration Noise")
             plt.plot(time_tot, ra_y_tot[i], '--b', label="Perfect Acceleration")
             plt.xlabel("Time")
-            plt.ylabel("y_acc")
+            plt.ylabel("y_acc[m/ss]")
             plt.legend()
+            #plt.savefig('books_read.png')
             plt.grid(True)
 
 
@@ -495,6 +505,7 @@ def quad_sim( z_c, i, time, x_l, y_l, yaw_l_tot, rv, ra_x, ra_y, ra, rj, ra_x_to
         y_acc_tot = []
         time_tot  = []
         parameters = []
+
 
 
         acceleration_list = []
@@ -623,13 +634,13 @@ def generate_single_trajectory(csv_filename):
 
     #gx = 500.0  # goal x position [m]
     #gy = 355.0  # goal y position [m]
-    gyaw = np.deg2rad(2.0)  # goal yaw angle [rad]
+    gyaw = np.deg2rad(0.0)  # goal yaw angle [rad]
     gv = 0.0  # goal speed [m/s]
     ga = 0.0  # goal accel [m/ss]
 
     max_vel = 18  # max speed [m/s]
     max_accel = 3.0  # max accel [m/ss]
-    max_jerk = 3  # max jerk [m/sss]
+    max_jerk = 10  # max jerk [m/sss]
     dt = 0.1  # time tick [s]
 
     ra_x_tot = []  #Array di tutte le ra_x (accelerazione sull'asse x) per ogni waypoints
@@ -637,16 +648,18 @@ def generate_single_trajectory(csv_filename):
     yaw_l_tot = [] #Array di tutte le yaw (yaw per istante di tempo) per ogni waypoints
     rx_tot = []
     ry_tot = []
+    vl_tot = []
+    al_tot = []
     for i in range(num_waypoints):
         #L = distance_2D(waypoints[i],waypoints[(i+1)%num_waypoints])
-        next_waypoints_x = (waypoints[(i + 1) % 4][0])
-        next_waypoints_y = (waypoints[(i + 1) % 4][1])
-        traj = TrajectoryGenerator(waypoints[i], waypoints[(i + 1) % 4], T)
+        next_waypoints_x = (waypoints[(i + 1) % num_waypoints][0])
+        next_waypoints_y = (waypoints[(i + 1) % num_waypoints][1])
+        traj = TrajectoryGenerator(waypoints[i], waypoints[(i + 1) % num_waypoints], T)
 
         time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l = quintic_polynomials_planner(
             waypoints[i][0], waypoints[i][1], syaw, sv_l, sa_l, next_waypoints_x , next_waypoints_y, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)
 
-        print("WAYPOINT", waypoints[i][0], waypoints[i][1], "|" , (waypoints[(i + 1) % 4][0]), (waypoints[(i + 1) % 4][1]))
+        print("WAYPOINT", waypoints[i][0], waypoints[i][1], "|" , (waypoints[(i + 1) % num_waypoints][0]), (waypoints[(i + 1) % num_waypoints][1]))
         '''time_l, x_l, y_l, yaw_l, v_l, ra_x, ra_y, a_l, j_l = quintic_polynomials_planner(
             sx, sy_l, syaw, sv_l, sa_l, gx, gy, gyaw, gv, ga, max_vel, max_accel, max_jerk, dt)'''
 
@@ -657,6 +670,9 @@ def generate_single_trajectory(csv_filename):
 
         rx_tot.append(x_l)
         ry_tot.append(y_l)
+        vl_tot.append(v_l)
+        al_tot.append(a_l)
+
 
 
         traj.solve()
@@ -666,7 +682,7 @@ def generate_single_trajectory(csv_filename):
         #print("yaw_l_tot", yaw_l_tot)
 
 
-    quad_sim( z_coeffs, i , time_l, x_l, y_l, yaw_l_tot, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot, rx_tot, ry_tot, csv_filename)
+    quad_sim( z_coeffs, i , time_l, x_l, y_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_tot, rx_tot, ry_tot, vl_tot, al_tot, yaw_l_tot, csv_filename)
 
 if __name__ == "__main__":
     generate_trajectories()

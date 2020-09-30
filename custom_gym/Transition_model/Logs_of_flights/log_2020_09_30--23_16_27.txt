@@ -1,0 +1,907 @@
+
+
+___________________________________________ENVIRONMENT AND DRONE INFO: ___________________________________________
+
+WP3 SCENARIO: 6
+DRONE ID: 1.0
+VOL: Zu
+AIR RISK: UC
+GROUND RISK: Intermediate
+OP TYPE: BVLOS
+TYPE OF DRONE: Multirotor
+DIMENSION: 1.7 m
+MASS: 9.0 Kg
+CRUISE SPEED: 18.0 m/s
+VDR: 3.0 m/s
+VRC: 4.0 m/s
+Stationary Max: 15.0 min
+MAX WIND: 8.0 m/s
+PAYLOAD RISK: HighRisk
+T. TYPE: LinealFreeFlight
+FLIGHT MODE: Auto
+MONITORING: YES
+TRACKING SERVICE: YES
+TACTICAL SEPARATION: YES
+DISTANCE TO REACH THE GOAL: 632.5345840347387 m
+MINIMUM AND MAXIMUM TIME TO REACH THE GOAL: 1.0 s - 500.0 s
+START COORDINATES: X:10 Y:0 Z:10
+DESTINATION COORDINATES(1): X:500 Y:400 Z:10
+Altitude: 15 m
+__________________________________________________________________________________________________________________
+
+
+
+
+##################################################
+User: ASUS
+OS: win32
+Date: 2020-09-30 23:16:27.398
+##################################################
+
+
+
+find path!!
+WAYPOINT 0 10 | 500 400
+find path!!
+WAYPOINT 500 400 | 0 10
+n_ra_x_tot 671
+Time: 0
+Iterazione_o: 0
+RA_X-num 671
+des_x_acc -0.013035567409177086
+RA_y-num 671
+des_y_acc -0.02761750851180608
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.00
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): -0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0007 	Pitch: -0.0003 	Yaw 0.0000
+Acceleration: 0.01
+Velocity (m/s): 0.00
+dist_goal: 634.1135544995076
+dist_percorsa2D 0.0
+Time: 0.1
+Iterazione_o: 1
+RA_X-num 671
+des_x_acc -0.045563751857718125
+RA_y-num 671
+des_y_acc 0.021786728470133666
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.02
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): -0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0007 	Pitch: -0.0017 	Yaw 0.0000
+Acceleration: 0.02
+Velocity (m/s): 0.00
+dist_goal: 634.1136226600505
+dist_percorsa2D 7.634840280413454e-05
+Time: 0.2
+Iterazione_o: 2
+RA_X-num 671
+des_x_acc 0.035992457147542525
+RA_y-num 671
+des_y_acc -0.06901228777754706
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.02
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): -0.02
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0022 	Pitch: -0.0018 	Yaw 0.0000
+Acceleration: 0.03
+Velocity (m/s): 0.01
+dist_goal: 634.1138664204374
+dist_percorsa2D 0.00031233036953554267
+Time: 0.30000000000000004
+Iterazione_o: 3
+RA_X-num 671
+des_x_acc 0.05494013040252401
+RA_y-num 671
+des_y_acc 0.042942498776650885
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.00
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): -0.02
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0021 	Pitch: -0.0000 	Yaw 0.0000
+Acceleration: 0.02
+Velocity (m/s): 0.01
+dist_goal: 634.1143844811878
+dist_percorsa2D 0.0008323050422556227
+Time: 0.4
+Iterazione_o: 4
+RA_X-num 671
+des_x_acc 0.04519463136092819
+RA_y-num 671
+des_y_acc 0.04823371910255417
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): 0.03
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): -0.00
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0003 	Pitch: 0.0029 	Yaw 0.0000
+Acceleration: -0.03
+Velocity (m/s): 0.01
+dist_goal: 634.1150326399576
+dist_percorsa2D 0.001503309068143765
+Time: 0.5
+Iterazione_o: 5
+RA_X-num 671
+des_x_acc -0.0010709720001487663
+RA_y-num 671
+des_y_acc -0.03880609581681186
+X_pos: -0.00 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.05
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0007 	Pitch: 0.0051 	Yaw 0.0000
+Acceleration: 0.05
+Velocity (m/s): 0.01
+dist_goal: 634.1154709166841
+dist_percorsa2D 0.002035298484051718
+Time: 0.6
+Iterazione_o: 6
+RA_X-num 671
+des_x_acc 0.0807417382641288
+RA_y-num 671
+des_y_acc 0.10465943056015267
+X_pos: 0.00 	X_vel (m/s): 0.01 	X_acc (m/s^2): 0.08
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0041 	Pitch: 0.0081 	Yaw 0.0000
+Acceleration: 0.09
+Velocity (m/s): 0.01
+dist_goal: 634.1154735819375
+dist_percorsa2D 0.002349559156561879
+Time: 0.7
+Iterazione_o: 7
+RA_X-num 671
+des_x_acc 0.08584935164518843
+RA_y-num 671
+des_y_acc 0.029323638421799813
+X_pos: 0.00 	X_vel (m/s): 0.02 	X_acc (m/s^2): 0.11
+Y_pos: 10.00 	Y_vel (m/s): 0.01 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0073 	Pitch: 0.0112 	Yaw 0.0000
+Acceleration: 0.13
+Velocity (m/s): 0.02
+dist_goal: 634.114603734436
+dist_percorsa2D 0.0024342769861607997
+Time: 0.7999999999999999
+Iterazione_o: 8
+RA_X-num 671
+des_x_acc 0.014146535173625852
+RA_y-num 671
+des_y_acc 0.08761038053754017
+X_pos: 0.01 	X_vel (m/s): 0.03 	X_acc (m/s^2): 0.12
+Y_pos: 10.00 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0109 	Pitch: 0.0119 	Yaw 0.0000
+Acceleration: 0.16
+Velocity (m/s): 0.04
+dist_goal: 634.1124283072602
+dist_percorsa2D 0.0033471335624648546
+Time: 0.8999999999999999
+Iterazione_o: 9
+RA_X-num 671
+des_x_acc 0.12315179634985066
+RA_y-num 671
+des_y_acc 0.12241542028455638
+X_pos: 0.01 	X_vel (m/s): 0.05 	X_acc (m/s^2): 0.13
+Y_pos: 10.00 	Y_vel (m/s): 0.03 	Y_acc (m/s^2): 0.15
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0148 	Pitch: 0.0127 	Yaw 0.0000
+Acceleration: 0.19
+Velocity (m/s): 0.06
+dist_goal: 634.108678055927
+dist_percorsa2D 0.006298204664603643
+Time: 0.9999999999999999
+Iterazione_o: 10
+RA_X-num 671
+des_x_acc 0.05501047791536479
+RA_y-num 671
+des_y_acc 0.11188259297142988
+X_pos: 0.02 	X_vel (m/s): 0.06 	X_acc (m/s^2): 0.12
+Y_pos: 10.01 	Y_vel (m/s): 0.05 	Y_acc (m/s^2): 0.18
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0180 	Pitch: 0.0118 	Yaw 0.0000
+Acceleration: 0.21
+Velocity (m/s): 0.08
+dist_goal: 634.1030465115239
+dist_percorsa2D 0.011407851028142672
+Time: 1.0999999999999999
+Iterazione_o: 11
+RA_X-num 671
+des_x_acc 0.0009221952518529142
+RA_y-num 671
+des_y_acc 0.14254766810989997
+X_pos: 0.02 	X_vel (m/s): 0.07 	X_acc (m/s^2): 0.08
+Y_pos: 10.01 	Y_vel (m/s): 0.07 	Y_acc (m/s^2): 0.20
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0202 	Pitch: 0.0079 	Yaw 0.0000
+Acceleration: 0.21
+Velocity (m/s): 0.10
+dist_goal: 634.0954170809944
+dist_percorsa2D 0.01862142893848344
+Time: 1.2
+Iterazione_o: 12
+RA_X-num 671
+des_x_acc 0.23060088918651603
+RA_y-num 671
+des_y_acc 0.055603402405026536
+X_pos: 0.03 	X_vel (m/s): 0.07 	X_acc (m/s^2): 0.08
+Y_pos: 10.02 	Y_vel (m/s): 0.09 	Y_acc (m/s^2): 0.19
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0189 	Pitch: 0.0080 	Yaw 0.0000
+Acceleration: 0.20
+Velocity (m/s): 0.11
+dist_goal: 634.0859516334365
+dist_percorsa2D 0.027755681091205325
+Time: 1.3
+Iterazione_o: 13
+RA_X-num 671
+des_x_acc 0.10240283583113802
+RA_y-num 671
+des_y_acc 0.14255801042746594
+X_pos: 0.04 	X_vel (m/s): 0.08 	X_acc (m/s^2): 0.08
+Y_pos: 10.03 	Y_vel (m/s): 0.10 	Y_acc (m/s^2): 0.16
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0164 	Pitch: 0.0086 	Yaw 0.0000
+Acceleration: 0.18
+Velocity (m/s): 0.13
+dist_goal: 634.0747310142341
+dist_percorsa2D 0.03882843747751952
+Time: 1.4000000000000001
+Iterazione_o: 14
+RA_X-num 671
+des_x_acc 0.2516216869936888
+RA_y-num 671
+des_y_acc 0.13557276350302058
+X_pos: 0.05 	X_vel (m/s): 0.10 	X_acc (m/s^2): 0.13
+Y_pos: 10.05 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0133 	Pitch: 0.0135 	Yaw 0.0000
+Acceleration: 0.19
+Velocity (m/s): 0.15
+dist_goal: 634.0618538447965
+dist_percorsa2D 0.05175718736795408
+Time: 1.5000000000000002
+Iterazione_o: 15
+RA_X-num 671
+des_x_acc 0.13283087760617274
+RA_y-num 671
+des_y_acc 0.04403269136031114
+X_pos: 0.06 	X_vel (m/s): 0.11 	X_acc (m/s^2): 0.18
+Y_pos: 10.06 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0080 	Pitch: 0.0184 	Yaw 0.0000
+Acceleration: 0.20
+Velocity (m/s): 0.17
+dist_goal: 634.0471285009346
+dist_percorsa2D 0.06666764380389963
+Time: 1.6000000000000003
+Iterazione_o: 16
+RA_X-num 671
+des_x_acc 0.19441661052794018
+RA_y-num 671
+des_y_acc 0.0420539001290854
+X_pos: 0.07 	X_vel (m/s): 0.14 	X_acc (m/s^2): 0.23
+Y_pos: 10.07 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.02
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0018 	Pitch: 0.0237 	Yaw 0.0000
+Acceleration: 0.23
+Velocity (m/s): 0.19
+dist_goal: 634.0304958611321
+dist_percorsa2D 0.08348544148085704
+Time: 1.7000000000000004
+Iterazione_o: 17
+RA_X-num 671
+des_x_acc 0.17622681560202857
+RA_y-num 671
+des_y_acc 0.178032703789525
+X_pos: 0.09 	X_vel (m/s): 0.16 	X_acc (m/s^2): 0.27
+Y_pos: 10.08 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): -0.00
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0004 	Pitch: 0.0275 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 0.21
+dist_goal: 634.011925803693
+dist_percorsa2D 0.10210958705048802
+Time: 1.8000000000000005
+Iterazione_o: 18
+RA_X-num 671
+des_x_acc 0.1400047187368937
+RA_y-num 671
+des_y_acc 0.12831383458437118
+X_pos: 0.11 	X_vel (m/s): 0.19 	X_acc (m/s^2): 0.27
+Y_pos: 10.10 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0008 	Pitch: 0.0280 	Yaw 0.0000
+Acceleration: 0.28
+Velocity (m/s): 0.23
+dist_goal: 633.9912515308587
+dist_percorsa2D 0.12268516037865206
+Time: 1.9000000000000006
+Iterazione_o: 19
+RA_X-num 671
+des_x_acc 0.18057023746545373
+RA_y-num 671
+des_y_acc 0.201228908937979
+X_pos: 0.13 	X_vel (m/s): 0.22 	X_acc (m/s^2): 0.26
+Y_pos: 10.11 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0070 	Pitch: 0.0261 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 0.25
+dist_goal: 633.9683590212227
+dist_percorsa2D 0.14540637739207593
+Time: 2.0000000000000004
+Iterazione_o: 20
+RA_X-num 671
+des_x_acc 0.2149442157369858
+RA_y-num 671
+des_y_acc 0.04283821366889687
+X_pos: 0.16 	X_vel (m/s): 0.24 	X_acc (m/s^2): 0.23
+Y_pos: 10.12 	Y_vel (m/s): 0.15 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0125 	Pitch: 0.0232 	Yaw 0.0000
+Acceleration: 0.26
+Velocity (m/s): 0.28
+dist_goal: 633.9430235209513
+dist_percorsa2D 0.17060262955005817
+Time: 2.1000000000000005
+Iterazione_o: 21
+RA_X-num 671
+des_x_acc 0.20326792898588403
+RA_y-num 671
+des_y_acc 0.061600762189307254
+X_pos: 0.18 	X_vel (m/s): 0.26 	X_acc (m/s^2): 0.19
+Y_pos: 10.14 	Y_vel (m/s): 0.16 	Y_acc (m/s^2): 0.16
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0164 	Pitch: 0.0196 	Yaw 0.0000
+Acceleration: 0.25
+Velocity (m/s): 0.31
+dist_goal: 633.9151415519664
+dist_percorsa2D 0.19841959685968694
+Time: 2.2000000000000006
+Iterazione_o: 22
+RA_X-num 671
+des_x_acc 0.2016161638229853
+RA_y-num 671
+des_y_acc 0.14526218399782873
+X_pos: 0.21 	X_vel (m/s): 0.28 	X_acc (m/s^2): 0.16
+Y_pos: 10.16 	Y_vel (m/s): 0.18 	Y_acc (m/s^2): 0.20
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0200 	Pitch: 0.0163 	Yaw 0.0000
+Acceleration: 0.25
+Velocity (m/s): 0.33
+dist_goal: 633.8847509067042
+dist_percorsa2D 0.2288092590267617
+Time: 2.3000000000000007
+Iterazione_o: 23
+RA_X-num 671
+des_x_acc 0.268889829885821
+RA_y-num 671
+des_y_acc 0.17452454434344683
+X_pos: 0.24 	X_vel (m/s): 0.29 	X_acc (m/s^2): 0.15
+Y_pos: 10.18 	Y_vel (m/s): 0.20 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0230 	Pitch: 0.0157 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 0.36
+dist_goal: 633.8518958519217
+dist_percorsa2D 0.26169373361863585
+Time: 2.400000000000001
+Iterazione_o: 24
+RA_X-num 671
+des_x_acc 0.17766671017893101
+RA_y-num 671
+des_y_acc 0.2019167550555061
+X_pos: 0.27 	X_vel (m/s): 0.31 	X_acc (m/s^2): 0.15
+Y_pos: 10.20 	Y_vel (m/s): 0.23 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0254 	Pitch: 0.0158 	Yaw 0.0000
+Acceleration: 0.29
+Velocity (m/s): 0.38
+dist_goal: 633.8164385214046
+dist_percorsa2D 0.29717930262742837
+Time: 2.500000000000001
+Iterazione_o: 25
+RA_X-num 671
+des_x_acc 0.07604974580341611
+RA_y-num 671
+des_y_acc 0.32218868257396216
+X_pos: 0.30 	X_vel (m/s): 0.32 	X_acc (m/s^2): 0.14
+Y_pos: 10.23 	Y_vel (m/s): 0.26 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0296 	Pitch: 0.0138 	Yaw 0.0000
+Acceleration: 0.32
+Velocity (m/s): 0.41
+dist_goal: 633.7782310610228
+dist_percorsa2D 0.3353959635224991
+Time: 2.600000000000001
+Iterazione_o: 26
+RA_X-num 671
+des_x_acc 0.16600499857530016
+RA_y-num 671
+des_y_acc 0.22506087617837198
+X_pos: 0.33 	X_vel (m/s): 0.33 	X_acc (m/s^2): 0.12
+Y_pos: 10.26 	Y_vel (m/s): 0.29 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0322 	Pitch: 0.0126 	Yaw 0.0000
+Acceleration: 0.34
+Velocity (m/s): 0.44
+dist_goal: 633.7371680388744
+dist_percorsa2D 0.37644010291415997
+Time: 2.700000000000001
+Iterazione_o: 27
+RA_X-num 671
+des_x_acc 0.1251408865062384
+RA_y-num 671
+des_y_acc 0.23870388368830917
+X_pos: 0.37 	X_vel (m/s): 0.34 	X_acc (m/s^2): 0.11
+Y_pos: 10.29 	Y_vel (m/s): 0.32 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0329 	Pitch: 0.0115 	Yaw 0.0000
+Acceleration: 0.34
+Velocity (m/s): 0.47
+dist_goal: 633.6931847723598
+dist_percorsa2D 0.42038877391171925
+Time: 2.800000000000001
+Iterazione_o: 28
+RA_X-num 671
+des_x_acc 0.25827437543692305
+RA_y-num 671
+des_y_acc 0.17425762286889887
+X_pos: 0.40 	X_vel (m/s): 0.36 	X_acc (m/s^2): 0.14
+Y_pos: 10.32 	Y_vel (m/s): 0.35 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0297 	Pitch: 0.0140 	Yaw 0.0000
+Acceleration: 0.32
+Velocity (m/s): 0.50
+dist_goal: 633.6463330400691
+dist_percorsa2D 0.46722150369557114
+Time: 2.9000000000000012
+Iterazione_o: 29
+RA_X-num 671
+des_x_acc 0.21440438150488647
+RA_y-num 671
+des_y_acc 0.18839503697195759
+X_pos: 0.44 	X_vel (m/s): 0.38 	X_acc (m/s^2): 0.18
+Y_pos: 10.36 	Y_vel (m/s): 0.37 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0239 	Pitch: 0.0185 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 0.53
+dist_goal: 633.5966048444008
+dist_percorsa2D 0.5169828983672037
+Time: 3.0000000000000013
+Iterazione_o: 30
+RA_X-num 671
+des_x_acc 0.20572808870601555
+RA_y-num 671
+des_y_acc 0.24442664172237566
+X_pos: 0.48 	X_vel (m/s): 0.40 	X_acc (m/s^2): 0.23
+Y_pos: 10.40 	Y_vel (m/s): 0.39 	Y_acc (m/s^2): 0.18
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0184 	Pitch: 0.0237 	Yaw 0.0000
+Acceleration: 0.29
+Velocity (m/s): 0.56
+dist_goal: 633.5439991110859
+dist_percorsa2D 0.5696872557654026
+Time: 3.1000000000000014
+Iterazione_o: 31
+RA_X-num 671
+des_x_acc 0.3155404335197233
+RA_y-num 671
+des_y_acc 0.19608384652830285
+X_pos: 0.52 	X_vel (m/s): 0.43 	X_acc (m/s^2): 0.30
+Y_pos: 10.44 	Y_vel (m/s): 0.41 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0133 	Pitch: 0.0309 	Yaw 0.0000
+Acceleration: 0.33
+Velocity (m/s): 0.59
+dist_goal: 633.488452991363
+dist_percorsa2D 0.6253795993601298
+Time: 3.2000000000000015
+Iterazione_o: 32
+RA_X-num 671
+des_x_acc 0.2586963457469002
+RA_y-num 671
+des_y_acc 0.1661261440079375
+X_pos: 0.57 	X_vel (m/s): 0.47 	X_acc (m/s^2): 0.36
+Y_pos: 10.48 	Y_vel (m/s): 0.41 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0090 	Pitch: 0.0370 	Yaw 0.0000
+Acceleration: 0.37
+Velocity (m/s): 0.62
+dist_goal: 633.4297155057237
+dist_percorsa2D 0.6842670910385278
+Time: 3.3000000000000016
+Iterazione_o: 33
+RA_X-num 671
+des_x_acc 0.20368050450263608
+RA_y-num 671
+des_y_acc 0.18380268633461386
+X_pos: 0.62 	X_vel (m/s): 0.50 	X_acc (m/s^2): 0.38
+Y_pos: 10.52 	Y_vel (m/s): 0.42 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0072 	Pitch: 0.0391 	Yaw 0.0000
+Acceleration: 0.39
+Velocity (m/s): 0.66
+dist_goal: 633.3675683613
+dist_percorsa2D 0.7465196925177712
+Time: 3.4000000000000017
+Iterazione_o: 34
+RA_X-num 671
+des_x_acc 0.3001669292396155
+RA_y-num 671
+des_y_acc 0.16071175726704612
+X_pos: 0.68 	X_vel (m/s): 0.54 	X_acc (m/s^2): 0.38
+Y_pos: 10.57 	Y_vel (m/s): 0.43 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0077 	Pitch: 0.0390 	Yaw 0.0000
+Acceleration: 0.39
+Velocity (m/s): 0.69
+dist_goal: 633.3019616722115
+dist_percorsa2D 0.8121634851805066
+Time: 3.5000000000000018
+Iterazione_o: 35
+RA_X-num 671
+des_x_acc 0.30324817900083134
+RA_y-num 671
+des_y_acc 0.2220600794227714
+X_pos: 0.73 	X_vel (m/s): 0.58 	X_acc (m/s^2): 0.36
+Y_pos: 10.61 	Y_vel (m/s): 0.44 	Y_acc (m/s^2): 0.12
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0119 	Pitch: 0.0369 	Yaw 0.0000
+Acceleration: 0.38
+Velocity (m/s): 0.73
+dist_goal: 633.2328717821962
+dist_percorsa2D 0.8812248130904319
+Time: 3.600000000000002
+Iterazione_o: 36
+RA_X-num 671
+des_x_acc 0.38148935865617345
+RA_y-num 671
+des_y_acc 0.2807365479013126
+X_pos: 0.79 	X_vel (m/s): 0.61 	X_acc (m/s^2): 0.35
+Y_pos: 10.66 	Y_vel (m/s): 0.46 	Y_acc (m/s^2): 0.20
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0203 	Pitch: 0.0353 	Yaw 0.0000
+Acceleration: 0.40
+Velocity (m/s): 0.77
+dist_goal: 633.160206851325
+dist_percorsa2D 0.9538216300732247
+Time: 3.700000000000002
+Iterazione_o: 37
+RA_X-num 671
+des_x_acc 0.2174271936404214
+RA_y-num 671
+des_y_acc 0.24369297200545967
+X_pos: 0.86 	X_vel (m/s): 0.64 	X_acc (m/s^2): 0.30
+Y_pos: 10.70 	Y_vel (m/s): 0.49 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0298 	Pitch: 0.0304 	Yaw 0.0000
+Acceleration: 0.42
+Velocity (m/s): 0.81
+dist_goal: 633.0835856922846
+dist_percorsa2D 1.0303677141701542
+Time: 3.800000000000002
+Iterazione_o: 38
+RA_X-num 671
+des_x_acc 0.29335668375117735
+RA_y-num 671
+des_y_acc 0.30661521678223236
+X_pos: 0.93 	X_vel (m/s): 0.67 	X_acc (m/s^2): 0.25
+Y_pos: 10.76 	Y_vel (m/s): 0.53 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0397 	Pitch: 0.0254 	Yaw 0.0000
+Acceleration: 0.46
+Velocity (m/s): 0.85
+dist_goal: 633.0028132944448
+dist_percorsa2D 1.1110876455251841
+Time: 3.900000000000002
+Iterazione_o: 39
+RA_X-num 671
+des_x_acc 0.30806666496131224
+RA_y-num 671
+des_y_acc 0.2987021218973681
+X_pos: 0.99 	X_vel (m/s): 0.69 	X_acc (m/s^2): 0.21
+Y_pos: 10.82 	Y_vel (m/s): 0.57 	Y_acc (m/s^2): 0.46
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0473 	Pitch: 0.0219 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 0.90
+dist_goal: 632.9176834030217
+dist_percorsa2D 1.1962073166287328
+Time: 4.000000000000002
+Iterazione_o: 40
+RA_X-num 671
+des_x_acc 0.29073692931415107
+RA_y-num 671
+des_y_acc 0.204276662970286
+X_pos: 1.07 	X_vel (m/s): 0.71 	X_acc (m/s^2): 0.20
+Y_pos: 10.88 	Y_vel (m/s): 0.62 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0482 	Pitch: 0.0203 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 0.94
+dist_goal: 632.8280131782224
+dist_percorsa2D 1.2859226126553391
+Time: 4.100000000000001
+Iterazione_o: 41
+RA_X-num 671
+des_x_acc 0.3872165458169797
+RA_y-num 671
+des_y_acc 0.2980634244277987
+X_pos: 1.14 	X_vel (m/s): 0.73 	X_acc (m/s^2): 0.23
+Y_pos: 10.94 	Y_vel (m/s): 0.67 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0447 	Pitch: 0.0235 	Yaw 0.0000
+Acceleration: 0.50
+Velocity (m/s): 0.99
+dist_goal: 632.7338677289991
+dist_percorsa2D 1.38017672235378
+Time: 4.200000000000001
+Iterazione_o: 42
+RA_X-num 671
+des_x_acc 0.3674244150887379
+RA_y-num 671
+des_y_acc 0.2735933552454423
+X_pos: 1.21 	X_vel (m/s): 0.76 	X_acc (m/s^2): 0.30
+Y_pos: 11.01 	Y_vel (m/s): 0.70 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0370 	Pitch: 0.0302 	Yaw 0.0000
+Acceleration: 0.47
+Velocity (m/s): 1.04
+dist_goal: 632.635210015352
+dist_percorsa2D 1.4790073056935822
+Time: 4.300000000000001
+Iterazione_o: 43
+RA_X-num 671
+des_x_acc 0.34601313142712947
+RA_y-num 671
+des_y_acc 0.32174518130452884
+X_pos: 1.29 	X_vel (m/s): 0.80 	X_acc (m/s^2): 0.37
+Y_pos: 11.09 	Y_vel (m/s): 0.73 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0282 	Pitch: 0.0382 	Yaw 0.0000
+Acceleration: 0.47
+Velocity (m/s): 1.08
+dist_goal: 632.5319865844377
+dist_percorsa2D 1.5824496117130997
+Time: 4.4
+Iterazione_o: 44
+RA_X-num 671
+des_x_acc 0.34120696117422844
+RA_y-num 671
+des_y_acc 0.26791416637827814
+X_pos: 1.38 	X_vel (m/s): 0.84 	X_acc (m/s^2): 0.44
+Y_pos: 11.16 	Y_vel (m/s): 0.75 	Y_acc (m/s^2): 0.19
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0192 	Pitch: 0.0453 	Yaw 0.0000
+Acceleration: 0.48
+Velocity (m/s): 1.13
+dist_goal: 632.4241093002424
+dist_percorsa2D 1.6905549291074997
+Time: 4.5
+Iterazione_o: 45
+RA_X-num 671
+des_x_acc 0.4034224816111963
+RA_y-num 671
+des_y_acc 0.22826521319421783
+X_pos: 1.47 	X_vel (m/s): 0.89 	X_acc (m/s^2): 0.50
+Y_pos: 11.24 	Y_vel (m/s): 0.76 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0113 	Pitch: 0.0514 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 1.17
+dist_goal: 632.3115695845416
+dist_percorsa2D 1.8032837184347732
+Time: 4.6
+Iterazione_o: 46
+RA_X-num 671
+des_x_acc 0.4200003060759829
+RA_y-num 671
+des_y_acc 0.2683365009713071
+X_pos: 1.56 	X_vel (m/s): 0.95 	X_acc (m/s^2): 0.54
+Y_pos: 11.31 	Y_vel (m/s): 0.77 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0073 	Pitch: 0.0553 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 1.22
+dist_goal: 632.1943789832261
+dist_percorsa2D 1.9205780877184175
+Time: 4.699999999999999
+Iterazione_o: 47
+RA_X-num 671
+des_x_acc 0.27936391168064545
+RA_y-num 671
+des_y_acc 0.2742096856634443
+X_pos: 1.66 	X_vel (m/s): 1.00 	X_acc (m/s^2): 0.52
+Y_pos: 11.39 	Y_vel (m/s): 0.78 	Y_acc (m/s^2): 0.08
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0085 	Pitch: 0.0525 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 1.26
+dist_goal: 632.0724719340843
+dist_percorsa2D 2.042481091095981
+Time: 4.799999999999999
+Iterazione_o: 48
+RA_X-num 671
+des_x_acc 0.4003209811973235
+RA_y-num 671
+des_y_acc 0.27224049508961357
+X_pos: 1.77 	X_vel (m/s): 1.05 	X_acc (m/s^2): 0.46
+Y_pos: 11.47 	Y_vel (m/s): 0.79 	Y_acc (m/s^2): 0.14
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0145 	Pitch: 0.0468 	Yaw 0.0000
+Acceleration: 0.48
+Velocity (m/s): 1.31
+dist_goal: 631.9459897286795
+dist_percorsa2D 2.168870334958699
+Time: 4.899999999999999
+Iterazione_o: 49
+RA_X-num 671
+des_x_acc 0.400132076210416
+RA_y-num 671
+des_y_acc 0.26592913822636177
+X_pos: 1.88 	X_vel (m/s): 1.08 	X_acc (m/s^2): 0.39
+Y_pos: 11.55 	Y_vel (m/s): 0.81 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0237 	Pitch: 0.0396 	Yaw 0.0000
+Acceleration: 0.45
+Velocity (m/s): 1.35
+dist_goal: 631.815010238431
+dist_percorsa2D 2.2997098984952458
+Time: 4.999999999999998
+Iterazione_o: 50
+RA_X-num 671
+des_x_acc 0.3367078249044095
+RA_y-num 671
+des_y_acc 0.32958738679919775
+X_pos: 1.99 	X_vel (m/s): 1.11 	X_acc (m/s^2): 0.30
+Y_pos: 11.64 	Y_vel (m/s): 0.85 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0353 	Pitch: 0.0311 	Yaw 0.0000
+Acceleration: 0.46
+Velocity (m/s): 1.40
+dist_goal: 631.6795387795308
+dist_percorsa2D 2.4350400106761207
+Time: 5.099999999999998
+Iterazione_o: 51
+RA_X-num 671
+des_x_acc 0.4531563798398702
+RA_y-num 671
+des_y_acc 0.335054773914353
+X_pos: 2.10 	X_vel (m/s): 1.14 	X_acc (m/s^2): 0.26
+Y_pos: 11.73 	Y_vel (m/s): 0.89 	Y_acc (m/s^2): 0.46
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0467 	Pitch: 0.0263 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 1.45
+dist_goal: 631.539534084643
+dist_percorsa2D 2.574942106161639
+Time: 5.1999999999999975
+Iterazione_o: 52
+RA_X-num 671
+des_x_acc 0.5341559579104644
+RA_y-num 671
+des_y_acc 0.25040200545157504
+X_pos: 2.22 	X_vel (m/s): 1.17 	X_acc (m/s^2): 0.28
+Y_pos: 11.82 	Y_vel (m/s): 0.94 	Y_acc (m/s^2): 0.52
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0527 	Pitch: 0.0286 	Yaw 0.0000
+Acceleration: 0.59
+Velocity (m/s): 1.50
+dist_goal: 631.3946809120965
+dist_percorsa2D 2.719753657925161
+Time: 5.299999999999997
+Iterazione_o: 53
+RA_X-num 671
+des_x_acc 0.36409187738444665
+RA_y-num 671
+des_y_acc 0.36722654171010244
+X_pos: 2.34 	X_vel (m/s): 1.20 	X_acc (m/s^2): 0.32
+Y_pos: 11.92 	Y_vel (m/s): 1.00 	Y_acc (m/s^2): 0.54
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0550 	Pitch: 0.0330 	Yaw 0.0000
+Acceleration: 0.63
+Velocity (m/s): 1.56
+dist_goal: 631.2444392454502
+dist_percorsa2D 2.870014439358457
+Time: 5.399999999999997
+Iterazione_o: 54
+RA_X-num 671
+des_x_acc 0.4503138652761636
+RA_y-num 671
+des_y_acc 0.30940055259782623
+X_pos: 2.46 	X_vel (m/s): 1.24 	X_acc (m/s^2): 0.40
+Y_pos: 12.03 	Y_vel (m/s): 1.05 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0513 	Pitch: 0.0406 	Yaw 0.0000
+Acceleration: 0.64
+Velocity (m/s): 1.62
+dist_goal: 631.0883348517824
+dist_percorsa2D 3.0261932696751037
+Time: 5.4999999999999964
+Iterazione_o: 55
+RA_X-num 671
+des_x_acc 0.46634989113211067
+RA_y-num 671
+des_y_acc 0.3508778536183303
+X_pos: 2.59 	X_vel (m/s): 1.29 	X_acc (m/s^2): 0.49
+Y_pos: 12.14 	Y_vel (m/s): 1.09 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0438 	Pitch: 0.0500 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 1.69
+dist_goal: 630.9259965133199
+dist_percorsa2D 3.188643803682555
+Time: 5.599999999999996
+Iterazione_o: 56
+RA_X-num 671
+des_x_acc 0.47719233860258264
+RA_y-num 671
+des_y_acc 0.214365242147245
+X_pos: 2.73 	X_vel (m/s): 1.35 	X_acc (m/s^2): 0.58
+Y_pos: 12.25 	Y_vel (m/s): 1.12 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0308 	Pitch: 0.0590 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 1.75
+dist_goal: 630.7571537024329
+dist_percorsa2D 3.3576082186929535
+Time: 5.699999999999996
+Iterazione_o: 57
+RA_X-num 671
+des_x_acc 0.4354218583055224
+RA_y-num 671
+des_y_acc 0.29186792888861357
+X_pos: 2.87 	X_vel (m/s): 1.41 	X_acc (m/s^2): 0.63
+Y_pos: 12.36 	Y_vel (m/s): 1.14 	Y_acc (m/s^2): 0.17
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0175 	Pitch: 0.0644 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 1.81
+dist_goal: 630.5818923411966
+dist_percorsa2D 3.532958379476183
+Time: 5.799999999999995
+Iterazione_o: 58
+RA_X-num 671
+des_x_acc 0.443288715989365
+RA_y-num 671
+des_y_acc 0.35027762894594394
+X_pos: 3.01 	X_vel (m/s): 1.47 	X_acc (m/s^2): 0.64
+Y_pos: 12.48 	Y_vel (m/s): 1.15 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0088 	Pitch: 0.0649 	Yaw 0.0000
+Acceleration: 0.64
+Velocity (m/s): 1.87
+dist_goal: 630.4005973308
+dist_percorsa2D 3.7142720494157335
+Time: 5.899999999999995
+Iterazione_o: 59
+RA_X-num 671
+des_x_acc 0.4623174643109002
+RA_y-num 671
+des_y_acc 0.33170951412347127
+X_pos: 3.17 	X_vel (m/s): 1.53 	X_acc (m/s^2): 0.60
+Y_pos: 12.59 	Y_vel (m/s): 1.15 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0063 	Pitch: 0.0611 	Yaw 0.0000
+Acceleration: 0.60
+Velocity (m/s): 1.92
+dist_goal: 630.2137509664886
+dist_percorsa2D 3.901052574166906
+Time: 5.999999999999995
+Iterazione_o: 60
+RA_X-num 671
+des_x_acc 0.4380085764335283
+RA_y-num 671
+des_y_acc 0.27917203791769035
+X_pos: 3.33 	X_vel (m/s): 1.59 	X_acc (m/s^2): 0.52
+Y_pos: 12.71 	Y_vel (m/s): 1.16 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0094 	Pitch: 0.0531 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 1.97
+dist_goal: 630.021802797266
+dist_percorsa2D 4.092863563181724
+Time: 6.099999999999994
+Iterazione_o: 61
+RA_X-num 671
+des_x_acc 0.3800606995805322
+RA_y-num 671
+des_y_acc 0.45981297229339113

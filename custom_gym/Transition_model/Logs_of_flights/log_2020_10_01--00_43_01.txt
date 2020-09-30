@@ -1,0 +1,2876 @@
+
+
+___________________________________________ENVIRONMENT AND DRONE INFO: ___________________________________________
+
+WP3 SCENARIO: 6
+DRONE ID: 1.0
+VOL: Zu
+AIR RISK: UC
+GROUND RISK: Intermediate
+OP TYPE: BVLOS
+TYPE OF DRONE: Multirotor
+DIMENSION: 1.7 m
+MASS: 9.0 Kg
+CRUISE SPEED: 18.0 m/s
+VDR: 3.0 m/s
+VRC: 4.0 m/s
+Stationary Max: 15.0 min
+MAX WIND: 8.0 m/s
+PAYLOAD RISK: HighRisk
+T. TYPE: LinealFreeFlight
+FLIGHT MODE: Auto
+MONITORING: YES
+TRACKING SERVICE: YES
+TACTICAL SEPARATION: YES
+DISTANCE TO REACH THE GOAL: 632.5345840347387 m
+MINIMUM AND MAXIMUM TIME TO REACH THE GOAL: 1.0 s - 500.0 s
+START COORDINATES: X:10 Y:0 Z:10
+DESTINATION COORDINATES(1): X:500 Y:400 Z:10
+Altitude: 15 m
+__________________________________________________________________________________________________________________
+
+
+
+
+##################################################
+User: ASUS
+OS: win32
+Date: 2020-10-01 00:43:01.512
+##################################################
+
+
+
+find path!!
+WAYPOINT 0 10 | 500 400
+find path!!
+WAYPOINT 500 400 | 0 10
+Time: 0.00
+des_x_acc -0.06
+des_y_acc -0.05
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.01
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): -0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0013 	Pitch: -0.0015 	Yaw 0.0000
+Acceleration: 0.02
+Velocity (m/s): 0.00
+dist_goal: 634.1135544995076
+dist_percorsa2D 0.0
+Time: 0.10
+des_x_acc -0.02
+des_y_acc -0.04
+X_pos: -0.00 	X_vel (m/s): -0.00 	X_acc (m/s^2): -0.03
+Y_pos: 10.00 	Y_vel (m/s): -0.00 	Y_acc (m/s^2): -0.03
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0033 	Pitch: -0.0032 	Yaw 0.0000
+Acceleration: 0.05
+Velocity (m/s): 0.01
+dist_goal: 634.1137476771831
+dist_percorsa2D 0.00019331840141520803
+Time: 0.20
+des_x_acc -0.04
+des_y_acc -0.00
+X_pos: -0.00 	X_vel (m/s): -0.01 	X_acc (m/s^2): -0.05
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): -0.04
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0046 	Pitch: -0.0051 	Yaw 0.0000
+Acceleration: 0.07
+Velocity (m/s): 0.01
+dist_goal: 634.114390513296
+dist_percorsa2D 0.0008394794716500071
+Time: 0.30
+des_x_acc 0.02
+des_y_acc 0.09
+X_pos: -0.00 	X_vel (m/s): -0.01 	X_acc (m/s^2): -0.05
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): -0.02
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0025 	Pitch: -0.0051 	Yaw 0.0000
+Acceleration: 0.06
+Velocity (m/s): 0.02
+dist_goal: 634.1157053174953
+dist_percorsa2D 0.002158958689519554
+Time: 0.40
+des_x_acc 0.03
+des_y_acc 0.03
+X_pos: -0.00 	X_vel (m/s): -0.02 	X_acc (m/s^2): -0.03
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0009 	Pitch: -0.0032 	Yaw 0.0000
+Acceleration: 0.03
+Velocity (m/s): 0.02
+dist_goal: 634.1175669254279
+dist_percorsa2D 0.00401652293655074
+Time: 0.50
+des_x_acc -0.04
+des_y_acc 0.04
+X_pos: -0.01 	X_vel (m/s): -0.02 	X_acc (m/s^2): -0.01
+Y_pos: 10.00 	Y_vel (m/s): -0.01 	Y_acc (m/s^2): 0.05
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0050 	Pitch: -0.0015 	Yaw 0.0000
+Acceleration: -0.05
+Velocity (m/s): 0.02
+dist_goal: 634.1196222378304
+dist_percorsa2D 0.006068335935458607
+Time: 0.60
+des_x_acc 0.08
+des_y_acc 0.10
+X_pos: -0.01 	X_vel (m/s): -0.02 	X_acc (m/s^2): 0.03
+Y_pos: 10.00 	Y_vel (m/s): 0.00 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0105 	Pitch: 0.0026 	Yaw 0.0000
+Acceleration: -0.11
+Velocity (m/s): 0.02
+dist_goal: 634.1214894169902
+dist_percorsa2D 0.007978036570175033
+Time: 0.70
+des_x_acc 0.11
+des_y_acc 0.09
+X_pos: -0.01 	X_vel (m/s): -0.01 	X_acc (m/s^2): 0.09
+Y_pos: 10.00 	Y_vel (m/s): 0.02 	Y_acc (m/s^2): 0.15
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0156 	Pitch: 0.0089 	Yaw 0.0000
+Acceleration: 0.18
+Velocity (m/s): 0.02
+dist_goal: 634.1225240177312
+dist_percorsa2D 0.009241712497926591
+Time: 0.80
+des_x_acc 0.01
+des_y_acc 0.13
+X_pos: -0.01 	X_vel (m/s): 0.00 	X_acc (m/s^2): 0.13
+Y_pos: 10.00 	Y_vel (m/s): 0.04 	Y_acc (m/s^2): 0.20
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0200 	Pitch: 0.0132 	Yaw 0.0000
+Acceleration: 0.23
+Velocity (m/s): 0.04
+dist_goal: 634.1219347255378
+dist_percorsa2D 0.009416280890907956
+Time: 0.90
+des_x_acc 0.04
+des_y_acc 0.10
+X_pos: -0.01 	X_vel (m/s): 0.02 	X_acc (m/s^2): 0.15
+Y_pos: 10.01 	Y_vel (m/s): 0.06 	Y_acc (m/s^2): 0.21
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0219 	Pitch: 0.0153 	Yaw 0.0000
+Acceleration: 0.26
+Velocity (m/s): 0.06
+dist_goal: 634.1191212395742
+dist_percorsa2D 0.009028955950445833
+Time: 1.00
+des_x_acc 0.17
+des_y_acc 0.05
+X_pos: -0.00 	X_vel (m/s): 0.04 	X_acc (m/s^2): 0.18
+Y_pos: 10.02 	Y_vel (m/s): 0.08 	Y_acc (m/s^2): 0.19
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0198 	Pitch: 0.0179 	Yaw 0.0000
+Acceleration: 0.26
+Velocity (m/s): 0.09
+dist_goal: 634.1137991586926
+dist_percorsa2D 0.010695054328839503
+Time: 1.10
+des_x_acc 0.01
+des_y_acc 0.07
+X_pos: 0.00 	X_vel (m/s): 0.05 	X_acc (m/s^2): 0.16
+Y_pos: 10.03 	Y_vel (m/s): 0.09 	Y_acc (m/s^2): 0.14
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0144 	Pitch: 0.0161 	Yaw 0.0000
+Acceleration: 0.21
+Velocity (m/s): 0.11
+dist_goal: 634.105902766308
+dist_percorsa2D 0.01659476478004114
+Time: 1.20
+des_x_acc 0.17
+des_y_acc 0.19
+X_pos: 0.01 	X_vel (m/s): 0.07 	X_acc (m/s^2): 0.14
+Y_pos: 10.04 	Y_vel (m/s): 0.10 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0101 	Pitch: 0.0146 	Yaw 0.0000
+Acceleration: 0.17
+Velocity (m/s): 0.12
+dist_goal: 634.0958914735862
+dist_percorsa2D 0.025866368176568094
+Time: 1.30
+des_x_acc 0.12
+des_y_acc 0.21
+X_pos: 0.02 	X_vel (m/s): 0.08 	X_acc (m/s^2): 0.12
+Y_pos: 10.05 	Y_vel (m/s): 0.11 	Y_acc (m/s^2): 0.09
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0087 	Pitch: 0.0126 	Yaw 0.0000
+Acceleration: 0.15
+Velocity (m/s): 0.14
+dist_goal: 634.0841359113776
+dist_percorsa2D 0.03732392457767611
+Time: 1.40
+des_x_acc 0.16
+des_y_acc 0.04
+X_pos: 0.03 	X_vel (m/s): 0.09 	X_acc (m/s^2): 0.11
+Y_pos: 10.06 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.06
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0062 	Pitch: 0.0116 	Yaw 0.0000
+Acceleration: 0.13
+Velocity (m/s): 0.15
+dist_goal: 634.0708785733349
+dist_percorsa2D 0.05047670247049292
+Time: 1.50
+des_x_acc 0.06
+des_y_acc 0.03
+X_pos: 0.04 	X_vel (m/s): 0.10 	X_acc (m/s^2): 0.09
+Y_pos: 10.07 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.03
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0030 	Pitch: 0.0094 	Yaw 0.0000
+Acceleration: 0.10
+Velocity (m/s): 0.16
+dist_goal: 634.0563460084918
+dist_percorsa2D 0.06493634836493099
+Time: 1.60
+des_x_acc 0.12
+des_y_acc 0.04
+X_pos: 0.05 	X_vel (m/s): 0.11 	X_acc (m/s^2): 0.08
+Y_pos: 10.08 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): -0.00
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: 0.0000 	Pitch: 0.0079 	Yaw 0.0000
+Acceleration: 0.08
+Velocity (m/s): 0.16
+dist_goal: 634.0409100876528
+dist_percorsa2D 0.08027364727452736
+Time: 1.70
+des_x_acc 0.15
+des_y_acc 0.15
+X_pos: 0.06 	X_vel (m/s): 0.12 	X_acc (m/s^2): 0.08
+Y_pos: 10.10 	Y_vel (m/s): 0.12 	Y_acc (m/s^2): 0.01
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0007 	Pitch: 0.0082 	Yaw 0.0000
+Acceleration: 0.08
+Velocity (m/s): 0.17
+dist_goal: 634.0248644717751
+dist_percorsa2D 0.0961401596236934
+Time: 1.80
+des_x_acc 0.22
+des_y_acc 0.22
+X_pos: 0.07 	X_vel (m/s): 0.13 	X_acc (m/s^2): 0.12
+Y_pos: 10.11 	Y_vel (m/s): 0.13 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0068 	Pitch: 0.0121 	Yaw 0.0000
+Acceleration: 0.14
+Velocity (m/s): 0.18
+dist_goal: 634.0081419050962
+dist_percorsa2D 0.11261109288439264
+Time: 1.90
+des_x_acc 0.13
+des_y_acc 0.13
+X_pos: 0.09 	X_vel (m/s): 0.14 	X_acc (m/s^2): 0.16
+Y_pos: 10.12 	Y_vel (m/s): 0.14 	Y_acc (m/s^2): 0.14
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0145 	Pitch: 0.0162 	Yaw 0.0000
+Acceleration: 0.21
+Velocity (m/s): 0.20
+dist_goal: 633.9900722743389
+dist_percorsa2D 0.13040342980908087
+Time: 2.00
+des_x_acc 0.21
+des_y_acc 0.12
+X_pos: 0.10 	X_vel (m/s): 0.17 	X_acc (m/s^2): 0.21
+Y_pos: 10.14 	Y_vel (m/s): 0.16 	Y_acc (m/s^2): 0.21
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0218 	Pitch: 0.0216 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 0.23
+dist_goal: 633.9698697130159
+dist_percorsa2D 0.1503785219304538
+Time: 2.10
+des_x_acc 0.15
+des_y_acc 0.17
+X_pos: 0.12 	X_vel (m/s): 0.19 	X_acc (m/s^2): 0.25
+Y_pos: 10.16 	Y_vel (m/s): 0.19 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0280 	Pitch: 0.0253 	Yaw 0.0000
+Acceleration: 0.37
+Velocity (m/s): 0.27
+dist_goal: 633.9466825922419
+dist_percorsa2D 0.17341857042050032
+Time: 2.20
+des_x_acc 0.16
+des_y_acc 0.22
+X_pos: 0.14 	X_vel (m/s): 0.22 	X_acc (m/s^2): 0.26
+Y_pos: 10.18 	Y_vel (m/s): 0.22 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0329 	Pitch: 0.0267 	Yaw 0.0000
+Acceleration: 0.42
+Velocity (m/s): 0.31
+dist_goal: 633.9198476802761
+dist_percorsa2D 0.2002254707899638
+Time: 2.30
+des_x_acc 0.15
+des_y_acc 0.08
+X_pos: 0.17 	X_vel (m/s): 0.24 	X_acc (m/s^2): 0.25
+Y_pos: 10.21 	Y_vel (m/s): 0.26 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0315 	Pitch: 0.0252 	Yaw 0.0000
+Acceleration: 0.40
+Velocity (m/s): 0.35
+dist_goal: 633.888962529505
+dist_percorsa2D 0.23124843853275687
+Time: 2.40
+des_x_acc 0.28
+des_y_acc 0.21
+X_pos: 0.19 	X_vel (m/s): 0.27 	X_acc (m/s^2): 0.24
+Y_pos: 10.24 	Y_vel (m/s): 0.28 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0274 	Pitch: 0.0246 	Yaw 0.0000
+Acceleration: 0.36
+Velocity (m/s): 0.39
+dist_goal: 633.8542273509504
+dist_percorsa2D 0.266269997218388
+Time: 2.50
+des_x_acc 0.27
+des_y_acc 0.26
+X_pos: 0.22 	X_vel (m/s): 0.29 	X_acc (m/s^2): 0.24
+Y_pos: 10.27 	Y_vel (m/s): 0.31 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0231 	Pitch: 0.0247 	Yaw 0.0000
+Acceleration: 0.33
+Velocity (m/s): 0.42
+dist_goal: 633.8159347756298
+dist_percorsa2D 0.30493042973785234
+Time: 2.60
+des_x_acc 0.33
+des_y_acc 0.15
+X_pos: 0.25 	X_vel (m/s): 0.32 	X_acc (m/s^2): 0.27
+Y_pos: 10.30 	Y_vel (m/s): 0.32 	Y_acc (m/s^2): 0.16
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0167 	Pitch: 0.0271 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 0.45
+dist_goal: 633.7743399964655
+dist_percorsa2D 0.34690231118027387
+Time: 2.70
+des_x_acc 0.22
+des_y_acc 0.26
+X_pos: 0.29 	X_vel (m/s): 0.34 	X_acc (m/s^2): 0.28
+Y_pos: 10.33 	Y_vel (m/s): 0.33 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0128 	Pitch: 0.0284 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 0.48
+dist_goal: 633.729638010397
+dist_percorsa2D 0.39186774613039665
+Time: 2.80
+des_x_acc 0.23
+des_y_acc 0.20
+X_pos: 0.33 	X_vel (m/s): 0.37 	X_acc (m/s^2): 0.28
+Y_pos: 10.37 	Y_vel (m/s): 0.34 	Y_acc (m/s^2): 0.10
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0106 	Pitch: 0.0284 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 0.51
+dist_goal: 633.6819666055092
+dist_percorsa2D 0.4396338131132958
+Time: 2.90
+des_x_acc 0.25
+des_y_acc 0.23
+X_pos: 0.37 	X_vel (m/s): 0.40 	X_acc (m/s^2): 0.27
+Y_pos: 10.40 	Y_vel (m/s): 0.36 	Y_acc (m/s^2): 0.11
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0117 	Pitch: 0.0277 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 0.53
+dist_goal: 633.6314551093515
+dist_percorsa2D 0.49006794427020994
+Time: 3.00
+des_x_acc 0.24
+des_y_acc 0.20
+X_pos: 0.41 	X_vel (m/s): 0.42 	X_acc (m/s^2): 0.26
+Y_pos: 10.44 	Y_vel (m/s): 0.37 	Y_acc (m/s^2): 0.15
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0149 	Pitch: 0.0262 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 0.56
+dist_goal: 633.5780939750656
+dist_percorsa2D 0.5432286382759729
+Time: 3.10
+des_x_acc 0.20
+des_y_acc 0.32
+X_pos: 0.45 	X_vel (m/s): 0.45 	X_acc (m/s^2): 0.23
+Y_pos: 10.48 	Y_vel (m/s): 0.39 	Y_acc (m/s^2): 0.22
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0224 	Pitch: 0.0232 	Yaw 0.0000
+Acceleration: 0.32
+Velocity (m/s): 0.60
+dist_goal: 633.5218067479384
+dist_percorsa2D 0.5992665683210651
+Time: 3.20
+des_x_acc 0.13
+des_y_acc 0.26
+X_pos: 0.50 	X_vel (m/s): 0.47 	X_acc (m/s^2): 0.18
+Y_pos: 10.52 	Y_vel (m/s): 0.42 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0310 	Pitch: 0.0179 	Yaw 0.0000
+Acceleration: 0.35
+Velocity (m/s): 0.63
+dist_goal: 633.4623684890917
+dist_percorsa2D 0.6585275391339304
+Time: 3.30
+des_x_acc 0.25
+des_y_acc 0.23
+X_pos: 0.55 	X_vel (m/s): 0.48 	X_acc (m/s^2): 0.14
+Y_pos: 10.57 	Y_vel (m/s): 0.46 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0376 	Pitch: 0.0144 	Yaw 0.0000
+Acceleration: 0.40
+Velocity (m/s): 0.66
+dist_goal: 633.3996767554838
+dist_percorsa2D 0.7212424808533962
+Time: 3.40
+des_x_acc 0.30
+des_y_acc 0.23
+X_pos: 0.60 	X_vel (m/s): 0.49 	X_acc (m/s^2): 0.15
+Y_pos: 10.62 	Y_vel (m/s): 0.50 	Y_acc (m/s^2): 0.40
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0407 	Pitch: 0.0149 	Yaw 0.0000
+Acceleration: 0.43
+Velocity (m/s): 0.70
+dist_goal: 633.3336030152481
+dist_percorsa2D 0.7876143482536653
+Time: 3.50
+des_x_acc 0.32
+des_y_acc 0.28
+X_pos: 0.65 	X_vel (m/s): 0.51 	X_acc (m/s^2): 0.20
+Y_pos: 10.67 	Y_vel (m/s): 0.54 	Y_acc (m/s^2): 0.40
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0406 	Pitch: 0.0200 	Yaw 0.0000
+Acceleration: 0.44
+Velocity (m/s): 0.74
+dist_goal: 633.2639219907666
+dist_percorsa2D 0.8578759411460829
+Time: 3.60
+des_x_acc 0.35
+des_y_acc 0.30
+X_pos: 0.70 	X_vel (m/s): 0.54 	X_acc (m/s^2): 0.28
+Y_pos: 10.73 	Y_vel (m/s): 0.58 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0381 	Pitch: 0.0289 	Yaw 0.0000
+Acceleration: 0.47
+Velocity (m/s): 0.79
+dist_goal: 633.1902469203709
+dist_percorsa2D 0.9323620071463359
+Time: 3.70
+des_x_acc 0.33
+des_y_acc 0.24
+X_pos: 0.76 	X_vel (m/s): 0.58 	X_acc (m/s^2): 0.38
+Y_pos: 10.79 	Y_vel (m/s): 0.61 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0322 	Pitch: 0.0391 	Yaw 0.0000
+Acceleration: 0.50
+Velocity (m/s): 0.84
+dist_goal: 633.1120416192261
+dist_percorsa2D 1.011502521304445
+Time: 3.80
+des_x_acc 0.29
+des_y_acc 0.35
+X_pos: 0.82 	X_vel (m/s): 0.63 	X_acc (m/s^2): 0.46
+Y_pos: 10.85 	Y_vel (m/s): 0.64 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0273 	Pitch: 0.0468 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 0.89
+dist_goal: 633.0288765098322
+dist_percorsa2D 1.0955735011961618
+Time: 3.90
+des_x_acc 0.28
+des_y_acc 0.29
+X_pos: 0.89 	X_vel (m/s): 0.67 	X_acc (m/s^2): 0.49
+Y_pos: 10.92 	Y_vel (m/s): 0.66 	Y_acc (m/s^2): 0.22
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0229 	Pitch: 0.0498 	Yaw 0.0000
+Acceleration: 0.54
+Velocity (m/s): 0.94
+dist_goal: 632.9404531839225
+dist_percorsa2D 1.184751233241337
+Time: 4.00
+des_x_acc 0.36
+des_y_acc 0.37
+X_pos: 0.96 	X_vel (m/s): 0.72 	X_acc (m/s^2): 0.49
+Y_pos: 10.99 	Y_vel (m/s): 0.68 	Y_acc (m/s^2): 0.22
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0222 	Pitch: 0.0496 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 0.99
+dist_goal: 632.8468012385823
+dist_percorsa2D 1.278937405941737
+Time: 4.10
+des_x_acc 0.34
+des_y_acc 0.34
+X_pos: 1.04 	X_vel (m/s): 0.77 	X_acc (m/s^2): 0.45
+Y_pos: 11.06 	Y_vel (m/s): 0.70 	Y_acc (m/s^2): 0.24
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0245 	Pitch: 0.0456 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 1.04
+dist_goal: 632.7479769108256
+dist_percorsa2D 1.3780821440487405
+Time: 4.20
+des_x_acc 0.35
+des_y_acc 0.20
+X_pos: 1.12 	X_vel (m/s): 0.81 	X_acc (m/s^2): 0.38
+Y_pos: 11.13 	Y_vel (m/s): 0.73 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0259 	Pitch: 0.0390 	Yaw 0.0000
+Acceleration: 0.46
+Velocity (m/s): 1.09
+dist_goal: 632.6441505782698
+dist_percorsa2D 1.4820878663258572
+Time: 4.30
+des_x_acc 0.43
+des_y_acc 0.24
+X_pos: 1.20 	X_vel (m/s): 0.84 	X_acc (m/s^2): 0.33
+Y_pos: 11.20 	Y_vel (m/s): 0.76 	Y_acc (m/s^2): 0.26
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0268 	Pitch: 0.0337 	Yaw 0.0000
+Acceleration: 0.42
+Velocity (m/s): 1.13
+dist_goal: 632.5357503219624
+dist_percorsa2D 1.5906064691333184
+Time: 4.40
+des_x_acc 0.46
+des_y_acc 0.35
+X_pos: 1.29 	X_vel (m/s): 0.87 	X_acc (m/s^2): 0.31
+Y_pos: 11.28 	Y_vel (m/s): 0.78 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0300 	Pitch: 0.0317 	Yaw 0.0000
+Acceleration: 0.43
+Velocity (m/s): 1.17
+dist_goal: 632.4231316394662
+dist_percorsa2D 1.7033388065022583
+Time: 4.50
+des_x_acc 0.30
+des_y_acc 0.24
+X_pos: 1.38 	X_vel (m/s): 0.90 	X_acc (m/s^2): 0.29
+Y_pos: 11.36 	Y_vel (m/s): 0.82 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0318 	Pitch: 0.0295 	Yaw 0.0000
+Acceleration: 0.43
+Velocity (m/s): 1.21
+dist_goal: 632.3062535739407
+dist_percorsa2D 1.8203696293374136
+Time: 4.60
+des_x_acc 0.34
+des_y_acc 0.38
+X_pos: 1.47 	X_vel (m/s): 0.93 	X_acc (m/s^2): 0.28
+Y_pos: 11.45 	Y_vel (m/s): 0.85 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0355 	Pitch: 0.0285 	Yaw 0.0000
+Acceleration: 0.45
+Velocity (m/s): 1.26
+dist_goal: 632.1851786024532
+dist_percorsa2D 1.94166687545767
+Time: 4.70
+des_x_acc 0.38
+des_y_acc 0.30
+X_pos: 1.57 	X_vel (m/s): 0.96 	X_acc (m/s^2): 0.30
+Y_pos: 11.54 	Y_vel (m/s): 0.89 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0379 	Pitch: 0.0301 	Yaw 0.0000
+Acceleration: 0.47
+Velocity (m/s): 1.31
+dist_goal: 632.0597637455459
+dist_percorsa2D 2.067407375602911
+Time: 4.80
+des_x_acc 0.41
+des_y_acc 0.33
+X_pos: 1.67 	X_vel (m/s): 0.99 	X_acc (m/s^2): 0.34
+Y_pos: 11.63 	Y_vel (m/s): 0.93 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0393 	Pitch: 0.0348 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 1.36
+dist_goal: 631.9297365512398
+dist_percorsa2D 2.197866044803524
+Time: 4.90
+des_x_acc 0.37
+des_y_acc 0.33
+X_pos: 1.77 	X_vel (m/s): 1.03 	X_acc (m/s^2): 0.39
+Y_pos: 11.73 	Y_vel (m/s): 0.96 	Y_acc (m/s^2): 0.38
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0392 	Pitch: 0.0402 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 1.41
+dist_goal: 631.7946526303834
+dist_percorsa2D 2.333460940646576
+Time: 5.00
+des_x_acc 0.39
+des_y_acc 0.28
+X_pos: 1.88 	X_vel (m/s): 1.07 	X_acc (m/s^2): 0.45
+Y_pos: 11.83 	Y_vel (m/s): 1.00 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0364 	Pitch: 0.0456 	Yaw 0.0000
+Acceleration: 0.57
+Velocity (m/s): 1.47
+dist_goal: 631.6540967220104
+dist_percorsa2D 2.474565851292761
+Time: 5.10
+des_x_acc 0.43
+des_y_acc 0.25
+X_pos: 1.99 	X_vel (m/s): 1.12 	X_acc (m/s^2): 0.50
+Y_pos: 11.93 	Y_vel (m/s): 1.03 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0308 	Pitch: 0.0507 	Yaw 0.0000
+Acceleration: 0.58
+Velocity (m/s): 1.53
+dist_goal: 631.5078180630619
+dist_percorsa2D 2.621370085992761
+Time: 5.20
+des_x_acc 0.36
+des_y_acc 0.29
+X_pos: 2.11 	X_vel (m/s): 1.18 	X_acc (m/s^2): 0.51
+Y_pos: 12.04 	Y_vel (m/s): 1.06 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0250 	Pitch: 0.0522 	Yaw 0.0000
+Acceleration: 0.57
+Velocity (m/s): 1.58
+dist_goal: 631.3557599047277
+dist_percorsa2D 2.7738521388742603
+Time: 5.30
+des_x_acc 0.47
+des_y_acc 0.23
+X_pos: 2.23 	X_vel (m/s): 1.23 	X_acc (m/s^2): 0.52
+Y_pos: 12.14 	Y_vel (m/s): 1.07 	Y_acc (m/s^2): 0.18
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0188 	Pitch: 0.0527 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 1.63
+dist_goal: 631.1981540607009
+dist_percorsa2D 2.9317292856847947
+Time: 5.40
+des_x_acc 0.42
+des_y_acc 0.23
+X_pos: 2.36 	X_vel (m/s): 1.28 	X_acc (m/s^2): 0.50
+Y_pos: 12.25 	Y_vel (m/s): 1.09 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0137 	Pitch: 0.0507 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 1.68
+dist_goal: 631.0353410077175
+dist_percorsa2D 3.0946195559564873
+Time: 5.50
+des_x_acc 0.44
+des_y_acc 0.34
+X_pos: 2.49 	X_vel (m/s): 1.32 	X_acc (m/s^2): 0.46
+Y_pos: 12.36 	Y_vel (m/s): 1.10 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0137 	Pitch: 0.0473 	Yaw 0.0000
+Acceleration: 0.48
+Velocity (m/s): 1.72
+dist_goal: 630.8677850840529
+dist_percorsa2D 3.262047031063176
+Time: 5.60
+des_x_acc 0.30
+des_y_acc 0.28
+X_pos: 2.63 	X_vel (m/s): 1.36 	X_acc (m/s^2): 0.39
+Y_pos: 12.47 	Y_vel (m/s): 1.12 	Y_acc (m/s^2): 0.17
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0175 	Pitch: 0.0399 	Yaw 0.0000
+Acceleration: 0.43
+Velocity (m/s): 1.76
+dist_goal: 630.6957399048786
+dist_percorsa2D 3.4337971267423195
+Time: 5.70
+des_x_acc 0.44
+des_y_acc 0.25
+X_pos: 2.77 	X_vel (m/s): 1.40 	X_acc (m/s^2): 0.33
+Y_pos: 12.59 	Y_vel (m/s): 1.14 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0233 	Pitch: 0.0337 	Yaw 0.0000
+Acceleration: 0.40
+Velocity (m/s): 1.80
+dist_goal: 630.5195595500411
+dist_percorsa2D 3.609602699285555
+Time: 5.80
+des_x_acc 0.48
+des_y_acc 0.35
+X_pos: 2.91 	X_vel (m/s): 1.43 	X_acc (m/s^2): 0.31
+Y_pos: 12.71 	Y_vel (m/s): 1.17 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0322 	Pitch: 0.0315 	Yaw 0.0000
+Acceleration: 0.44
+Velocity (m/s): 1.85
+dist_goal: 630.3393656769427
+dist_percorsa2D 3.789424724633613
+Time: 5.90
+des_x_acc 0.46
+des_y_acc 0.27
+X_pos: 3.06 	X_vel (m/s): 1.46 	X_acc (m/s^2): 0.32
+Y_pos: 12.83 	Y_vel (m/s): 1.21 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0400 	Pitch: 0.0329 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 1.90
+dist_goal: 630.1547976674212
+dist_percorsa2D 3.9736943304287276
+Time: 6.00
+des_x_acc 0.41
+des_y_acc 0.39
+X_pos: 3.21 	X_vel (m/s): 1.49 	X_acc (m/s^2): 0.36
+Y_pos: 12.95 	Y_vel (m/s): 1.26 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0477 	Pitch: 0.0366 	Yaw 0.0000
+Acceleration: 0.59
+Velocity (m/s): 1.95
+dist_goal: 629.9652734136325
+dist_percorsa2D 4.163027950458708
+Time: 6.10
+des_x_acc 0.46
+des_y_acc 0.24
+X_pos: 3.36 	X_vel (m/s): 1.54 	X_acc (m/s^2): 0.42
+Y_pos: 13.08 	Y_vel (m/s): 1.31 	Y_acc (m/s^2): 0.49
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0497 	Pitch: 0.0430 	Yaw 0.0000
+Acceleration: 0.64
+Velocity (m/s): 2.02
+dist_goal: 629.7700448954306
+dist_percorsa2D 4.358192960643869
+Time: 6.20
+des_x_acc 0.50
+des_y_acc 0.35
+X_pos: 3.52 	X_vel (m/s): 1.59 	X_acc (m/s^2): 0.50
+Y_pos: 13.22 	Y_vel (m/s): 1.35 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0482 	Pitch: 0.0513 	Yaw 0.0000
+Acceleration: 0.69
+Velocity (m/s): 2.09
+dist_goal: 629.568501061162
+dist_percorsa2D 4.559771466216646
+Time: 6.30
+des_x_acc 0.51
+des_y_acc 0.41
+X_pos: 3.68 	X_vel (m/s): 1.65 	X_acc (m/s^2): 0.59
+Y_pos: 13.36 	Y_vel (m/s): 1.40 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0453 	Pitch: 0.0598 	Yaw 0.0000
+Acceleration: 0.74
+Velocity (m/s): 2.16
+dist_goal: 629.3600896924596
+dist_percorsa2D 4.768259895921275
+Time: 6.40
+des_x_acc 0.44
+des_y_acc 0.46
+X_pos: 3.85 	X_vel (m/s): 1.71 	X_acc (m/s^2): 0.63
+Y_pos: 13.50 	Y_vel (m/s): 1.44 	Y_acc (m/s^2): 0.42
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0428 	Pitch: 0.0648 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 2.24
+dist_goal: 629.1443285605161
+dist_percorsa2D 4.984079248448461
+Time: 6.50
+des_x_acc 0.44
+des_y_acc 0.25
+X_pos: 4.03 	X_vel (m/s): 1.77 	X_acc (m/s^2): 0.63
+Y_pos: 13.65 	Y_vel (m/s): 1.48 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0360 	Pitch: 0.0648 	Yaw 0.0000
+Acceleration: 0.73
+Velocity (m/s): 2.31
+dist_goal: 628.9209868631013
+dist_percorsa2D 5.2074240860079986
+Time: 6.60
+des_x_acc 0.55
+des_y_acc 0.43
+X_pos: 4.21 	X_vel (m/s): 1.83 	X_acc (m/s^2): 0.61
+Y_pos: 13.80 	Y_vel (m/s): 1.51 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0313 	Pitch: 0.0626 	Yaw 0.0000
+Acceleration: 0.69
+Velocity (m/s): 2.37
+dist_goal: 628.6904686191776
+dist_percorsa2D 5.437856660982696
+Time: 6.70
+des_x_acc 0.54
+des_y_acc 0.49
+X_pos: 4.40 	X_vel (m/s): 1.89 	X_acc (m/s^2): 0.57
+Y_pos: 13.95 	Y_vel (m/s): 1.54 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0313 	Pitch: 0.0586 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 2.44
+dist_goal: 628.4532203861893
+dist_percorsa2D 5.674921467177567
+Time: 6.80
+des_x_acc 0.44
+des_y_acc 0.35
+X_pos: 4.60 	X_vel (m/s): 1.94 	X_acc (m/s^2): 0.50
+Y_pos: 14.11 	Y_vel (m/s): 1.57 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0323 	Pitch: 0.0511 	Yaw 0.0000
+Acceleration: 0.59
+Velocity (m/s): 2.50
+dist_goal: 628.2095552429228
+dist_percorsa2D 5.918331441850397
+Time: 6.90
+des_x_acc 0.54
+des_y_acc 0.40
+X_pos: 4.80 	X_vel (m/s): 1.99 	X_acc (m/s^2): 0.44
+Y_pos: 14.27 	Y_vel (m/s): 1.60 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0355 	Pitch: 0.0446 	Yaw 0.0000
+Acceleration: 0.56
+Velocity (m/s): 2.55
+dist_goal: 627.9599889767758
+dist_percorsa2D 6.167613982204162
+Time: 7.00
+des_x_acc 0.52
+des_y_acc 0.32
+X_pos: 5.00 	X_vel (m/s): 2.02 	X_acc (m/s^2): 0.39
+Y_pos: 14.44 	Y_vel (m/s): 1.64 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0380 	Pitch: 0.0401 	Yaw 0.0000
+Acceleration: 0.54
+Velocity (m/s): 2.61
+dist_goal: 627.7048347211999
+dist_percorsa2D 6.422501531648676
+Time: 7.10
+des_x_acc 0.45
+des_y_acc 0.32
+X_pos: 5.20 	X_vel (m/s): 2.06 	X_acc (m/s^2): 0.36
+Y_pos: 14.60 	Y_vel (m/s): 1.68 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0393 	Pitch: 0.0369 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 2.66
+dist_goal: 627.4442930926006
+dist_percorsa2D 6.68282269786458
+Time: 7.20
+des_x_acc 0.43
+des_y_acc 0.33
+X_pos: 5.41 	X_vel (m/s): 2.10 	X_acc (m/s^2): 0.35
+Y_pos: 14.78 	Y_vel (m/s): 1.72 	Y_acc (m/s^2): 0.38
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0392 	Pitch: 0.0355 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 2.71
+dist_goal: 627.1785315413214
+dist_percorsa2D 6.948424801419723
+Time: 7.30
+des_x_acc 0.50
+des_y_acc 0.31
+X_pos: 5.63 	X_vel (m/s): 2.13 	X_acc (m/s^2): 0.37
+Y_pos: 14.95 	Y_vel (m/s): 1.75 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0372 	Pitch: 0.0380 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 2.76
+dist_goal: 626.9076651596142
+dist_percorsa2D 7.21919340882167
+Time: 7.40
+des_x_acc 0.45
+des_y_acc 0.31
+X_pos: 5.84 	X_vel (m/s): 2.17 	X_acc (m/s^2): 0.42
+Y_pos: 15.13 	Y_vel (m/s): 1.79 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0338 	Pitch: 0.0424 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 2.81
+dist_goal: 626.6316176540685
+dist_percorsa2D 7.4951826101633285
+Time: 7.50
+des_x_acc 0.54
+des_y_acc 0.39
+X_pos: 6.07 	X_vel (m/s): 2.22 	X_acc (m/s^2): 0.49
+Y_pos: 15.31 	Y_vel (m/s): 1.82 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0319 	Pitch: 0.0501 	Yaw 0.0000
+Acceleration: 0.58
+Velocity (m/s): 2.87
+dist_goal: 626.3502572431781
+dist_percorsa2D 7.776490320876386
+Time: 7.60
+des_x_acc 0.55
+des_y_acc 0.49
+X_pos: 6.30 	X_vel (m/s): 2.28 	X_acc (m/s^2): 0.58
+Y_pos: 15.50 	Y_vel (m/s): 1.85 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0346 	Pitch: 0.0593 	Yaw 0.0000
+Acceleration: 0.67
+Velocity (m/s): 2.94
+dist_goal: 626.0631035319925
+dist_percorsa2D 8.063560985890573
+Time: 7.70
+des_x_acc 0.55
+des_y_acc 0.50
+X_pos: 6.53 	X_vel (m/s): 2.35 	X_acc (m/s^2): 0.66
+Y_pos: 15.69 	Y_vel (m/s): 1.89 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0415 	Pitch: 0.0678 	Yaw 0.0000
+Acceleration: 0.78
+Velocity (m/s): 3.02
+dist_goal: 625.7692776414998
+dist_percorsa2D 8.357254512669861
+Time: 7.80
+des_x_acc 0.52
+des_y_acc 0.38
+X_pos: 6.77 	X_vel (m/s): 2.42 	X_acc (m/s^2): 0.71
+Y_pos: 15.88 	Y_vel (m/s): 1.94 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0477 	Pitch: 0.0725 	Yaw 0.0000
+Acceleration: 0.85
+Velocity (m/s): 3.10
+dist_goal: 625.4677124208033
+dist_percorsa2D 8.658641066666952
+Time: 7.90
+des_x_acc 0.51
+des_y_acc 0.46
+X_pos: 7.02 	X_vel (m/s): 2.49 	X_acc (m/s^2): 0.70
+Y_pos: 16.08 	Y_vel (m/s): 1.99 	Y_acc (m/s^2): 0.53
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0539 	Pitch: 0.0719 	Yaw 0.0000
+Acceleration: 0.88
+Velocity (m/s): 3.19
+dist_goal: 625.1576717744119
+dist_percorsa2D 8.968470373053385
+Time: 8.00
+des_x_acc 0.61
+des_y_acc 0.41
+X_pos: 7.28 	X_vel (m/s): 2.56 	X_acc (m/s^2): 0.67
+Y_pos: 16.28 	Y_vel (m/s): 2.05 	Y_acc (m/s^2): 0.56
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0569 	Pitch: 0.0689 	Yaw 0.0000
+Acceleration: 0.87
+Velocity (m/s): 3.28
+dist_goal: 624.8388330571313
+dist_percorsa2D 9.287093921952316
+Time: 8.10
+des_x_acc 0.47
+des_y_acc 0.36
+X_pos: 7.54 	X_vel (m/s): 2.62 	X_acc (m/s^2): 0.59
+Y_pos: 16.49 	Y_vel (m/s): 2.10 	Y_acc (m/s^2): 0.54
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0549 	Pitch: 0.0607 	Yaw 0.0000
+Acceleration: 0.80
+Velocity (m/s): 3.36
+dist_goal: 624.5112490913914
+dist_percorsa2D 9.614480762905838
+Time: 8.20
+des_x_acc 0.52
+des_y_acc 0.47
+X_pos: 7.80 	X_vel (m/s): 2.67 	X_acc (m/s^2): 0.49
+Y_pos: 16.71 	Y_vel (m/s): 2.15 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0512 	Pitch: 0.0505 	Yaw 0.0000
+Acceleration: 0.70
+Velocity (m/s): 3.43
+dist_goal: 624.1756703087904
+dist_percorsa2D 9.949897389432389
+Time: 8.30
+des_x_acc 0.59
+des_y_acc 0.36
+X_pos: 8.08 	X_vel (m/s): 2.71 	X_acc (m/s^2): 0.42
+Y_pos: 16.93 	Y_vel (m/s): 2.20 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0439 	Pitch: 0.0427 	Yaw 0.0000
+Acceleration: 0.60
+Velocity (m/s): 3.49
+dist_goal: 623.8331028660109
+dist_percorsa2D 10.292352431368238
+Time: 8.40
+des_x_acc 0.56
+des_y_acc 0.37
+X_pos: 8.35 	X_vel (m/s): 2.74 	X_acc (m/s^2): 0.38
+Y_pos: 17.15 	Y_vel (m/s): 2.23 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0351 	Pitch: 0.0383 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 3.54
+dist_goal: 623.48459079135
+dist_percorsa2D 10.640795725522288
+Time: 8.50
+des_x_acc 0.55
+des_y_acc 0.43
+X_pos: 8.63 	X_vel (m/s): 2.78 	X_acc (m/s^2): 0.38
+Y_pos: 17.38 	Y_vel (m/s): 2.26 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0283 	Pitch: 0.0384 	Yaw 0.0000
+Acceleration: 0.47
+Velocity (m/s): 3.58
+dist_goal: 623.1310003787966
+dist_percorsa2D 10.994339526074327
+Time: 8.60
+des_x_acc 0.57
+des_y_acc 0.41
+X_pos: 8.91 	X_vel (m/s): 2.82 	X_acc (m/s^2): 0.43
+Y_pos: 17.61 	Y_vel (m/s): 2.28 	Y_acc (m/s^2): 0.24
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0249 	Pitch: 0.0434 	Yaw 0.0000
+Acceleration: 0.49
+Velocity (m/s): 3.63
+dist_goal: 622.7727349561645
+dist_percorsa2D 11.352555591532644
+Time: 8.70
+des_x_acc 0.55
+des_y_acc 0.55
+X_pos: 9.20 	X_vel (m/s): 2.88 	X_acc (m/s^2): 0.51
+Y_pos: 17.84 	Y_vel (m/s): 2.31 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0292 	Pitch: 0.0515 	Yaw 0.0000
+Acceleration: 0.58
+Velocity (m/s): 3.69
+dist_goal: 622.4096110494359
+dist_percorsa2D 11.715601931389365
+Time: 8.80
+des_x_acc 0.61
+des_y_acc 0.36
+X_pos: 9.49 	X_vel (m/s): 2.94 	X_acc (m/s^2): 0.61
+Y_pos: 18.07 	Y_vel (m/s): 2.35 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0354 	Pitch: 0.0623 	Yaw 0.0000
+Acceleration: 0.70
+Velocity (m/s): 3.76
+dist_goal: 622.0407399684507
+dist_percorsa2D 12.084360909580193
+Time: 8.90
+des_x_acc 0.52
+des_y_acc 0.43
+X_pos: 9.79 	X_vel (m/s): 3.01 	X_acc (m/s^2): 0.69
+Y_pos: 18.31 	Y_vel (m/s): 2.39 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0438 	Pitch: 0.0708 	Yaw 0.0000
+Acceleration: 0.82
+Velocity (m/s): 3.84
+dist_goal: 621.6649196620644
+dist_percorsa2D 12.460028369412006
+Time: 9.00
+des_x_acc 0.53
+des_y_acc 0.48
+X_pos: 10.10 	X_vel (m/s): 3.08 	X_acc (m/s^2): 0.73
+Y_pos: 18.56 	Y_vel (m/s): 2.44 	Y_acc (m/s^2): 0.53
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0536 	Pitch: 0.0751 	Yaw 0.0000
+Acceleration: 0.90
+Velocity (m/s): 3.93
+dist_goal: 621.2809889954957
+dist_percorsa2D 12.843772990178593
+Time: 9.10
+des_x_acc 0.55
+des_y_acc 0.46
+X_pos: 10.42 	X_vel (m/s): 3.15 	X_acc (m/s^2): 0.73
+Y_pos: 18.81 	Y_vel (m/s): 2.50 	Y_acc (m/s^2): 0.61
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0617 	Pitch: 0.0746 	Yaw 0.0000
+Acceleration: 0.95
+Velocity (m/s): 4.02
+dist_goal: 620.8880334430281
+dist_percorsa2D 13.236531638702994
+Time: 9.20
+des_x_acc 0.59
+des_y_acc 0.45
+X_pos: 10.74 	X_vel (m/s): 3.22 	X_acc (m/s^2): 0.69
+Y_pos: 19.06 	Y_vel (m/s): 2.57 	Y_acc (m/s^2): 0.65
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0660 	Pitch: 0.0706 	Yaw 0.0000
+Acceleration: 0.95
+Velocity (m/s): 4.12
+dist_goal: 620.4856007013582
+dist_percorsa2D 13.638783837692737
+Time: 9.30
+des_x_acc 0.57
+des_y_acc 0.42
+X_pos: 11.07 	X_vel (m/s): 3.28 	X_acc (m/s^2): 0.62
+Y_pos: 19.33 	Y_vel (m/s): 2.63 	Y_acc (m/s^2): 0.63
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0643 	Pitch: 0.0635 	Yaw 0.0000
+Acceleration: 0.88
+Velocity (m/s): 4.21
+dist_goal: 620.0737481825726
+dist_percorsa2D 14.0504939032494
+Time: 9.40
+des_x_acc 0.57
+des_y_acc 0.42
+X_pos: 11.40 	X_vel (m/s): 3.34 	X_acc (m/s^2): 0.54
+Y_pos: 19.59 	Y_vel (m/s): 2.69 	Y_acc (m/s^2): 0.56
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0572 	Pitch: 0.0549 	Yaw 0.0000
+Acceleration: 0.78
+Velocity (m/s): 4.28
+dist_goal: 619.6531249273927
+dist_percorsa2D 14.471022656149135
+Time: 9.50
+des_x_acc 0.56
+des_y_acc 0.46
+X_pos: 11.74 	X_vel (m/s): 3.38 	X_acc (m/s^2): 0.46
+Y_pos: 19.87 	Y_vel (m/s): 2.73 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0476 	Pitch: 0.0469 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 4.35
+dist_goal: 619.2248135414861
+dist_percorsa2D 14.899284224567834
+Time: 9.60
+des_x_acc 0.55
+des_y_acc 0.51
+X_pos: 12.08 	X_vel (m/s): 3.42 	X_acc (m/s^2): 0.40
+Y_pos: 20.14 	Y_vel (m/s): 2.77 	Y_acc (m/s^2): 0.38
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0391 	Pitch: 0.0410 	Yaw 0.0000
+Acceleration: 0.56
+Velocity (m/s): 4.40
+dist_goal: 618.7900141280332
+dist_percorsa2D 15.334067502258042
+Time: 9.70
+des_x_acc 0.49
+des_y_acc 0.48
+X_pos: 12.43 	X_vel (m/s): 3.46 	X_acc (m/s^2): 0.37
+Y_pos: 20.42 	Y_vel (m/s): 2.80 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0333 	Pitch: 0.0375 	Yaw 0.0000
+Acceleration: 0.49
+Velocity (m/s): 4.45
+dist_goal: 618.3496824097753
+dist_percorsa2D 15.774404784946151
+Time: 9.80
+des_x_acc 0.54
+des_y_acc 0.48
+X_pos: 12.78 	X_vel (m/s): 3.50 	X_acc (m/s^2): 0.38
+Y_pos: 20.71 	Y_vel (m/s): 2.83 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0313 	Pitch: 0.0384 	Yaw 0.0000
+Acceleration: 0.49
+Velocity (m/s): 4.50
+dist_goal: 617.904444090447
+dist_percorsa2D 16.219661064146706
+Time: 9.90
+des_x_acc 0.65
+des_y_acc 0.47
+X_pos: 13.13 	X_vel (m/s): 3.54 	X_acc (m/s^2): 0.45
+Y_pos: 20.99 	Y_vel (m/s): 2.87 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0334 	Pitch: 0.0461 	Yaw 0.0000
+Acceleration: 0.56
+Velocity (m/s): 4.56
+dist_goal: 617.4543519008921
+dist_percorsa2D 16.669775835398006
+Time: 10.00
+des_x_acc 0.68
+des_y_acc 0.56
+X_pos: 13.49 	X_vel (m/s): 3.60 	X_acc (m/s^2): 0.59
+Y_pos: 21.29 	Y_vel (m/s): 2.91 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0416 	Pitch: 0.0597 	Yaw 0.0000
+Acceleration: 0.71
+Velocity (m/s): 4.63
+dist_goal: 616.998677612337
+dist_percorsa2D 17.12546587433164
+Time: 10.10
+des_x_acc 0.60
+des_y_acc 0.44
+X_pos: 13.86 	X_vel (m/s): 3.67 	X_acc (m/s^2): 0.72
+Y_pos: 21.58 	Y_vel (m/s): 2.96 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0505 	Pitch: 0.0738 	Yaw 0.0000
+Acceleration: 0.88
+Velocity (m/s): 4.72
+dist_goal: 616.535879694581
+dist_percorsa2D 17.588265417993462
+Time: 10.20
+des_x_acc 0.61
+des_y_acc 0.46
+X_pos: 14.23 	X_vel (m/s): 3.76 	X_acc (m/s^2): 0.83
+Y_pos: 21.88 	Y_vel (m/s): 3.01 	Y_acc (m/s^2): 0.57
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0584 	Pitch: 0.0850 	Yaw 0.0000
+Acceleration: 1.01
+Velocity (m/s): 4.82
+dist_goal: 616.064340667885
+dist_percorsa2D 18.05978617534957
+Time: 10.30
+des_x_acc 0.56
+des_y_acc 0.45
+X_pos: 14.62 	X_vel (m/s): 3.84 	X_acc (m/s^2): 0.87
+Y_pos: 22.19 	Y_vel (m/s): 3.08 	Y_acc (m/s^2): 0.62
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0631 	Pitch: 0.0891 	Yaw 0.0000
+Acceleration: 1.07
+Velocity (m/s): 4.92
+dist_goal: 615.5827247242055
+dist_percorsa2D 18.541362072451168
+Time: 10.40
+des_x_acc 0.55
+des_y_acc 0.52
+X_pos: 15.01 	X_vel (m/s): 3.93 	X_acc (m/s^2): 0.83
+Y_pos: 22.50 	Y_vel (m/s): 3.14 	Y_acc (m/s^2): 0.64
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0654 	Pitch: 0.0850 	Yaw 0.0000
+Acceleration: 1.05
+Velocity (m/s): 5.03
+dist_goal: 615.0904289845641
+dist_percorsa2D 19.033600694396117
+Time: 10.50
+des_x_acc 0.61
+des_y_acc 0.39
+X_pos: 15.41 	X_vel (m/s): 4.00 	X_acc (m/s^2): 0.74
+Y_pos: 22.82 	Y_vel (m/s): 3.20 	Y_acc (m/s^2): 0.60
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0612 	Pitch: 0.0752 	Yaw 0.0000
+Acceleration: 0.95
+Velocity (m/s): 5.12
+dist_goal: 614.5876348027596
+dist_percorsa2D 19.53633570549286
+Time: 10.60
+des_x_acc 0.62
+des_y_acc 0.46
+X_pos: 15.82 	X_vel (m/s): 4.06 	X_acc (m/s^2): 0.61
+Y_pos: 23.15 	Y_vel (m/s): 3.25 	Y_acc (m/s^2): 0.52
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0534 	Pitch: 0.0622 	Yaw 0.0000
+Acceleration: 0.80
+Velocity (m/s): 5.20
+dist_goal: 614.0753497578471
+dist_percorsa2D 20.04856897727495
+Time: 10.70
+des_x_acc 0.56
+des_y_acc 0.53
+X_pos: 16.23 	X_vel (m/s): 4.11 	X_acc (m/s^2): 0.47
+Y_pos: 23.48 	Y_vel (m/s): 3.30 	Y_acc (m/s^2): 0.45
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0458 	Pitch: 0.0481 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 5.27
+dist_goal: 613.5550413022436
+dist_percorsa2D 20.568839023007268
+Time: 10.80
+des_x_acc 0.56
+des_y_acc 0.41
+X_pos: 16.64 	X_vel (m/s): 4.14 	X_acc (m/s^2): 0.36
+Y_pos: 23.81 	Y_vel (m/s): 3.33 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0372 	Pitch: 0.0362 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 5.32
+dist_goal: 613.0282586656122
+dist_percorsa2D 21.0956052288325
+Time: 10.90
+des_x_acc 0.60
+des_y_acc 0.50
+X_pos: 17.06 	X_vel (m/s): 4.17 	X_acc (m/s^2): 0.30
+Y_pos: 24.15 	Y_vel (m/s): 3.37 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0321 	Pitch: 0.0306 	Yaw 0.0000
+Acceleration: 0.44
+Velocity (m/s): 5.36
+dist_goal: 612.4964308265708
+dist_percorsa2D 21.62743987765731
+Time: 11.00
+des_x_acc 0.64
+des_y_acc 0.50
+X_pos: 17.48 	X_vel (m/s): 4.21 	X_acc (m/s^2): 0.33
+Y_pos: 24.49 	Y_vel (m/s): 3.40 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0317 	Pitch: 0.0336 	Yaw 0.0000
+Acceleration: 0.45
+Velocity (m/s): 5.41
+dist_goal: 611.9602964375998
+dist_percorsa2D 22.1636021391749
+Time: 11.10
+des_x_acc 0.55
+des_y_acc 0.53
+X_pos: 17.90 	X_vel (m/s): 4.25 	X_acc (m/s^2): 0.41
+Y_pos: 24.83 	Y_vel (m/s): 3.43 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0367 	Pitch: 0.0423 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 5.46
+dist_goal: 611.4196497003575
+dist_percorsa2D 22.70429041489451
+Time: 11.20
+des_x_acc 0.57
+des_y_acc 0.49
+X_pos: 18.33 	X_vel (m/s): 4.30 	X_acc (m/s^2): 0.54
+Y_pos: 25.18 	Y_vel (m/s): 3.48 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0452 	Pitch: 0.0548 	Yaw 0.0000
+Acceleration: 0.70
+Velocity (m/s): 5.53
+dist_goal: 610.8735176632765
+dist_percorsa2D 23.250472807912207
+Time: 11.30
+des_x_acc 0.73
+des_y_acc 0.51
+X_pos: 18.77 	X_vel (m/s): 4.37 	X_acc (m/s^2): 0.71
+Y_pos: 25.53 	Y_vel (m/s): 3.53 	Y_acc (m/s^2): 0.54
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0554 	Pitch: 0.0724 	Yaw 0.0000
+Acceleration: 0.89
+Velocity (m/s): 5.62
+dist_goal: 610.3204267432778
+dist_percorsa2D 23.80361891907231
+Time: 11.40
+des_x_acc 0.56
+des_y_acc 0.56
+X_pos: 19.22 	X_vel (m/s): 4.46 	X_acc (m/s^2): 0.84
+Y_pos: 25.89 	Y_vel (m/s): 3.60 	Y_acc (m/s^2): 0.65
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0661 	Pitch: 0.0861 	Yaw 0.0000
+Acceleration: 1.06
+Velocity (m/s): 5.73
+dist_goal: 609.7584094414844
+dist_percorsa2D 24.365687459583928
+Time: 11.50
+des_x_acc 0.61
+des_y_acc 0.41
+X_pos: 19.67 	X_vel (m/s): 4.55 	X_acc (m/s^2): 0.92
+Y_pos: 26.26 	Y_vel (m/s): 3.67 	Y_acc (m/s^2): 0.69
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0707 	Pitch: 0.0939 	Yaw 0.0000
+Acceleration: 1.15
+Velocity (m/s): 5.84
+dist_goal: 609.1857687126932
+dist_percorsa2D 24.93837497913818
+Time: 11.60
+des_x_acc 0.64
+des_y_acc 0.52
+X_pos: 20.14 	X_vel (m/s): 4.64 	X_acc (m/s^2): 0.92
+Y_pos: 26.63 	Y_vel (m/s): 3.74 	Y_acc (m/s^2): 0.70
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0710 	Pitch: 0.0943 	Yaw 0.0000
+Acceleration: 1.15
+Velocity (m/s): 5.96
+dist_goal: 608.6016349118178
+dist_percorsa2D 25.52254780643165
+Time: 11.70
+des_x_acc 0.65
+des_y_acc 0.58
+X_pos: 20.61 	X_vel (m/s): 4.73 	X_acc (m/s^2): 0.86
+Y_pos: 27.01 	Y_vel (m/s): 3.80 	Y_acc (m/s^2): 0.67
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0682 	Pitch: 0.0878 	Yaw 0.0000
+Acceleration: 1.09
+Velocity (m/s): 6.07
+dist_goal: 608.0059551563816
+dist_percorsa2D 26.118258953775204
+Time: 11.80
+des_x_acc 0.76
+des_y_acc 0.62
+X_pos: 21.09 	X_vel (m/s): 4.80 	X_acc (m/s^2): 0.77
+Y_pos: 27.40 	Y_vel (m/s): 3.87 	Y_acc (m/s^2): 0.63
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0642 	Pitch: 0.0786 	Yaw 0.0000
+Acceleration: 0.99
+Velocity (m/s): 6.17
+dist_goal: 607.3993985217624
+dist_percorsa2D 26.72484507962168
+Time: 11.90
+des_x_acc 0.61
+des_y_acc 0.46
+X_pos: 21.58 	X_vel (m/s): 4.87 	X_acc (m/s^2): 0.64
+Y_pos: 27.79 	Y_vel (m/s): 3.92 	Y_acc (m/s^2): 0.55
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0559 	Pitch: 0.0653 	Yaw 0.0000
+Acceleration: 0.84
+Velocity (m/s): 6.25
+dist_goal: 606.7829067844152
+dist_percorsa2D 27.34137172254752
+Time: 12.00
+des_x_acc 0.57
+des_y_acc 0.41
+X_pos: 22.07 	X_vel (m/s): 4.92 	X_acc (m/s^2): 0.49
+Y_pos: 28.19 	Y_vel (m/s): 3.96 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0441 	Pitch: 0.0502 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 6.32
+dist_goal: 606.1580022278381
+dist_percorsa2D 27.966321431004875
+Time: 12.10
+des_x_acc 0.66
+des_y_acc 0.51
+X_pos: 22.56 	X_vel (m/s): 4.96 	X_acc (m/s^2): 0.39
+Y_pos: 28.59 	Y_vel (m/s): 4.00 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0342 	Pitch: 0.0393 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 6.37
+dist_goal: 605.5265645724712
+dist_percorsa2D 28.597814742790046
+Time: 12.20
+des_x_acc 0.70
+des_y_acc 0.53
+X_pos: 23.06 	X_vel (m/s): 4.99 	X_acc (m/s^2): 0.36
+Y_pos: 28.99 	Y_vel (m/s): 4.03 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0293 	Pitch: 0.0364 	Yaw 0.0000
+Acceleration: 0.46
+Velocity (m/s): 6.41
+dist_goal: 604.8900299146022
+dist_percorsa2D 29.234412762160293
+Time: 12.30
+des_x_acc 0.69
+des_y_acc 0.50
+X_pos: 23.57 	X_vel (m/s): 5.03 	X_acc (m/s^2): 0.41
+Y_pos: 29.40 	Y_vel (m/s): 4.05 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0298 	Pitch: 0.0421 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 6.46
+dist_goal: 604.2489152919788
+dist_percorsa2D 29.875592900525167
+Time: 12.40
+des_x_acc 0.68
+des_y_acc 0.35
+X_pos: 24.07 	X_vel (m/s): 5.09 	X_acc (m/s^2): 0.53
+Y_pos: 29.80 	Y_vel (m/s): 4.09 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0317 	Pitch: 0.0546 	Yaw 0.0000
+Acceleration: 0.62
+Velocity (m/s): 6.52
+dist_goal: 603.6027516673704
+dist_percorsa2D 30.521815605818052
+Time: 12.50
+des_x_acc 0.68
+des_y_acc 0.45
+X_pos: 24.59 	X_vel (m/s): 5.16 	X_acc (m/s^2): 0.69
+Y_pos: 30.22 	Y_vel (m/s): 4.12 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0373 	Pitch: 0.0707 	Yaw 0.0000
+Acceleration: 0.78
+Velocity (m/s): 6.60
+dist_goal: 602.9504572276394
+dist_percorsa2D 31.174145926273496
+Time: 12.60
+des_x_acc 0.70
+des_y_acc 0.49
+X_pos: 25.11 	X_vel (m/s): 5.24 	X_acc (m/s^2): 0.85
+Y_pos: 30.63 	Y_vel (m/s): 4.17 	Y_acc (m/s^2): 0.45
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0460 	Pitch: 0.0870 	Yaw 0.0000
+Acceleration: 0.96
+Velocity (m/s): 6.70
+dist_goal: 602.2904526747885
+dist_percorsa2D 31.83414854111164
+Time: 12.70
+des_x_acc 0.62
+des_y_acc 0.48
+X_pos: 25.65 	X_vel (m/s): 5.34 	X_acc (m/s^2): 0.95
+Y_pos: 31.06 	Y_vel (m/s): 4.22 	Y_acc (m/s^2): 0.54
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0555 	Pitch: 0.0973 	Yaw 0.0000
+Acceleration: 1.10
+Velocity (m/s): 6.80
+dist_goal: 601.6209570673515
+dist_percorsa2D 32.503596980417115
+Time: 12.80
+des_x_acc 0.60
+des_y_acc 0.45
+X_pos: 26.19 	X_vel (m/s): 5.43 	X_acc (m/s^2): 0.96
+Y_pos: 31.48 	Y_vel (m/s): 4.28 	Y_acc (m/s^2): 0.62
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0627 	Pitch: 0.0987 	Yaw 0.0000
+Acceleration: 1.14
+Velocity (m/s): 6.92
+dist_goal: 600.9406064274363
+dist_percorsa2D 33.18385955086344
+Time: 12.90
+des_x_acc 0.57
+des_y_acc 0.54
+X_pos: 26.74 	X_vel (m/s): 5.52 	X_acc (m/s^2): 0.88
+Y_pos: 31.92 	Y_vel (m/s): 4.35 	Y_acc (m/s^2): 0.67
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0680 	Pitch: 0.0899 	Yaw 0.0000
+Acceleration: 1.10
+Velocity (m/s): 7.03
+dist_goal: 600.24886502458
+dist_percorsa2D 33.875485857930265
+Time: 13.00
+des_x_acc 0.67
+des_y_acc 0.57
+X_pos: 27.30 	X_vel (m/s): 5.59 	X_acc (m/s^2): 0.74
+Y_pos: 32.36 	Y_vel (m/s): 4.42 	Y_acc (m/s^2): 0.69
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0709 	Pitch: 0.0758 	Yaw 0.0000
+Acceleration: 1.02
+Velocity (m/s): 7.13
+dist_goal: 599.5460932808143
+dist_percorsa2D 34.578140667006025
+Time: 13.10
+des_x_acc 0.65
+des_y_acc 0.48
+X_pos: 27.87 	X_vel (m/s): 5.65 	X_acc (m/s^2): 0.58
+Y_pos: 32.81 	Y_vel (m/s): 4.49 	Y_acc (m/s^2): 0.67
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0683 	Pitch: 0.0592 	Yaw 0.0000
+Acceleration: 0.88
+Velocity (m/s): 7.22
+dist_goal: 598.8332072090819
+dist_percorsa2D 35.29093536537995
+Time: 13.20
+des_x_acc 0.65
+des_y_acc 0.45
+X_pos: 28.44 	X_vel (m/s): 5.69 	X_acc (m/s^2): 0.43
+Y_pos: 33.26 	Y_vel (m/s): 4.55 	Y_acc (m/s^2): 0.59
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0602 	Pitch: 0.0442 	Yaw 0.0000
+Acceleration: 0.73
+Velocity (m/s): 7.29
+dist_goal: 598.1116432857004
+dist_percorsa2D 36.01245273393933
+Time: 13.30
+des_x_acc 0.62
+des_y_acc 0.53
+X_pos: 29.01 	X_vel (m/s): 5.73 	X_acc (m/s^2): 0.33
+Y_pos: 33.72 	Y_vel (m/s): 4.60 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0505 	Pitch: 0.0339 	Yaw 0.0000
+Acceleration: 0.60
+Velocity (m/s): 7.34
+dist_goal: 597.3830407132123
+dist_percorsa2D 36.741059302363674
+Time: 13.40
+des_x_acc 0.60
+des_y_acc 0.43
+X_pos: 29.59 	X_vel (m/s): 5.76 	X_acc (m/s^2): 0.30
+Y_pos: 34.19 	Y_vel (m/s): 4.63 	Y_acc (m/s^2): 0.38
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0392 	Pitch: 0.0305 	Yaw 0.0000
+Acceleration: 0.49
+Velocity (m/s): 7.39
+dist_goal: 596.6487767016849
+dist_percorsa2D 37.475373713644245
+Time: 13.50
+des_x_acc 0.64
+des_y_acc 0.58
+X_pos: 30.17 	X_vel (m/s): 5.79 	X_acc (m/s^2): 0.35
+Y_pos: 34.65 	Y_vel (m/s): 4.67 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0327 	Pitch: 0.0357 	Yaw 0.0000
+Acceleration: 0.48
+Velocity (m/s): 7.44
+dist_goal: 595.9097945207221
+dist_percorsa2D 38.21443560114517
+Time: 13.60
+des_x_acc 0.67
+des_y_acc 0.40
+X_pos: 30.75 	X_vel (m/s): 5.84 	X_acc (m/s^2): 0.48
+Y_pos: 35.12 	Y_vel (m/s): 4.69 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0282 	Pitch: 0.0492 	Yaw 0.0000
+Acceleration: 0.56
+Velocity (m/s): 7.49
+dist_goal: 595.1660748243736
+dist_percorsa2D 38.958244056721114
+Time: 13.70
+des_x_acc 0.59
+des_y_acc 0.54
+X_pos: 31.34 	X_vel (m/s): 5.91 	X_acc (m/s^2): 0.64
+Y_pos: 35.60 	Y_vel (m/s): 4.72 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0304 	Pitch: 0.0655 	Yaw 0.0000
+Acceleration: 0.71
+Velocity (m/s): 7.56
+dist_goal: 594.4168470451955
+dist_percorsa2D 39.70754123080419
+Time: 13.80
+des_x_acc 0.58
+des_y_acc 0.52
+X_pos: 31.94 	X_vel (m/s): 5.98 	X_acc (m/s^2): 0.79
+Y_pos: 36.07 	Y_vel (m/s): 4.76 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0381 	Pitch: 0.0802 	Yaw 0.0000
+Acceleration: 0.87
+Velocity (m/s): 7.65
+dist_goal: 593.6607262635414
+dist_percorsa2D 40.463692548730684
+Time: 13.90
+des_x_acc 0.66
+des_y_acc 0.49
+X_pos: 32.55 	X_vel (m/s): 6.07 	X_acc (m/s^2): 0.90
+Y_pos: 36.55 	Y_vel (m/s): 4.81 	Y_acc (m/s^2): 0.48
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0487 	Pitch: 0.0917 	Yaw 0.0000
+Acceleration: 1.02
+Velocity (m/s): 7.75
+dist_goal: 592.8961103238843
+dist_percorsa2D 41.228293891873804
+Time: 14.00
+des_x_acc 0.56
+des_y_acc 0.55
+X_pos: 33.16 	X_vel (m/s): 6.17 	X_acc (m/s^2): 0.92
+Y_pos: 37.04 	Y_vel (m/s): 4.87 	Y_acc (m/s^2): 0.60
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0611 	Pitch: 0.0945 	Yaw 0.0000
+Acceleration: 1.10
+Velocity (m/s): 7.86
+dist_goal: 592.1214764570753
+dist_percorsa2D 42.002872016697914
+Time: 14.10
+des_x_acc 0.72
+des_y_acc 0.48
+X_pos: 33.79 	X_vel (m/s): 6.26 	X_acc (m/s^2): 0.90
+Y_pos: 37.53 	Y_vel (m/s): 4.94 	Y_acc (m/s^2): 0.69
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0704 	Pitch: 0.0920 	Yaw 0.0000
+Acceleration: 1.13
+Velocity (m/s): 7.97
+dist_goal: 591.335868019262
+dist_percorsa2D 42.78840310386812
+Time: 14.20
+des_x_acc 0.62
+des_y_acc 0.48
+X_pos: 34.42 	X_vel (m/s): 6.34 	X_acc (m/s^2): 0.80
+Y_pos: 38.03 	Y_vel (m/s): 5.01 	Y_acc (m/s^2): 0.73
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0744 	Pitch: 0.0822 	Yaw 0.0000
+Acceleration: 1.08
+Velocity (m/s): 8.08
+dist_goal: 590.5389239850905
+dist_percorsa2D 43.58526890726619
+Time: 14.30
+des_x_acc 0.63
+des_y_acc 0.47
+X_pos: 35.06 	X_vel (m/s): 6.40 	X_acc (m/s^2): 0.66
+Y_pos: 38.54 	Y_vel (m/s): 5.08 	Y_acc (m/s^2): 0.70
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0716 	Pitch: 0.0679 	Yaw 0.0000
+Acceleration: 0.97
+Velocity (m/s): 8.17
+dist_goal: 589.7311621592999
+dist_percorsa2D 44.3929719819462
+Time: 14.40
+des_x_acc 0.66
+des_y_acc 0.41
+X_pos: 35.71 	X_vel (m/s): 6.46 	X_acc (m/s^2): 0.52
+Y_pos: 39.06 	Y_vel (m/s): 5.14 	Y_acc (m/s^2): 0.60
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0613 	Pitch: 0.0534 	Yaw 0.0000
+Acceleration: 0.80
+Velocity (m/s): 8.25
+dist_goal: 588.9138511883067
+dist_percorsa2D 45.21025770221399
+Time: 14.50
+des_x_acc 0.60
+des_y_acc 0.52
+X_pos: 36.36 	X_vel (m/s): 6.50 	X_acc (m/s^2): 0.40
+Y_pos: 39.57 	Y_vel (m/s): 5.19 	Y_acc (m/s^2): 0.48
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0490 	Pitch: 0.0408 	Yaw 0.0000
+Acceleration: 0.62
+Velocity (m/s): 8.31
+dist_goal: 588.088723646873
+dist_percorsa2D 46.03539467830597
+Time: 14.60
+des_x_acc 0.62
+des_y_acc 0.48
+X_pos: 37.01 	X_vel (m/s): 6.53 	X_acc (m/s^2): 0.33
+Y_pos: 40.10 	Y_vel (m/s): 5.22 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0366 	Pitch: 0.0337 	Yaw 0.0000
+Acceleration: 0.49
+Velocity (m/s): 8.36
+dist_goal: 587.2574929604667
+dist_percorsa2D 46.86666483076054
+Time: 14.70
+des_x_acc 0.67
+des_y_acc 0.52
+X_pos: 37.67 	X_vel (m/s): 6.56 	X_acc (m/s^2): 0.35
+Y_pos: 40.62 	Y_vel (m/s): 5.25 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0285 	Pitch: 0.0352 	Yaw 0.0000
+Acceleration: 0.44
+Velocity (m/s): 8.41
+dist_goal: 586.4214464389968
+dist_percorsa2D 47.70276879226459
+Time: 14.80
+des_x_acc 0.65
+des_y_acc 0.55
+X_pos: 38.33 	X_vel (m/s): 6.61 	X_acc (m/s^2): 0.44
+Y_pos: 41.15 	Y_vel (m/s): 5.28 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0272 	Pitch: 0.0444 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 8.46
+dist_goal: 585.5809602812137
+dist_percorsa2D 48.54331435361577
+Time: 14.90
+des_x_acc 0.64
+des_y_acc 0.48
+X_pos: 38.99 	X_vel (m/s): 6.66 	X_acc (m/s^2): 0.58
+Y_pos: 41.68 	Y_vel (m/s): 5.31 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0312 	Pitch: 0.0590 	Yaw 0.0000
+Acceleration: 0.65
+Velocity (m/s): 8.52
+dist_goal: 584.735399527318
+dist_percorsa2D 49.388922005191226
+Time: 15.00
+des_x_acc 0.74
+des_y_acc 0.57
+X_pos: 39.67 	X_vel (m/s): 6.74 	X_acc (m/s^2): 0.76
+Y_pos: 42.22 	Y_vel (m/s): 5.35 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0420 	Pitch: 0.0777 	Yaw 0.0000
+Acceleration: 0.87
+Velocity (m/s): 8.61
+dist_goal: 583.883399484242
+dist_percorsa2D 50.240944197344284
+Time: 15.10
+des_x_acc 0.65
+des_y_acc 0.44
+X_pos: 40.35 	X_vel (m/s): 6.83 	X_acc (m/s^2): 0.92
+Y_pos: 42.76 	Y_vel (m/s): 5.40 	Y_acc (m/s^2): 0.52
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0534 	Pitch: 0.0936 	Yaw 0.0000
+Acceleration: 1.05
+Velocity (m/s): 8.71
+dist_goal: 583.0228653007773
+dist_percorsa2D 51.10146970052744
+Time: 15.20
+des_x_acc 0.67
+des_y_acc 0.47
+X_pos: 41.04 	X_vel (m/s): 6.93 	X_acc (m/s^2): 1.01
+Y_pos: 43.30 	Y_vel (m/s): 5.47 	Y_acc (m/s^2): 0.62
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0633 	Pitch: 0.1031 	Yaw 0.0000
+Acceleration: 1.18
+Velocity (m/s): 8.83
+dist_goal: 582.1518874765379
+dist_percorsa2D 51.972406915175064
+Time: 15.30
+des_x_acc 0.62
+des_y_acc 0.48
+X_pos: 41.75 	X_vel (m/s): 7.03 	X_acc (m/s^2): 1.00
+Y_pos: 43.86 	Y_vel (m/s): 5.53 	Y_acc (m/s^2): 0.68
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0698 	Pitch: 0.1026 	Yaw 0.0000
+Acceleration: 1.21
+Velocity (m/s): 8.95
+dist_goal: 581.2691418718039
+dist_percorsa2D 52.85508483476915
+Time: 15.40
+des_x_acc 0.62
+des_y_acc 0.48
+X_pos: 42.46 	X_vel (m/s): 7.12 	X_acc (m/s^2): 0.90
+Y_pos: 44.42 	Y_vel (m/s): 5.60 	Y_acc (m/s^2): 0.70
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0710 	Pitch: 0.0922 	Yaw 0.0000
+Acceleration: 1.14
+Velocity (m/s): 9.06
+dist_goal: 580.3742868137035
+dist_percorsa2D 53.74985699853571
+Time: 15.50
+des_x_acc 0.74
+des_y_acc 0.42
+X_pos: 43.18 	X_vel (m/s): 7.20 	X_acc (m/s^2): 0.76
+Y_pos: 44.98 	Y_vel (m/s): 5.67 	Y_acc (m/s^2): 0.64
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0651 	Pitch: 0.0775 	Yaw 0.0000
+Acceleration: 0.99
+Velocity (m/s): 9.16
+dist_goal: 579.4680499274399
+dist_percorsa2D 54.65601115773305
+Time: 15.60
+des_x_acc 0.67
+des_y_acc 0.48
+X_pos: 43.90 	X_vel (m/s): 7.26 	X_acc (m/s^2): 0.59
+Y_pos: 45.56 	Y_vel (m/s): 5.72 	Y_acc (m/s^2): 0.54
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0550 	Pitch: 0.0605 	Yaw 0.0000
+Acceleration: 0.80
+Velocity (m/s): 9.24
+dist_goal: 578.5519161745202
+dist_percorsa2D 55.57207124560623
+Time: 15.70
+des_x_acc 0.61
+des_y_acc 0.43
+X_pos: 44.63 	X_vel (m/s): 7.30 	X_acc (m/s^2): 0.43
+Y_pos: 46.13 	Y_vel (m/s): 5.76 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0422 	Pitch: 0.0439 	Yaw 0.0000
+Acceleration: 0.60
+Velocity (m/s): 9.30
+dist_goal: 577.6277974706238
+dist_percorsa2D 56.496130321715285
+Time: 15.80
+des_x_acc 0.63
+des_y_acc 0.52
+X_pos: 45.37 	X_vel (m/s): 7.33 	X_acc (m/s^2): 0.32
+Y_pos: 46.71 	Y_vel (m/s): 5.79 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0321 	Pitch: 0.0324 	Yaw 0.0000
+Acceleration: 0.45
+Velocity (m/s): 9.35
+dist_goal: 576.6977466540706
+dist_percorsa2D 57.42613550685518
+Time: 15.90
+des_x_acc 0.56
+des_y_acc 0.45
+X_pos: 46.10 	X_vel (m/s): 7.36 	X_acc (m/s^2): 0.26
+Y_pos: 47.29 	Y_vel (m/s): 5.82 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0255 	Pitch: 0.0270 	Yaw 0.0000
+Acceleration: 0.36
+Velocity (m/s): 9.38
+dist_goal: 575.7632554600541
+dist_percorsa2D 58.360593146922014
+Time: 16.00
+des_x_acc 0.66
+des_y_acc 0.57
+X_pos: 46.84 	X_vel (m/s): 7.39 	X_acc (m/s^2): 0.31
+Y_pos: 47.88 	Y_vel (m/s): 5.85 	Y_acc (m/s^2): 0.26
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0270 	Pitch: 0.0315 	Yaw 0.0000
+Acceleration: 0.41
+Velocity (m/s): 9.42
+dist_goal: 574.8251388946577
+dist_percorsa2D 59.298684451434156
+Time: 16.10
+des_x_acc 0.63
+des_y_acc 0.46
+X_pos: 47.59 	X_vel (m/s): 7.43 	X_acc (m/s^2): 0.43
+Y_pos: 48.47 	Y_vel (m/s): 5.88 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0334 	Pitch: 0.0443 	Yaw 0.0000
+Acceleration: 0.54
+Velocity (m/s): 9.48
+dist_goal: 573.8829571772976
+dist_percorsa2D 60.240845785730016
+Time: 16.20
+des_x_acc 0.67
+des_y_acc 0.51
+X_pos: 48.34 	X_vel (m/s): 7.50 	X_acc (m/s^2): 0.62
+Y_pos: 49.06 	Y_vel (m/s): 5.92 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0445 	Pitch: 0.0632 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 9.55
+dist_goal: 572.9353311381841
+dist_percorsa2D 61.188450766581546
+Time: 16.30
+des_x_acc 0.70
+des_y_acc 0.50
+X_pos: 49.09 	X_vel (m/s): 7.58 	X_acc (m/s^2): 0.82
+Y_pos: 49.66 	Y_vel (m/s): 5.98 	Y_acc (m/s^2): 0.56
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0572 	Pitch: 0.0841 	Yaw 0.0000
+Acceleration: 1.00
+Velocity (m/s): 9.65
+dist_goal: 571.9801436405307
+dist_percorsa2D 62.143610975942785
+Time: 16.40
+des_x_acc 0.52
+des_y_acc 0.50
+X_pos: 49.86 	X_vel (m/s): 7.67 	X_acc (m/s^2): 0.95
+Y_pos: 50.26 	Y_vel (m/s): 6.04 	Y_acc (m/s^2): 0.67
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0682 	Pitch: 0.0972 	Yaw 0.0000
+Acceleration: 1.16
+Velocity (m/s): 9.77
+dist_goal: 571.0150199173432
+dist_percorsa2D 63.10869571615112
+Time: 16.50
+des_x_acc 0.58
+des_y_acc 0.57
+X_pos: 50.64 	X_vel (m/s): 7.77 	X_acc (m/s^2): 0.98
+Y_pos: 50.87 	Y_vel (m/s): 6.12 	Y_acc (m/s^2): 0.75
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0766 	Pitch: 0.1008 	Yaw 0.0000
+Acceleration: 1.24
+Velocity (m/s): 9.89
+dist_goal: 570.0382917633231
+dist_percorsa2D 64.0853745432673
+Time: 16.60
+des_x_acc 0.62
+des_y_acc 0.57
+X_pos: 51.42 	X_vel (m/s): 7.86 	X_acc (m/s^2): 0.93
+Y_pos: 51.49 	Y_vel (m/s): 6.20 	Y_acc (m/s^2): 0.79
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0805 	Pitch: 0.0949 	Yaw 0.0000
+Acceleration: 1.22
+Velocity (m/s): 10.01
+dist_goal: 569.0491853768764
+dist_percorsa2D 65.07442969686187
+Time: 16.70
+des_x_acc 0.67
+des_y_acc 0.43
+X_pos: 52.22 	X_vel (m/s): 7.94 	X_acc (m/s^2): 0.81
+Y_pos: 52.12 	Y_vel (m/s): 6.27 	Y_acc (m/s^2): 0.74
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0752 	Pitch: 0.0824 	Yaw 0.0000
+Acceleration: 1.09
+Velocity (m/s): 10.12
+dist_goal: 568.0479197468057
+dist_percorsa2D 66.07565424913007
+Time: 16.80
+des_x_acc 0.58
+des_y_acc 0.43
+X_pos: 53.02 	X_vel (m/s): 8.01 	X_acc (m/s^2): 0.63
+Y_pos: 52.75 	Y_vel (m/s): 6.33 	Y_acc (m/s^2): 0.61
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0621 	Pitch: 0.0640 	Yaw 0.0000
+Acceleration: 0.87
+Velocity (m/s): 10.21
+dist_goal: 567.0357724582793
+dist_percorsa2D 67.08777675953158
+Time: 16.90
+des_x_acc 0.59
+des_y_acc 0.49
+X_pos: 53.82 	X_vel (m/s): 8.05 	X_acc (m/s^2): 0.44
+Y_pos: 53.39 	Y_vel (m/s): 6.38 	Y_acc (m/s^2): 0.45
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0460 	Pitch: 0.0445 	Yaw 0.0000
+Acceleration: 0.63
+Velocity (m/s): 10.27
+dist_goal: 566.0149436863942
+dist_percorsa2D 68.10859865041898
+Time: 17.00
+des_x_acc 0.61
+des_y_acc 0.45
+X_pos: 54.63 	X_vel (m/s): 8.08 	X_acc (m/s^2): 0.29
+Y_pos: 54.03 	Y_vel (m/s): 6.41 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0298 	Pitch: 0.0295 	Yaw 0.0000
+Acceleration: 0.41
+Velocity (m/s): 10.31
+dist_goal: 564.9879020646092
+dist_percorsa2D 69.13564981433588
+Time: 17.10
+des_x_acc 0.56
+des_y_acc 0.52
+X_pos: 55.44 	X_vel (m/s): 8.10 	X_acc (m/s^2): 0.21
+Y_pos: 54.67 	Y_vel (m/s): 6.43 	Y_acc (m/s^2): 0.19
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0194 	Pitch: 0.0215 	Yaw 0.0000
+Acceleration: 0.28
+Velocity (m/s): 10.34
+dist_goal: 563.9567825308402
+dist_percorsa2D 70.16678905711937
+Time: 17.20
+des_x_acc 0.58
+des_y_acc 0.47
+X_pos: 56.25 	X_vel (m/s): 8.12 	X_acc (m/s^2): 0.22
+Y_pos: 55.32 	Y_vel (m/s): 6.44 	Y_acc (m/s^2): 0.16
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0161 	Pitch: 0.0227 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 10.37
+dist_goal: 562.9228364017483
+dist_percorsa2D 71.20075928596583
+Time: 17.30
+des_x_acc 0.66
+des_y_acc 0.43
+X_pos: 57.07 	X_vel (m/s): 8.16 	X_acc (m/s^2): 0.34
+Y_pos: 55.96 	Y_vel (m/s): 6.46 	Y_acc (m/s^2): 0.19
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0198 	Pitch: 0.0351 	Yaw 0.0000
+Acceleration: 0.40
+Velocity (m/s): 10.41
+dist_goal: 561.8861581788044
+dist_percorsa2D 72.23746015839257
+Time: 17.40
+des_x_acc 0.50
+des_y_acc 0.49
+X_pos: 57.89 	X_vel (m/s): 8.21 	X_acc (m/s^2): 0.50
+Y_pos: 56.61 	Y_vel (m/s): 6.49 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0309 	Pitch: 0.0514 	Yaw 0.0000
+Acceleration: 0.59
+Velocity (m/s): 10.46
+dist_goal: 560.8455720054518
+dist_percorsa2D 73.27805918577813
+Time: 17.50
+des_x_acc 0.66
+des_y_acc 0.50
+X_pos: 58.72 	X_vel (m/s): 8.28 	X_acc (m/s^2): 0.70
+Y_pos: 57.27 	Y_vel (m/s): 6.54 	Y_acc (m/s^2): 0.46
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0472 	Pitch: 0.0716 	Yaw 0.0000
+Acceleration: 0.84
+Velocity (m/s): 10.55
+dist_goal: 559.7991460400557
+dist_percorsa2D 74.32448609994226
+Time: 17.60
+des_x_acc 0.67
+des_y_acc 0.45
+X_pos: 59.56 	X_vel (m/s): 8.37 	X_acc (m/s^2): 0.89
+Y_pos: 57.93 	Y_vel (m/s): 6.60 	Y_acc (m/s^2): 0.62
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0632 	Pitch: 0.0910 	Yaw 0.0000
+Acceleration: 1.08
+Velocity (m/s): 10.66
+dist_goal: 558.7443408352284
+dist_percorsa2D 75.37928098290152
+Time: 17.70
+des_x_acc 0.63
+des_y_acc 0.47
+X_pos: 60.40 	X_vel (m/s): 8.47 	X_acc (m/s^2): 1.01
+Y_pos: 58.59 	Y_vel (m/s): 6.67 	Y_acc (m/s^2): 0.74
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0754 	Pitch: 0.1038 	Yaw 0.0000
+Acceleration: 1.25
+Velocity (m/s): 10.78
+dist_goal: 557.6787055727721
+dist_percorsa2D 76.44489600258284
+Time: 17.80
+des_x_acc 0.61
+des_y_acc 0.47
+X_pos: 61.26 	X_vel (m/s): 8.57 	X_acc (m/s^2): 1.04
+Y_pos: 59.27 	Y_vel (m/s): 6.75 	Y_acc (m/s^2): 0.79
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0807 	Pitch: 0.1061 	Yaw 0.0000
+Acceleration: 1.30
+Velocity (m/s): 10.91
+dist_goal: 556.6005339632571
+dist_percorsa2D 77.52304058629966
+Time: 17.90
+des_x_acc 0.63
+des_y_acc 0.43
+X_pos: 62.13 	X_vel (m/s): 8.67 	X_acc (m/s^2): 0.96
+Y_pos: 59.95 	Y_vel (m/s): 6.83 	Y_acc (m/s^2): 0.75
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0769 	Pitch: 0.0982 	Yaw 0.0000
+Acceleration: 1.22
+Velocity (m/s): 11.03
+dist_goal: 555.509328857058
+dist_percorsa2D 78.6142165633448
+Time: 18.00
+des_x_acc 0.57
+des_y_acc 0.50
+X_pos: 63.00 	X_vel (m/s): 8.75 	X_acc (m/s^2): 0.78
+Y_pos: 60.64 	Y_vel (m/s): 6.89 	Y_acc (m/s^2): 0.65
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0665 	Pitch: 0.0801 	Yaw 0.0000
+Acceleration: 1.02
+Velocity (m/s): 11.14
+dist_goal: 554.4059307651148
+dist_percorsa2D 79.71758663753582
+Time: 18.10
+des_x_acc 0.67
+des_y_acc 0.45
+X_pos: 63.88 	X_vel (m/s): 8.80 	X_acc (m/s^2): 0.58
+Y_pos: 61.34 	Y_vel (m/s): 6.94 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0509 	Pitch: 0.0590 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 11.21
+dist_goal: 553.2923462858374
+dist_percorsa2D 80.83114912423927
+Time: 18.20
+des_x_acc 0.54
+des_y_acc 0.48
+X_pos: 64.76 	X_vel (m/s): 8.84 	X_acc (m/s^2): 0.36
+Y_pos: 62.03 	Y_vel (m/s): 6.98 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0348 	Pitch: 0.0369 	Yaw 0.0000
+Acceleration: 0.50
+Velocity (m/s): 11.26
+dist_goal: 552.1711329757678
+dist_percorsa2D 81.95234755696447
+Time: 18.30
+des_x_acc 0.64
+des_y_acc 0.48
+X_pos: 65.65 	X_vel (m/s): 8.86 	X_acc (m/s^2): 0.22
+Y_pos: 62.73 	Y_vel (m/s): 7.00 	Y_acc (m/s^2): 0.22
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0222 	Pitch: 0.0220 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 11.29
+dist_goal: 551.0449670114947
+dist_percorsa2D 83.07850725658683
+Time: 18.40
+des_x_acc 0.70
+des_y_acc 0.47
+X_pos: 66.54 	X_vel (m/s): 8.88 	X_acc (m/s^2): 0.19
+Y_pos: 63.44 	Y_vel (m/s): 7.02 	Y_acc (m/s^2): 0.16
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0161 	Pitch: 0.0193 	Yaw 0.0000
+Acceleration: 0.25
+Velocity (m/s): 11.32
+dist_goal: 549.9157652139054
+dist_percorsa2D 84.20771023698833
+Time: 18.50
+des_x_acc 0.59
+des_y_acc 0.44
+X_pos: 67.43 	X_vel (m/s): 8.91 	X_acc (m/s^2): 0.26
+Y_pos: 64.14 	Y_vel (m/s): 7.03 	Y_acc (m/s^2): 0.17
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0172 	Pitch: 0.0269 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 11.35
+dist_goal: 548.7840975195755
+dist_percorsa2D 85.33938130625448
+Time: 18.60
+des_x_acc 0.68
+des_y_acc 0.45
+X_pos: 68.32 	X_vel (m/s): 8.95 	X_acc (m/s^2): 0.44
+Y_pos: 64.84 	Y_vel (m/s): 7.06 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0253 	Pitch: 0.0451 	Yaw 0.0000
+Acceleration: 0.51
+Velocity (m/s): 11.40
+dist_goal: 547.6493142799529
+dist_percorsa2D 86.47416392286472
+Time: 18.70
+des_x_acc 0.59
+des_y_acc 0.43
+X_pos: 69.23 	X_vel (m/s): 9.02 	X_acc (m/s^2): 0.66
+Y_pos: 65.55 	Y_vel (m/s): 7.09 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0380 	Pitch: 0.0671 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 11.47
+dist_goal: 546.5095131767105
+dist_percorsa2D 87.61395269010448
+Time: 18.80
+des_x_acc 0.60
+des_y_acc 0.57
+X_pos: 70.14 	X_vel (m/s): 9.10 	X_acc (m/s^2): 0.86
+Y_pos: 66.27 	Y_vel (m/s): 7.15 	Y_acc (m/s^2): 0.55
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0558 	Pitch: 0.0877 	Yaw 0.0000
+Acceleration: 1.02
+Velocity (m/s): 11.57
+dist_goal: 545.3622311799987
+dist_percorsa2D 88.7612051409087
+Time: 18.90
+des_x_acc 0.51
+des_y_acc 0.33
+X_pos: 71.06 	X_vel (m/s): 9.20 	X_acc (m/s^2): 0.97
+Y_pos: 66.99 	Y_vel (m/s): 7.22 	Y_acc (m/s^2): 0.67
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0681 	Pitch: 0.0994 	Yaw 0.0000
+Acceleration: 1.18
+Velocity (m/s): 11.69
+dist_goal: 544.2048183986304
+dist_percorsa2D 89.91857361485091
+Time: 19.00
+des_x_acc 0.51
+des_y_acc 0.45
+X_pos: 71.99 	X_vel (m/s): 9.30 	X_acc (m/s^2): 0.97
+Y_pos: 67.72 	Y_vel (m/s): 7.29 	Y_acc (m/s^2): 0.73
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0748 	Pitch: 0.0993 	Yaw 0.0000
+Acceleration: 1.22
+Velocity (m/s): 11.81
+dist_goal: 543.0356400578049
+dist_percorsa2D 91.08769704527856
+Time: 19.10
+des_x_acc 0.62
+des_y_acc 0.45
+X_pos: 72.92 	X_vel (m/s): 9.38 	X_acc (m/s^2): 0.88
+Y_pos: 68.46 	Y_vel (m/s): 7.36 	Y_acc (m/s^2): 0.73
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0743 	Pitch: 0.0901 	Yaw 0.0000
+Acceleration: 1.14
+Velocity (m/s): 11.93
+dist_goal: 541.8543063131992
+dist_percorsa2D 92.26897376694153
+Time: 19.20
+des_x_acc 0.63
+des_y_acc 0.38
+X_pos: 73.87 	X_vel (m/s): 9.46 	X_acc (m/s^2): 0.73
+Y_pos: 69.20 	Y_vel (m/s): 7.43 	Y_acc (m/s^2): 0.64
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0650 	Pitch: 0.0743 	Yaw 0.0000
+Acceleration: 0.97
+Velocity (m/s): 12.02
+dist_goal: 540.6615563575801
+dist_percorsa2D 93.46167272479775
+Time: 19.30
+des_x_acc 0.53
+des_y_acc 0.47
+X_pos: 74.82 	X_vel (m/s): 9.51 	X_acc (m/s^2): 0.52
+Y_pos: 69.95 	Y_vel (m/s): 7.48 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0515 	Pitch: 0.0535 	Yaw 0.0000
+Acceleration: 0.73
+Velocity (m/s): 12.10
+dist_goal: 539.4591596493109
+dist_percorsa2D 94.66402789722771
+Time: 19.40
+des_x_acc 0.75
+des_y_acc 0.51
+X_pos: 75.78 	X_vel (m/s): 9.55 	X_acc (m/s^2): 0.38
+Y_pos: 70.70 	Y_vel (m/s): 7.51 	Y_acc (m/s^2): 0.37
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0382 	Pitch: 0.0383 	Yaw 0.0000
+Acceleration: 0.53
+Velocity (m/s): 12.15
+dist_goal: 538.2495312801598
+dist_percorsa2D 95.87362733833743
+Time: 19.50
+des_x_acc 0.52
+des_y_acc 0.46
+X_pos: 76.73 	X_vel (m/s): 9.57 	X_acc (m/s^2): 0.26
+Y_pos: 71.45 	Y_vel (m/s): 7.54 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0272 	Pitch: 0.0268 	Yaw 0.0000
+Acceleration: 0.37
+Velocity (m/s): 12.19
+dist_goal: 537.034638633087
+dist_percorsa2D 97.08850181877833
+Time: 19.60
+des_x_acc 0.61
+des_y_acc 0.45
+X_pos: 77.69 	X_vel (m/s): 9.60 	X_acc (m/s^2): 0.24
+Y_pos: 72.21 	Y_vel (m/s): 7.56 	Y_acc (m/s^2): 0.21
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0209 	Pitch: 0.0242 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 12.22
+dist_goal: 535.8160318172573
+dist_percorsa2D 98.30709877127939
+Time: 19.70
+des_x_acc 0.60
+des_y_acc 0.47
+X_pos: 78.66 	X_vel (m/s): 9.63 	X_acc (m/s^2): 0.30
+Y_pos: 72.97 	Y_vel (m/s): 7.58 	Y_acc (m/s^2): 0.21
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0214 	Pitch: 0.0307 	Yaw 0.0000
+Acceleration: 0.37
+Velocity (m/s): 12.25
+dist_goal: 534.5942931190185
+dist_percorsa2D 99.52883091171148
+Time: 19.80
+des_x_acc 0.58
+des_y_acc 0.50
+X_pos: 79.62 	X_vel (m/s): 9.67 	X_acc (m/s^2): 0.44
+Y_pos: 73.73 	Y_vel (m/s): 7.61 	Y_acc (m/s^2): 0.29
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0291 	Pitch: 0.0445 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 12.31
+dist_goal: 533.3688879400892
+dist_percorsa2D 100.75422728993343
+Time: 19.90
+des_x_acc 0.63
+des_y_acc 0.42
+X_pos: 80.60 	X_vel (m/s): 9.73 	X_acc (m/s^2): 0.62
+Y_pos: 74.49 	Y_vel (m/s): 7.65 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0402 	Pitch: 0.0631 	Yaw 0.0000
+Acceleration: 0.73
+Velocity (m/s): 12.38
+dist_goal: 532.1382867631645
+dist_percorsa2D 101.98481396223161
+Time: 20.00
+des_x_acc 0.62
+des_y_acc 0.41
+X_pos: 81.58 	X_vel (m/s): 9.81 	X_acc (m/s^2): 0.80
+Y_pos: 75.26 	Y_vel (m/s): 7.70 	Y_acc (m/s^2): 0.51
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0516 	Pitch: 0.0818 	Yaw 0.0000
+Acceleration: 0.95
+Velocity (m/s): 12.47
+dist_goal: 530.9003826085217
+dist_percorsa2D 103.22269388972633
+Time: 20.10
+des_x_acc 0.49
+des_y_acc 0.45
+X_pos: 82.57 	X_vel (m/s): 9.90 	X_acc (m/s^2): 0.90
+Y_pos: 76.04 	Y_vel (m/s): 7.76 	Y_acc (m/s^2): 0.60
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0615 	Pitch: 0.0925 	Yaw 0.0000
+Acceleration: 1.09
+Velocity (m/s): 12.58
+dist_goal: 529.6530490553974
+dist_percorsa2D 104.46999002857197
+Time: 20.20
+des_x_acc 0.52
+des_y_acc 0.42
+X_pos: 83.57 	X_vel (m/s): 9.99 	X_acc (m/s^2): 0.91
+Y_pos: 76.82 	Y_vel (m/s): 7.83 	Y_acc (m/s^2): 0.66
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0668 	Pitch: 0.0935 	Yaw 0.0000
+Acceleration: 1.12
+Velocity (m/s): 12.69
+dist_goal: 528.394869366013
+dist_percorsa2D 105.7281211015275
+Time: 20.30
+des_x_acc 0.63
+des_y_acc 0.35
+X_pos: 84.58 	X_vel (m/s): 10.08 	X_acc (m/s^2): 0.85
+Y_pos: 77.61 	Y_vel (m/s): 7.89 	Y_acc (m/s^2): 0.63
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0645 	Pitch: 0.0871 	Yaw 0.0000
+Acceleration: 1.06
+Velocity (m/s): 12.80
+dist_goal: 527.1254550771241
+dist_percorsa2D 106.9974809635358
+Time: 20.40
+des_x_acc 0.57
+des_y_acc 0.42
+X_pos: 85.59 	X_vel (m/s): 10.15 	X_acc (m/s^2): 0.72
+Y_pos: 78.40 	Y_vel (m/s): 7.95 	Y_acc (m/s^2): 0.56
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0568 	Pitch: 0.0735 	Yaw 0.0000
+Acceleration: 0.91
+Velocity (m/s): 12.89
+dist_goal: 525.8454382412993
+dist_percorsa2D 108.27744059731292
+Time: 20.50
+des_x_acc 0.54
+des_y_acc 0.48
+X_pos: 86.61 	X_vel (m/s): 10.21 	X_acc (m/s^2): 0.54
+Y_pos: 79.20 	Y_vel (m/s): 7.99 	Y_acc (m/s^2): 0.46
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0470 	Pitch: 0.0553 	Yaw 0.0000
+Acceleration: 0.71
+Velocity (m/s): 12.96
+dist_goal: 524.5563310138418
+dist_percorsa2D 109.56649119074314
+Time: 20.60
+des_x_acc 0.49
+des_y_acc 0.44
+X_pos: 87.63 	X_vel (m/s): 10.24 	X_acc (m/s^2): 0.35
+Y_pos: 80.01 	Y_vel (m/s): 8.03 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0367 	Pitch: 0.0359 	Yaw 0.0000
+Acceleration: 0.50
+Velocity (m/s): 13.01
+dist_goal: 523.2601186225261
+dist_percorsa2D 110.86265248853059
+Time: 20.70
+des_x_acc 0.56
+des_y_acc 0.51
+X_pos: 88.66 	X_vel (m/s): 10.26 	X_acc (m/s^2): 0.21
+Y_pos: 80.81 	Y_vel (m/s): 8.06 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0303 	Pitch: 0.0218 	Yaw 0.0000
+Acceleration: 0.37
+Velocity (m/s): 13.05
+dist_goal: 521.9589194943209
+dist_percorsa2D 112.16381130678576
+Time: 20.80
+des_x_acc 0.48
+des_y_acc 0.43
+X_pos: 89.69 	X_vel (m/s): 10.28 	X_acc (m/s^2): 0.14
+Y_pos: 81.62 	Y_vel (m/s): 8.08 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0274 	Pitch: 0.0146 	Yaw 0.0000
+Acceleration: 0.30
+Velocity (m/s): 13.08
+dist_goal: 520.6542071517778
+dist_percorsa2D 113.4684989416518
+Time: 20.90
+des_x_acc 0.54
+des_y_acc 0.44
+X_pos: 90.72 	X_vel (m/s): 10.29 	X_acc (m/s^2): 0.17
+Y_pos: 82.43 	Y_vel (m/s): 8.11 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0286 	Pitch: 0.0176 	Yaw 0.0000
+Acceleration: 0.33
+Velocity (m/s): 13.11
+dist_goal: 519.3467168344856
+dist_percorsa2D 114.77598275060636
+Time: 21.00
+des_x_acc 0.51
+des_y_acc 0.49
+X_pos: 91.75 	X_vel (m/s): 10.32 	X_acc (m/s^2): 0.29
+Y_pos: 83.25 	Y_vel (m/s): 8.15 	Y_acc (m/s^2): 0.35
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0353 	Pitch: 0.0293 	Yaw 0.0000
+Acceleration: 0.45
+Velocity (m/s): 13.15
+dist_goal: 518.0361388313145
+dist_percorsa2D 116.08657100129611
+Time: 21.10
+des_x_acc 0.53
+des_y_acc 0.34
+X_pos: 92.79 	X_vel (m/s): 10.37 	X_acc (m/s^2): 0.46
+Y_pos: 84.06 	Y_vel (m/s): 8.19 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0418 	Pitch: 0.0471 	Yaw 0.0000
+Acceleration: 0.62
+Velocity (m/s): 13.21
+dist_goal: 516.7211701130601
+dist_percorsa2D 117.40156380467262
+Time: 21.20
+des_x_acc 0.61
+des_y_acc 0.33
+X_pos: 93.83 	X_vel (m/s): 10.44 	X_acc (m/s^2): 0.67
+Y_pos: 84.89 	Y_vel (m/s): 8.23 	Y_acc (m/s^2): 0.45
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0462 	Pitch: 0.0687 	Yaw 0.0000
+Acceleration: 0.81
+Velocity (m/s): 13.29
+dist_goal: 515.4000475850328
+dist_percorsa2D 118.72271619022759
+Time: 21.30
+des_x_acc 0.59
+des_y_acc 0.45
+X_pos: 94.88 	X_vel (m/s): 10.52 	X_acc (m/s^2): 0.86
+Y_pos: 85.72 	Y_vel (m/s): 8.28 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0507 	Pitch: 0.0881 	Yaw 0.0000
+Acceleration: 1.00
+Velocity (m/s): 13.39
+dist_goal: 514.070831710555
+dist_percorsa2D 120.05195431916434
+Time: 21.40
+des_x_acc 0.55
+des_y_acc 0.45
+X_pos: 95.95 	X_vel (m/s): 10.62 	X_acc (m/s^2): 0.97
+Y_pos: 86.55 	Y_vel (m/s): 8.34 	Y_acc (m/s^2): 0.53
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0540 	Pitch: 0.0995 	Yaw 0.0000
+Acceleration: 1.11
+Velocity (m/s): 13.50
+dist_goal: 512.7317581018625
+dist_percorsa2D 121.39103129250724
+Time: 21.50
+des_x_acc 0.50
+des_y_acc 0.36
+X_pos: 97.02 	X_vel (m/s): 10.72 	X_acc (m/s^2): 0.96
+Y_pos: 87.39 	Y_vel (m/s): 8.39 	Y_acc (m/s^2): 0.52
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0530 	Pitch: 0.0987 	Yaw 0.0000
+Acceleration: 1.10
+Velocity (m/s): 13.61
+dist_goal: 511.3817517017782
+dist_percorsa2D 122.74101649901205
+Time: 21.60
+des_x_acc 0.54
+des_y_acc 0.39
+X_pos: 98.10 	X_vel (m/s): 10.80 	X_acc (m/s^2): 0.85
+Y_pos: 88.23 	Y_vel (m/s): 8.44 	Y_acc (m/s^2): 0.48
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0487 	Pitch: 0.0869 	Yaw 0.0000
+Acceleration: 0.98
+Velocity (m/s): 13.70
+dist_goal: 510.02093818241804
+dist_percorsa2D 124.10178432546739
+Time: 21.70
+des_x_acc 0.49
+des_y_acc 0.33
+X_pos: 99.18 	X_vel (m/s): 10.87 	X_acc (m/s^2): 0.65
+Y_pos: 89.08 	Y_vel (m/s): 8.48 	Y_acc (m/s^2): 0.40
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0407 	Pitch: 0.0659 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 13.78
+dist_goal: 508.6504790841236
+dist_percorsa2D 125.47217889478767
+Time: 21.80
+des_x_acc 0.52
+des_y_acc 0.39
+X_pos: 100.27 	X_vel (m/s): 10.91 	X_acc (m/s^2): 0.41
+Y_pos: 89.93 	Y_vel (m/s): 8.51 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0325 	Pitch: 0.0418 	Yaw 0.0000
+Acceleration: 0.52
+Velocity (m/s): 13.83
+dist_goal: 507.27247159989645
+dist_percorsa2D 126.85011206699336
+Time: 21.90
+des_x_acc 0.53
+des_y_acc 0.39
+X_pos: 101.37 	X_vel (m/s): 10.93 	X_acc (m/s^2): 0.20
+Y_pos: 90.78 	Y_vel (m/s): 8.53 	Y_acc (m/s^2): 0.26
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0263 	Pitch: 0.0207 	Yaw 0.0000
+Acceleration: 0.33
+Velocity (m/s): 13.86
+dist_goal: 505.88927052004874
+dist_percorsa2D 128.23324023070637
+Time: 22.00
+des_x_acc 0.51
+des_y_acc 0.50
+X_pos: 102.46 	X_vel (m/s): 10.93 	X_acc (m/s^2): 0.07
+Y_pos: 91.64 	Y_vel (m/s): 8.56 	Y_acc (m/s^2): 0.26
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0262 	Pitch: 0.0073 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 13.89
+dist_goal: 504.5028875045586
+dist_percorsa2D 129.6195621611361
+Time: 22.10
+des_x_acc 0.45
+des_y_acc 0.37
+X_pos: 103.55 	X_vel (m/s): 10.94 	X_acc (m/s^2): 0.03
+Y_pos: 92.50 	Y_vel (m/s): 8.59 	Y_acc (m/s^2): 0.28
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0289 	Pitch: 0.0035 	Yaw 0.0000
+Acceleration: 0.29
+Velocity (m/s): 13.91
+dist_goal: 503.1143682800041
+dist_percorsa2D 131.00804237530917
+Time: 22.20
+des_x_acc 0.48
+des_y_acc 0.39
+X_pos: 104.65 	X_vel (m/s): 10.95 	X_acc (m/s^2): 0.11
+Y_pos: 93.36 	Y_vel (m/s): 8.62 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0342 	Pitch: 0.0110 	Yaw 0.0000
+Acceleration: 0.35
+Velocity (m/s): 13.93
+dist_goal: 501.7238425769704
+dist_percorsa2D 132.39855641999122
+Time: 22.30
+des_x_acc 0.48
+des_y_acc 0.34
+X_pos: 105.75 	X_vel (m/s): 10.98 	X_acc (m/s^2): 0.27
+Y_pos: 94.23 	Y_vel (m/s): 8.66 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0397 	Pitch: 0.0278 	Yaw 0.0000
+Acceleration: 0.48
+Velocity (m/s): 13.98
+dist_goal: 500.33041227157184
+dist_percorsa2D 133.79200146865085
+Time: 22.40
+des_x_acc 0.49
+des_y_acc 0.38
+X_pos: 106.85 	X_vel (m/s): 11.02 	X_acc (m/s^2): 0.49
+Y_pos: 95.10 	Y_vel (m/s): 8.70 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0450 	Pitch: 0.0503 	Yaw 0.0000
+Acceleration: 0.66
+Velocity (m/s): 14.05
+dist_goal: 498.9324434449553
+dist_percorsa2D 135.1900034706542
+Time: 22.50
+des_x_acc 0.47
+des_y_acc 0.37
+X_pos: 107.96 	X_vel (m/s): 11.10 	X_acc (m/s^2): 0.71
+Y_pos: 95.97 	Y_vel (m/s): 8.75 	Y_acc (m/s^2): 0.48
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0486 	Pitch: 0.0722 	Yaw 0.0000
+Acceleration: 0.85
+Velocity (m/s): 14.13
+dist_goal: 497.5278778654935
+dist_percorsa2D 136.59460836705802
+Time: 22.60
+des_x_acc 0.47
+des_y_acc 0.31
+X_pos: 109.08 	X_vel (m/s): 11.18 	X_acc (m/s^2): 0.86
+Y_pos: 96.85 	Y_vel (m/s): 8.80 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0478 	Pitch: 0.0880 	Yaw 0.0000
+Acceleration: 0.98
+Velocity (m/s): 14.23
+dist_goal: 496.11480969411076
+dist_percorsa2D 138.00770842142916
+Time: 22.70
+des_x_acc 0.47
+des_y_acc 0.40
+X_pos: 110.20 	X_vel (m/s): 11.27 	X_acc (m/s^2): 0.92
+Y_pos: 97.74 	Y_vel (m/s): 8.84 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0453 	Pitch: 0.0938 	Yaw 0.0000
+Acceleration: 1.02
+Velocity (m/s): 14.33
+dist_goal: 494.6920669425314
+dist_percorsa2D 139.430462668732
+Time: 22.80
+des_x_acc 0.46
+des_y_acc 0.33
+X_pos: 111.34 	X_vel (m/s): 11.36 	X_acc (m/s^2): 0.86
+Y_pos: 98.62 	Y_vel (m/s): 8.88 	Y_acc (m/s^2): 0.39
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0398 	Pitch: 0.0878 	Yaw 0.0000
+Acceleration: 0.94
+Velocity (m/s): 14.42
+dist_goal: 493.2593501343061
+dist_percorsa2D 140.86316385558783
+Time: 22.90
+des_x_acc 0.49
+des_y_acc 0.39
+X_pos: 112.48 	X_vel (m/s): 11.43 	X_acc (m/s^2): 0.71
+Y_pos: 99.52 	Y_vel (m/s): 8.92 	Y_acc (m/s^2): 0.34
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0343 	Pitch: 0.0724 	Yaw 0.0000
+Acceleration: 0.78
+Velocity (m/s): 14.50
+dist_goal: 491.81744603921766
+dist_percorsa2D 142.3050247272209
+Time: 23.00
+des_x_acc 0.42
+des_y_acc 0.39
+X_pos: 113.63 	X_vel (m/s): 11.48 	X_acc (m/s^2): 0.49
+Y_pos: 100.41 	Y_vel (m/s): 8.94 	Y_acc (m/s^2): 0.30
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0301 	Pitch: 0.0496 	Yaw 0.0000
+Acceleration: 0.57
+Velocity (m/s): 14.55
+dist_goal: 490.3678816710435
+dist_percorsa2D 143.75452512160857
+Time: 23.10
+des_x_acc 0.44
+des_y_acc 0.30
+X_pos: 114.78 	X_vel (m/s): 11.50 	X_acc (m/s^2): 0.25
+Y_pos: 101.31 	Y_vel (m/s): 8.97 	Y_acc (m/s^2): 0.26
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0262 	Pitch: 0.0255 	Yaw 0.0000
+Acceleration: 0.36
+Velocity (m/s): 14.59
+dist_goal: 488.91266381398015
+dist_percorsa2D 145.2096719332616
+Time: 23.20
+des_x_acc 0.47
+des_y_acc 0.38
+X_pos: 115.93 	X_vel (m/s): 11.51 	X_acc (m/s^2): 0.07
+Y_pos: 102.21 	Y_vel (m/s): 9.00 	Y_acc (m/s^2): 0.25
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0253 	Pitch: 0.0072 	Yaw 0.0000
+Acceleration: 0.26
+Velocity (m/s): 14.61
+dist_goal: 487.45389328233944
+dist_percorsa2D 146.66837881642343
+Time: 23.30
+des_x_acc 0.48
+des_y_acc 0.36
+X_pos: 117.08 	X_vel (m/s): 11.51 	X_acc (m/s^2): -0.01
+Y_pos: 103.11 	Y_vel (m/s): 9.02 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0273 	Pitch: -0.0008 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 14.62
+dist_goal: 485.9930453795888
+dist_percorsa2D 148.12918317924397
+Time: 23.40
+des_x_acc 0.42
+des_y_acc 0.35
+X_pos: 118.23 	X_vel (m/s): 11.51 	X_acc (m/s^2): 0.02
+Y_pos: 104.01 	Y_vel (m/s): 9.05 	Y_acc (m/s^2): 0.31
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0313 	Pitch: 0.0020 	Yaw 0.0000
+Acceleration: 0.31
+Velocity (m/s): 14.64
+dist_goal: 484.5306187203235
+dist_percorsa2D 149.59159393850902
+Time: 23.50
+des_x_acc 0.43
+des_y_acc 0.35
+X_pos: 119.39 	X_vel (m/s): 11.53 	X_acc (m/s^2): 0.15
+Y_pos: 104.92 	Y_vel (m/s): 9.09 	Y_acc (m/s^2): 0.36
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0364 	Pitch: 0.0153 	Yaw 0.0000
+Acceleration: 0.39
+Velocity (m/s): 14.68
+dist_goal: 483.06615490503833
+dist_percorsa2D 151.0560708364246
+Time: 23.60
+des_x_acc 0.50
+des_y_acc 0.38
+X_pos: 120.54 	X_vel (m/s): 11.56 	X_acc (m/s^2): 0.37
+Y_pos: 105.84 	Y_vel (m/s): 9.13 	Y_acc (m/s^2): 0.41
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0420 	Pitch: 0.0375 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 14.73
+dist_goal: 481.59832118767997
+dist_percorsa2D 152.5239413744057
+Time: 23.70
+des_x_acc 0.48
+des_y_acc 0.31
+X_pos: 121.71 	X_vel (m/s): 11.62 	X_acc (m/s^2): 0.61
+Y_pos: 106.75 	Y_vel (m/s): 9.17 	Y_acc (m/s^2): 0.44
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0451 	Pitch: 0.0627 	Yaw 0.0000
+Acceleration: 0.76
+Velocity (m/s): 14.81
+dist_goal: 480.1250559604941
+dist_percorsa2D 153.99725586912786
+Time: 23.80
+des_x_acc 0.44
+des_y_acc 0.37
+X_pos: 122.88 	X_vel (m/s): 11.71 	X_acc (m/s^2): 0.82
+Y_pos: 107.68 	Y_vel (m/s): 9.22 	Y_acc (m/s^2): 0.45
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0463 	Pitch: 0.0834 	Yaw 0.0000
+Acceleration: 0.93
+Velocity (m/s): 14.90
+dist_goal: 478.6442316944447
+dist_percorsa2D 155.47812608947777
+Time: 23.90
+des_x_acc 0.42
+des_y_acc 0.30
+X_pos: 124.06 	X_vel (m/s): 11.80 	X_acc (m/s^2): 0.92
+Y_pos: 108.60 	Y_vel (m/s): 9.26 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0436 	Pitch: 0.0939 	Yaw 0.0000
+Acceleration: 1.01
+Velocity (m/s): 15.00
+dist_goal: 477.15417794534704
+dist_percorsa2D 156.96820832670545
+Time: 24.00
+des_x_acc 0.43
+des_y_acc 0.34
+X_pos: 125.24 	X_vel (m/s): 11.89 	X_acc (m/s^2): 0.90
+Y_pos: 109.53 	Y_vel (m/s): 9.30 	Y_acc (m/s^2): 0.38
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0387 	Pitch: 0.0918 	Yaw 0.0000
+Acceleration: 0.98
+Velocity (m/s): 15.09
+dist_goal: 475.65424159006
+dist_percorsa2D 158.46814556870325
+Time: 24.10
+des_x_acc 0.44
+des_y_acc 0.38
+X_pos: 126.44 	X_vel (m/s): 11.96 	X_acc (m/s^2): 0.76
+Y_pos: 110.46 	Y_vel (m/s): 9.33 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0337 	Pitch: 0.0780 	Yaw 0.0000
+Acceleration: 0.83
+Velocity (m/s): 15.17
+dist_goal: 474.14487715977594
+dist_percorsa2D 159.9774804015505
+Time: 24.20
+des_x_acc 0.38
+des_y_acc 0.29
+X_pos: 127.64 	X_vel (m/s): 12.02 	X_acc (m/s^2): 0.53
+Y_pos: 111.40 	Y_vel (m/s): 9.36 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0277 	Pitch: 0.0545 	Yaw 0.0000
+Acceleration: 0.60
+Velocity (m/s): 15.23
+dist_goal: 472.6274497804938
+dist_percorsa2D 161.49485351747649
+Time: 24.30
+des_x_acc 0.44
+des_y_acc 0.34
+X_pos: 128.85 	X_vel (m/s): 12.05 	X_acc (m/s^2): 0.28
+Y_pos: 112.34 	Y_vel (m/s): 9.38 	Y_acc (m/s^2): 0.23
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0234 	Pitch: 0.0286 	Yaw 0.0000
+Acceleration: 0.36
+Velocity (m/s): 15.27
+dist_goal: 471.1041356025482
+dist_percorsa2D 163.01810070131364
+Time: 24.40
+des_x_acc 0.52
+des_y_acc 0.42
+X_pos: 130.05 	X_vel (m/s): 12.05 	X_acc (m/s^2): 0.09
+Y_pos: 113.28 	Y_vel (m/s): 9.41 	Y_acc (m/s^2): 0.24
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0241 	Pitch: 0.0089 	Yaw 0.0000
+Acceleration: 0.25
+Velocity (m/s): 15.29
+dist_goal: 469.5771985513822
+dist_percorsa2D 164.5449730239112
+Time: 24.50
+des_x_acc 0.41
+des_y_acc 0.35
+X_pos: 131.26 	X_vel (m/s): 12.05 	X_acc (m/s^2): -0.02
+Y_pos: 114.22 	Y_vel (m/s): 9.43 	Y_acc (m/s^2): 0.27
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0277 	Pitch: -0.0025 	Yaw 0.0000
+Acceleration: 0.27
+Velocity (m/s): 15.31
+dist_goal: 468.0481281992873
+dist_percorsa2D 166.07399556876769
+Time: 24.60
+des_x_acc 0.50
+des_y_acc 0.36
+X_pos: 132.46 	X_vel (m/s): 12.05 	X_acc (m/s^2): -0.01
+Y_pos: 115.17 	Y_vel (m/s): 9.47 	Y_acc (m/s^2): 0.33
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0337 	Pitch: -0.0005 	Yaw 0.0000
+Acceleration: 0.33
+Velocity (m/s): 15.33
+dist_goal: 466.51758745131525
+dist_percorsa2D 167.60451658735295
+Time: 24.70
+des_x_acc 0.47
+des_y_acc 0.39
+X_pos: 133.67 	X_vel (m/s): 12.07 	X_acc (m/s^2): 0.13
+Y_pos: 116.12 	Y_vel (m/s): 9.51 	Y_acc (m/s^2): 0.40
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0411 	Pitch: 0.0137 	Yaw 0.0000
+Acceleration: 0.42
+Velocity (m/s): 15.36
+dist_goal: 464.9850651241387
+dist_percorsa2D 169.13705086058866
+Time: 24.80
+des_x_acc 0.40
+des_y_acc 0.36
+X_pos: 134.88 	X_vel (m/s): 12.10 	X_acc (m/s^2): 0.34
+Y_pos: 117.08 	Y_vel (m/s): 9.55 	Y_acc (m/s^2): 0.47
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0474 	Pitch: 0.0346 	Yaw 0.0000
+Acceleration: 0.58
+Velocity (m/s): 15.42
+dist_goal: 463.44901305284225
+dist_percorsa2D 170.67314296113895
+Time: 24.90
+des_x_acc 0.41
+des_y_acc 0.35
+X_pos: 136.10 	X_vel (m/s): 12.16 	X_acc (m/s^2): 0.56
+Y_pos: 118.04 	Y_vel (m/s): 9.60 	Y_acc (m/s^2): 0.50
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0508 	Pitch: 0.0572 	Yaw 0.0000
+Acceleration: 0.75
+Velocity (m/s): 15.49
+dist_goal: 461.9074341009578
+dist_percorsa2D 172.21478087923
+Time: 25.00
+des_x_acc 0.40
+des_y_acc 0.32
+X_pos: 137.32 	X_vel (m/s): 12.23 	X_acc (m/s^2): 0.74
+Y_pos: 119.00 	Y_vel (m/s): 9.65 	Y_acc (m/s^2): 0.49
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0498 	Pitch: 0.0756 	Yaw 0.0000
+Acceleration: 0.89
+Velocity (m/s): 15.58
+dist_goal: 460.3583763760009
+dist_percorsa2D 173.7639036047898
+Time: 25.10
+des_x_acc 0.35
+des_y_acc 0.29
+X_pos: 138.55 	X_vel (m/s): 12.31 	X_acc (m/s^2): 0.82
+Y_pos: 119.97 	Y_vel (m/s): 9.70 	Y_acc (m/s^2): 0.43
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0438 	Pitch: 0.0842 	Yaw 0.0000
+Acceleration: 0.93
+Velocity (m/s): 15.67
+dist_goal: 458.8004770804581
+dist_percorsa2D 175.32185992403777
+Time: 25.20
+des_x_acc 0.46
+des_y_acc 0.24
+X_pos: 139.79 	X_vel (m/s): 12.39 	X_acc (m/s^2): 0.82
+Y_pos: 120.94 	Y_vel (m/s): 9.73 	Y_acc (m/s^2): 0.32
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0328 	Pitch: 0.0833 	Yaw 0.0000
+Acceleration: 0.88
+Velocity (m/s): 15.75
+dist_goal: 457.2334355981757
+dist_percorsa2D 176.88893887884876
+Time: 25.30
+des_x_acc 0.47
+des_y_acc 0.31
+X_pos: 141.04 	X_vel (m/s): 12.47 	X_acc (m/s^2): 0.72
+Y_pos: 121.92 	Y_vel (m/s): 9.75 	Y_acc (m/s^2): 0.21
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0216 	Pitch: 0.0736 	Yaw 0.0000
+Acceleration: 0.75
+Velocity (m/s): 15.82
+dist_goal: 455.6579725115432
+dist_percorsa2D 178.46441056633313
+Time: 25.40
+des_x_acc 0.37
+des_y_acc 0.33
+X_pos: 142.29 	X_vel (m/s): 12.52 	X_acc (m/s^2): 0.54
+Y_pos: 122.89 	Y_vel (m/s): 9.76 	Y_acc (m/s^2): 0.13
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0135 	Pitch: 0.0548 	Yaw 0.0000
+Acceleration: 0.55
+Velocity (m/s): 15.88
+dist_goal: 454.07551051964174
+dist_percorsa2D 180.04684928867132
+Time: 25.50
+des_x_acc 0.36
+des_y_acc 0.21
+X_pos: 143.54 	X_vel (m/s): 12.55 	X_acc (m/s^2): 0.31
+Y_pos: 123.87 	Y_vel (m/s): 9.77 	Y_acc (m/s^2): 0.07
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0074 	Pitch: 0.0315 	Yaw 0.0000
+Acceleration: 0.32
+Velocity (m/s): 15.90
+dist_goal: 452.48798551342884
+dist_percorsa2D 181.63432541350517
+Time: 25.60
+des_x_acc 0.42
+des_y_acc 0.17
+X_pos: 144.80 	X_vel (m/s): 12.56 	X_acc (m/s^2): 0.11
+Y_pos: 124.85 	Y_vel (m/s): 9.77 	Y_acc (m/s^2): 0.04
+Z_pos: 10.00 	Z_vel (m/s): 0.00 	Z_acc (m/s^2): 0.00
+Roll: -0.0038 	Pitch: 0.0110 	Yaw 0.0000
+Acceleration: 0.11
+Velocity (m/s): 15.91
+dist_goal: 450.8975719082683
+dist_percorsa2D 183.22467574355818
+Time: 25.70
+des_x_acc 0.36
+des_y_acc 0.29

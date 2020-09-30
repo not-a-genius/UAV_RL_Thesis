@@ -21,7 +21,7 @@ import csv
 
 MAX_T = 500.0   # maximum time to the goal[s]
 MIN_T = 1.0     # minimum time to the goal[s]
-show_animation = False
+show_animation = True
 graphics = True
 
 #----------------------------------------------------------------------------------------------------------------------------------#
@@ -98,7 +98,7 @@ if not isdir(CSV_DIRECTORY_NAME): mkdir(CSV_DIRECTORY_NAME)
 
 #----------------------------------------------------------------------------------------------------------------------------------#
 
-num_trajectories = 10
+num_trajectories = 1
 
 
 # Simulation parameters
@@ -307,12 +307,13 @@ def quad_sim( z_c, i, time, x_l, y_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_
         #print("ra_x_noise", ra_x_noise)
 
 
-        print("n_ra_x_tot", n_ra_x_tot)
+        #print("n_ra_x_tot", n_ra_x_tot)
 
 
 
         while n_ra_x_tot != o:
-            print("Time:", t)
+            print("------------------------------------------------------------")
+            print("Time:","{:.2f}".format(t))
             PosizioneAttuale = np.array([x_pos, y_pos, z_pos])
             dist_goal = distance_AB_2D(PosizioneAttuale, next_goal)
             dist_percorsa2D = distance_AB_2D(start, PosizioneAttuale)
@@ -325,13 +326,13 @@ def quad_sim( z_c, i, time, x_l, y_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_
             des_z_vel = calculate_velocity(z_c[i], t)
             #des_x_acc = ra_y_tot[i][o]
             des_x_acc = ra_x_noise[o]
-            print("Iterazione_o:", o)
-            print("RA_X-num", len(ra_x_tot[i]))
-            print("des_x_acc", des_x_acc)
+            #print("Iterazione_o:", o)
+            #print("RA_X-num", len(ra_x_tot[i]))
+            print("des_x_acc", "{:.2f}".format(des_x_acc))
             #des_y_acc = ra_y_tot[i][o]
             des_y_acc = ra_y_noise[o]
-            print("RA_y-num", len(ra_y_tot[i]))
-            print("des_y_acc", des_y_acc)
+            #print("RA_y-num", len(ra_y_tot[i]))
+            print("des_y_acc", "{:.2f}".format(des_y_acc))
 
             des_z_acc = calculate_acceleration(z_c[i], t)
 
@@ -518,13 +519,15 @@ def quad_sim( z_c, i, time, x_l, y_l, v_l, ra_x, ra_y, a_l, j_l, ra_x_tot, ra_y_
         if irun >= n_run:
             break
         print("-" * 20, "[PASSING TO NEXT WAYPOINT]", "-" * 20)
-        print("x_pos_tot", x_pos_tot)
+        #print("x_pos_tot", x_pos_tot)
         #print("y_pos_tot", y_pos_tot)
         
   
 
     csv_file.close()
+
     print("Done")
+    plt.pause(600)
 
 
 def calculate_position(c, t):
